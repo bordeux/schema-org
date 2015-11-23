@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Event\UserInteraction;
  *
 
  */
-class UserBlocks extends \Bordeux\SchemaOrg\Thing\Event\UserInteraction
-{
-}
+ class UserBlocks extends \Bordeux\SchemaOrg\Thing\Event\UserInteraction {
+
+ }

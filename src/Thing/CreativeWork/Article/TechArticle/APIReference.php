@@ -11,41 +11,41 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Article\TechArticle;
  *
  * -------------------------------- Assembly ---------------------------------------------
  *
- * @property string Assembly
+ * @property string|string[] assembly
  *
- * @method string getAssembly() Library file name e.g., mscorlib.dll, system.web.dll
+ * @method string|string[] getAssembly() Library file name e.g., mscorlib.dll, system.web.dll
  *
- * @method APIReference setAssembly(string $assembly )Library file name e.g., mscorlib.dll, system.web.dll
+ * @method APIReference setAssembly(string $assembly ) setAssembly(string[] $assembly )Library file name e.g., mscorlib.dll, system.web.dll
  *
  *
  * -------------------------------- AssemblyVersion ---------------------------------------------
  *
- * @property string AssemblyVersion
+ * @property string|string[] assemblyVersion
  *
- * @method string getAssemblyVersion() Associated product/technology version. e.g., .NET Framework 4.5
+ * @method string|string[] getAssemblyVersion() Associated product/technology version. e.g., .NET Framework 4.5
  *
- * @method APIReference setAssemblyVersion(string $assemblyVersion )Associated product/technology version. e.g., .NET Framework 4.5
+ * @method APIReference setAssemblyVersion(string $assemblyVersion ) setAssemblyVersion(string[] $assemblyVersion )Associated product/technology version. e.g., .NET Framework 4.5
  *
  *
  * -------------------------------- ProgrammingModel ---------------------------------------------
  *
- * @property string ProgrammingModel
+ * @property string|string[] programmingModel
  *
- * @method string getProgrammingModel() Indicates whether API is managed or unmanaged.
+ * @method string|string[] getProgrammingModel() Indicates whether API is managed or unmanaged.
  *
- * @method APIReference setProgrammingModel(string $programmingModel )Indicates whether API is managed or unmanaged.
+ * @method APIReference setProgrammingModel(string $programmingModel ) setProgrammingModel(string[] $programmingModel )Indicates whether API is managed or unmanaged.
  *
  *
  * -------------------------------- TargetPlatform ---------------------------------------------
  *
- * @property string TargetPlatform
+ * @property string|string[] targetPlatform
  *
- * @method string getTargetPlatform() Type of app development: phone, Metro style, desktop, XBox, etc.
+ * @method string|string[] getTargetPlatform() Type of app development: phone, Metro style, desktop, XBox, etc.
  *
- * @method APIReference setTargetPlatform(string $targetPlatform )Type of app development: phone, Metro style, desktop, XBox, etc.
+ * @method APIReference setTargetPlatform(string $targetPlatform ) setTargetPlatform(string[] $targetPlatform )Type of app development: phone, Metro style, desktop, XBox, etc.
  *
  *
  */
-class APIReference extends \Bordeux\SchemaOrg\Thing\CreativeWork\Article\TechArticle
-{
-}
+ class APIReference extends \Bordeux\SchemaOrg\Thing\CreativeWork\Article\TechArticle {
+
+ }

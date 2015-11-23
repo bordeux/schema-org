@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action;
  *
 
  */
-class CreateAction extends \Bordeux\SchemaOrg\Thing\Action
-{
-}
+ class CreateAction extends \Bordeux\SchemaOrg\Thing\Action {
+
+ }

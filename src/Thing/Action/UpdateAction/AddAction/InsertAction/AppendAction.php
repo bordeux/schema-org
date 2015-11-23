@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction\InsertAction;
  *
 
  */
-class AppendAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction\InsertAction
-{
-}
+ class AppendAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction\InsertAction {
+
+ }

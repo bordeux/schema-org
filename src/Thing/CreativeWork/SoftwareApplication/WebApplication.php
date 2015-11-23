@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication;
  *
  * -------------------------------- BrowserRequirements ---------------------------------------------
  *
- * @property string BrowserRequirements
+ * @property string|string[] browserRequirements
  *
- * @method string getBrowserRequirements() Specifies browser requirements in human-readable text. For example,"requires HTML5 support".
+ * @method string|string[] getBrowserRequirements() Specifies browser requirements in human-readable text. For example,"requires HTML5 support".
  *
- * @method WebApplication setBrowserRequirements(string $browserRequirements )Specifies browser requirements in human-readable text. For example,"requires HTML5 support".
+ * @method WebApplication setBrowserRequirements(string $browserRequirements ) setBrowserRequirements(string[] $browserRequirements )Specifies browser requirements in human-readable text. For example,"requires HTML5 support".
  *
  *
  */
-class WebApplication extends \Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication
-{
-}
+ class WebApplication extends \Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication {
+
+ }

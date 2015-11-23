@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store;
  *
 
  */
-class PawnShop extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store
-{
-}
+ class PawnShop extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store {
+
+ }

@@ -11,41 +11,41 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible;
  *
  * -------------------------------- DoseUnit ---------------------------------------------
  *
- * @property string DoseUnit
+ * @property string|string[] doseUnit
  *
- * @method string getDoseUnit() The unit of the dose, e.g. 'mg'.
+ * @method string|string[] getDoseUnit() The unit of the dose, e.g. 'mg'.
  *
- * @method DoseSchedule setDoseUnit(string $doseUnit )The unit of the dose, e.g. 'mg'.
+ * @method DoseSchedule setDoseUnit(string $doseUnit ) setDoseUnit(string[] $doseUnit )The unit of the dose, e.g. 'mg'.
  *
  *
  * -------------------------------- DoseValue ---------------------------------------------
  *
- * @property Number DoseValue
+ * @property Number|Number[] doseValue
  *
- * @method Number getDoseValue() The value of the dose, e.g. 500.
+ * @method Number|Number[] getDoseValue() The value of the dose, e.g. 500.
  *
- * @method DoseSchedule setDoseValue(Number $doseValue )The value of the dose, e.g. 500.
+ * @method DoseSchedule setDoseValue(Number $doseValue ) setDoseValue(Number[] $doseValue )The value of the dose, e.g. 500.
  *
  *
  * -------------------------------- Frequency ---------------------------------------------
  *
- * @property string Frequency
+ * @property string|string[] frequency
  *
- * @method string getFrequency() How often the dose is taken, e.g. 'daily'.
+ * @method string|string[] getFrequency() How often the dose is taken, e.g. 'daily'.
  *
- * @method DoseSchedule setFrequency(string $frequency )How often the dose is taken, e.g. 'daily'.
+ * @method DoseSchedule setFrequency(string $frequency ) setFrequency(string[] $frequency )How often the dose is taken, e.g. 'daily'.
  *
  *
  * -------------------------------- TargetPopulation ---------------------------------------------
  *
- * @property string TargetPopulation
+ * @property string|string[] targetPopulation
  *
- * @method string getTargetPopulation() Characteristics of the population for which this is intended, or which typically uses it, e.g. 'adults'.
+ * @method string|string[] getTargetPopulation() Characteristics of the population for which this is intended, or which typically uses it, e.g. 'adults'.
  *
- * @method DoseSchedule setTargetPopulation(string $targetPopulation )Characteristics of the population for which this is intended, or which typically uses it, e.g. 'adults'.
+ * @method DoseSchedule setTargetPopulation(string $targetPopulation ) setTargetPopulation(string[] $targetPopulation )Characteristics of the population for which this is intended, or which typically uses it, e.g. 'adults'.
  *
  *
  */
-class DoseSchedule extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible
-{
-}
+ class DoseSchedule extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible {
+
+ }

@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Product;
  *
  * -------------------------------- SerialNumber ---------------------------------------------
  *
- * @property string SerialNumber
+ * @property string|string[] serialNumber
  *
- * @method string getSerialNumber() The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.
+ * @method string|string[] getSerialNumber() The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.
  *
- * @method IndividualProduct setSerialNumber(string $serialNumber )The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.
+ * @method IndividualProduct setSerialNumber(string $serialNumber ) setSerialNumber(string[] $serialNumber )The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.
  *
  *
  */
-class IndividualProduct extends \Bordeux\SchemaOrg\Thing\Product
-{
-}
+ class IndividualProduct extends \Bordeux\SchemaOrg\Thing\Product {
+
+ }

@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure;
  *
  * -------------------------------- BiomechnicalClass ---------------------------------------------
  *
- * @property string BiomechnicalClass
+ * @property string|string[] biomechnicalClass
  *
- * @method string getBiomechnicalClass() The biomechanical properties of the bone.
+ * @method string|string[] getBiomechnicalClass() The biomechanical properties of the bone.
  *
- * @method Joint setBiomechnicalClass(string $biomechnicalClass )The biomechanical properties of the bone.
+ * @method Joint setBiomechnicalClass(string $biomechnicalClass ) setBiomechnicalClass(string[] $biomechnicalClass )The biomechanical properties of the bone.
  *
  *
  * -------------------------------- FunctionalClass ---------------------------------------------
  *
- * @property string FunctionalClass
+ * @property string|string[] functionalClass
  *
- * @method string getFunctionalClass() The degree of mobility the joint allows.
+ * @method string|string[] getFunctionalClass() The degree of mobility the joint allows.
  *
- * @method Joint setFunctionalClass(string $functionalClass )The degree of mobility the joint allows.
+ * @method Joint setFunctionalClass(string $functionalClass ) setFunctionalClass(string[] $functionalClass )The degree of mobility the joint allows.
  *
  *
  * -------------------------------- StructuralClass ---------------------------------------------
  *
- * @property string StructuralClass
+ * @property string|string[] structuralClass
  *
- * @method string getStructuralClass() The name given to how bone physically connects to each other.
+ * @method string|string[] getStructuralClass() The name given to how bone physically connects to each other.
  *
- * @method Joint setStructuralClass(string $structuralClass )The name given to how bone physically connects to each other.
+ * @method Joint setStructuralClass(string $structuralClass ) setStructuralClass(string[] $structuralClass )The name given to how bone physically connects to each other.
  *
  *
  */
-class Joint extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure
-{
-}
+ class Joint extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure {
+
+ }

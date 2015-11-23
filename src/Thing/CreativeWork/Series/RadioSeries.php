@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Series;
  *
 
  */
-class RadioSeries extends \Bordeux\SchemaOrg\Thing\CreativeWork\Series
-{
-}
+ class RadioSeries extends \Bordeux\SchemaOrg\Thing\CreativeWork\Series {
+
+ }

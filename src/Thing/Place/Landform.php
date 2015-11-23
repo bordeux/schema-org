@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place;
  *
 
  */
-class Landform extends \Bordeux\SchemaOrg\Thing\Place
-{
-}
+ class Landform extends \Bordeux\SchemaOrg\Thing\Place {
+
+ }

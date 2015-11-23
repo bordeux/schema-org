@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy;
  *
  * -------------------------------- Drug ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy\Drug Drug
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy\Drug|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy\Drug[] drug
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy\Drug getDrug() A drug in this drug class.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy\Drug|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy\Drug[] getDrug() A drug in this drug class.
  *
- * @method DrugClass setDrug(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy\Drug $drug )A drug in this drug class.
+ * @method DrugClass setDrug(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy\Drug $drug ) setDrug(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy\Drug[] $drug )A drug in this drug class.
  *
  *
  */
-class DrugClass extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy
-{
-}
+ class DrugClass extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy {
+
+ }

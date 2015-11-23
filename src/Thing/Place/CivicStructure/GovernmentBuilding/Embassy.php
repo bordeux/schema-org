@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding;
  *
 
  */
-class Embassy extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding
-{
-}
+ class Embassy extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding {
+
+ }

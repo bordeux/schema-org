@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\CreateAction;
  *
 
  */
-class FilmAction extends \Bordeux\SchemaOrg\Thing\Action\CreateAction
-{
-}
+ class FilmAction extends \Bordeux\SchemaOrg\Thing\Action\CreateAction {
+
+ }

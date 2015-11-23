@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Episode;
  *
 
  */
-class RadioEpisode extends \Bordeux\SchemaOrg\Thing\CreativeWork\Episode
-{
-}
+ class RadioEpisode extends \Bordeux\SchemaOrg\Thing\CreativeWork\Episode {
+
+ }

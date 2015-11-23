@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Organization;
  *
  * -------------------------------- Alumni ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Person Alumni
+ * @property \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] alumni
  *
- * @method \Bordeux\SchemaOrg\Thing\Person getAlumni() Alumni of educational organization.
+ * @method \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getAlumni() Alumni of educational organization.
  *
- * @method EducationalOrganization setAlumni(\Bordeux\SchemaOrg\Thing\Person $alumni )Alumni of educational organization.
+ * @method EducationalOrganization setAlumni(\Bordeux\SchemaOrg\Thing\Person $alumni ) setAlumni(\Bordeux\SchemaOrg\Thing\Person[] $alumni )Alumni of educational organization.
  *
  *
  */
-class EducationalOrganization extends \Bordeux\SchemaOrg\Thing\Organization
-{
-}
+ class EducationalOrganization extends \Bordeux\SchemaOrg\Thing\Organization {
+
+ }

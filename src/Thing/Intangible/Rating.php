@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\Intangible;
  *
  * -------------------------------- BestRating ---------------------------------------------
  *
- * @property Number|string BestRating
+ * @property Number|Number[]|string|string[] bestRating
  *
- * @method Number|string getBestRating() The highest value allowed in this rating system. If bestRating is omitted, 5 is assumed.
+ * @method Number|Number[]|string|string[] getBestRating() The highest value allowed in this rating system. If bestRating is omitted, 5 is assumed.
  *
- * @method Rating setBestRating(Number $bestRating ) setBestRating(string $bestRating )The highest value allowed in this rating system. If bestRating is omitted, 5 is assumed.
+ * @method Rating setBestRating(Number $bestRating ) setBestRating(Number[] $bestRating ) setBestRating(string $bestRating ) setBestRating(string[] $bestRating )The highest value allowed in this rating system. If bestRating is omitted, 5 is assumed.
  *
  *
  * -------------------------------- RatingValue ---------------------------------------------
  *
- * @property string RatingValue
+ * @property string|string[] ratingValue
  *
- * @method string getRatingValue() The rating for the content.
+ * @method string|string[] getRatingValue() The rating for the content.
  *
- * @method Rating setRatingValue(string $ratingValue )The rating for the content.
+ * @method Rating setRatingValue(string $ratingValue ) setRatingValue(string[] $ratingValue )The rating for the content.
  *
  *
  * -------------------------------- WorstRating ---------------------------------------------
  *
- * @property Number|string WorstRating
+ * @property Number|Number[]|string|string[] worstRating
  *
- * @method Number|string getWorstRating() The lowest value allowed in this rating system. If worstRating is omitted, 1 is assumed.
+ * @method Number|Number[]|string|string[] getWorstRating() The lowest value allowed in this rating system. If worstRating is omitted, 1 is assumed.
  *
- * @method Rating setWorstRating(Number $worstRating ) setWorstRating(string $worstRating )The lowest value allowed in this rating system. If worstRating is omitted, 1 is assumed.
+ * @method Rating setWorstRating(Number $worstRating ) setWorstRating(Number[] $worstRating ) setWorstRating(string $worstRating ) setWorstRating(string[] $worstRating )The lowest value allowed in this rating system. If worstRating is omitted, 1 is assumed.
  *
  *
  */
-class Rating extends \Bordeux\SchemaOrg\Thing\Intangible
-{
-}
+ class Rating extends \Bordeux\SchemaOrg\Thing\Intangible {
+
+ }

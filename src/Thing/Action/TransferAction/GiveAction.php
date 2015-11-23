@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\TransferAction;
  *
  * -------------------------------- Recipient ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Person Recipient
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Intangible\Audience[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] recipient
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Person getRecipient() A sub property of participant. The participant who is at the receiving end of the action.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Intangible\Audience[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getRecipient() A sub property of participant. The participant who is at the receiving end of the action.
  *
- * @method GiveAction setRecipient(\Bordeux\SchemaOrg\Thing\Organization $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Intangible\Audience $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Person $recipient )A sub property of participant. The participant who is at the receiving end of the action.
+ * @method GiveAction setRecipient(\Bordeux\SchemaOrg\Thing\Organization $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Organization[] $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Intangible\Audience $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Intangible\Audience[] $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Person $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Person[] $recipient )A sub property of participant. The participant who is at the receiving end of the action.
  *
  *
  */
-class GiveAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction
-{
-}
+ class GiveAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction {
+
+ }

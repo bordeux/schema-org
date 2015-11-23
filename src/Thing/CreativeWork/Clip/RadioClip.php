@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Clip;
  *
 
  */
-class RadioClip extends \Bordeux\SchemaOrg\Thing\CreativeWork\Clip
-{
-}
+ class RadioClip extends \Bordeux\SchemaOrg\Thing\CreativeWork\Clip {
+
+ }

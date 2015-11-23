@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  *
 
  */
-class ChildrensEvent extends \Bordeux\SchemaOrg\Thing\Event
-{
-}
+ class ChildrensEvent extends \Bordeux\SchemaOrg\Thing\Event {
+
+ }

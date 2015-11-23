@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction;
  *
 
  */
-class RegisterAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction
-{
-}
+ class RegisterAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction {
+
+ }

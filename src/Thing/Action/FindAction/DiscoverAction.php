@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\FindAction;
  *
 
  */
-class DiscoverAction extends \Bordeux\SchemaOrg\Thing\Action\FindAction
-{
-}
+ class DiscoverAction extends \Bordeux\SchemaOrg\Thing\Action\FindAction {
+
+ }

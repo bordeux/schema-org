@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction;
  *
  * -------------------------------- ScheduledTime ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\SchemaDateTime ScheduledTime
+ * @property \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] scheduledTime
  *
- * @method \Bordeux\SchemaOrg\SchemaDateTime getScheduledTime() The time the object is scheduled to.
+ * @method \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] getScheduledTime() The time the object is scheduled to.
  *
- * @method PlanAction setScheduledTime(\Bordeux\SchemaOrg\SchemaDateTime $scheduledTime )The time the object is scheduled to.
+ * @method PlanAction setScheduledTime(\Bordeux\SchemaOrg\SchemaDateTime $scheduledTime ) setScheduledTime(\Bordeux\SchemaOrg\SchemaDateTime[] $scheduledTime )The time the object is scheduled to.
  *
  *
  */
-class PlanAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction
-{
-}
+ class PlanAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction {
+
+ }

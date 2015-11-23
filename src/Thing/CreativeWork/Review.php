@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
  * -------------------------------- ItemReviewed ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing ItemReviewed
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] itemReviewed
  *
- * @method \Bordeux\SchemaOrg\Thing getItemReviewed() The item that is being reviewed/rated.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] getItemReviewed() The item that is being reviewed/rated.
  *
- * @method Review setItemReviewed(\Bordeux\SchemaOrg\Thing $itemReviewed )The item that is being reviewed/rated.
+ * @method Review setItemReviewed(\Bordeux\SchemaOrg\\Thing $itemReviewed ) setItemReviewed(\Bordeux\SchemaOrg\\Thing[] $itemReviewed )The item that is being reviewed/rated.
  *
  *
  * -------------------------------- ReviewBody ---------------------------------------------
  *
- * @property string ReviewBody
+ * @property string|string[] reviewBody
  *
- * @method string getReviewBody() The actual body of the review
+ * @method string|string[] getReviewBody() The actual body of the review
  *
- * @method Review setReviewBody(string $reviewBody )The actual body of the review
+ * @method Review setReviewBody(string $reviewBody ) setReviewBody(string[] $reviewBody )The actual body of the review
  *
  *
  * -------------------------------- ReviewRating ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Rating ReviewRating
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Rating|\Bordeux\SchemaOrg\Thing\Intangible\Rating[] reviewRating
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Rating getReviewRating() The rating given in this review. Note that reviews can themselves be rated. The reviewRating applies to rating given by the review. The aggregateRating property applies to the review itself, as a creative work.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Rating|\Bordeux\SchemaOrg\Thing\Intangible\Rating[] getReviewRating() The rating given in this review. Note that reviews can themselves be rated. The reviewRating applies to rating given by the review. The aggregateRating property applies to the review itself, as a creative work.
  *
- * @method Review setReviewRating(\Bordeux\SchemaOrg\Thing\Intangible\Rating $reviewRating )The rating given in this review. Note that reviews can themselves be rated. The reviewRating applies to rating given by the review. The aggregateRating property applies to the review itself, as a creative work.
+ * @method Review setReviewRating(\Bordeux\SchemaOrg\Thing\Intangible\Rating $reviewRating ) setReviewRating(\Bordeux\SchemaOrg\Thing\Intangible\Rating[] $reviewRating )The rating given in this review. Note that reviews can themselves be rated. The reviewRating applies to rating given by the review. The aggregateRating property applies to the review itself, as a creative work.
  *
  *
  */
-class Review extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class Review extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

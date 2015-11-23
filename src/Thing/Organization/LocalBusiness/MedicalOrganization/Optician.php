@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
  *
 
  */
-class Optician extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
-{
-}
+ class Optician extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization {
+
+ }

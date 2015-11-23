@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction;
  *
  * -------------------------------- Question ---------------------------------------------
  *
- * @property string Question
+ * @property string|string[] question
  *
- * @method string getQuestion() A sub property of object. A question.
+ * @method string|string[] getQuestion() A sub property of object. A question.
  *
- * @method AskAction setQuestion(string $question )A sub property of object. A question.
+ * @method AskAction setQuestion(string $question ) setQuestion(string[] $question )A sub property of object. A question.
  *
  *
  */
-class AskAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction
-{
-}
+ class AskAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction {
+
+ }

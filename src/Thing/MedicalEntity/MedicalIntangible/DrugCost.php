@@ -11,59 +11,59 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible;
  *
  * -------------------------------- ApplicableLocation ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea ApplicableLocation
+ * @property \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea|\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] applicableLocation
  *
- * @method \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea getApplicableLocation() The location in which the status applies.
+ * @method \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea|\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] getApplicableLocation() The location in which the status applies.
  *
- * @method DrugCost setApplicableLocation(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea $applicableLocation )The location in which the status applies.
+ * @method DrugCost setApplicableLocation(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea $applicableLocation ) setApplicableLocation(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] $applicableLocation )The location in which the status applies.
  *
  *
  * -------------------------------- CostCategory ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\DrugCostCategory CostCategory
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\DrugCostCategory|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\DrugCostCategory[] costCategory
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\DrugCostCategory getCostCategory() The category of cost, such as wholesale, retail, reimbursement cap, etc.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\DrugCostCategory|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\DrugCostCategory[] getCostCategory() The category of cost, such as wholesale, retail, reimbursement cap, etc.
  *
- * @method DrugCost setCostCategory(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\DrugCostCategory $costCategory )The category of cost, such as wholesale, retail, reimbursement cap, etc.
+ * @method DrugCost setCostCategory(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\DrugCostCategory $costCategory ) setCostCategory(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\DrugCostCategory[] $costCategory )The category of cost, such as wholesale, retail, reimbursement cap, etc.
  *
  *
  * -------------------------------- CostCurrency ---------------------------------------------
  *
- * @property string CostCurrency
+ * @property string|string[] costCurrency
  *
- * @method string getCostCurrency() The currency (in 3-letter ISO 4217 format) of the drug cost.
+ * @method string|string[] getCostCurrency() The currency (in 3-letter ISO 4217 format) of the drug cost.
  *
- * @method DrugCost setCostCurrency(string $costCurrency )The currency (in 3-letter ISO 4217 format) of the drug cost.
+ * @method DrugCost setCostCurrency(string $costCurrency ) setCostCurrency(string[] $costCurrency )The currency (in 3-letter ISO 4217 format) of the drug cost.
  *
  *
  * -------------------------------- CostOrigin ---------------------------------------------
  *
- * @property string CostOrigin
+ * @property string|string[] costOrigin
  *
- * @method string getCostOrigin() Additional details to capture the origin of the cost data. For example, 'Medicare Part B'.
+ * @method string|string[] getCostOrigin() Additional details to capture the origin of the cost data. For example, 'Medicare Part B'.
  *
- * @method DrugCost setCostOrigin(string $costOrigin )Additional details to capture the origin of the cost data. For example, 'Medicare Part B'.
+ * @method DrugCost setCostOrigin(string $costOrigin ) setCostOrigin(string[] $costOrigin )Additional details to capture the origin of the cost data. For example, 'Medicare Part B'.
  *
  *
  * -------------------------------- CostPerUnit ---------------------------------------------
  *
- * @property Number|string CostPerUnit
+ * @property Number|Number[]|string|string[] costPerUnit
  *
- * @method Number|string getCostPerUnit() The cost per unit of the drug.
+ * @method Number|Number[]|string|string[] getCostPerUnit() The cost per unit of the drug.
  *
- * @method DrugCost setCostPerUnit(Number $costPerUnit ) setCostPerUnit(string $costPerUnit )The cost per unit of the drug.
+ * @method DrugCost setCostPerUnit(Number $costPerUnit ) setCostPerUnit(Number[] $costPerUnit ) setCostPerUnit(string $costPerUnit ) setCostPerUnit(string[] $costPerUnit )The cost per unit of the drug.
  *
  *
  * -------------------------------- DrugUnit ---------------------------------------------
  *
- * @property string DrugUnit
+ * @property string|string[] drugUnit
  *
- * @method string getDrugUnit() The unit in which the drug is measured, e.g. '5 mg tablet'.
+ * @method string|string[] getDrugUnit() The unit in which the drug is measured, e.g. '5 mg tablet'.
  *
- * @method DrugCost setDrugUnit(string $drugUnit )The unit in which the drug is measured, e.g. '5 mg tablet'.
+ * @method DrugCost setDrugUnit(string $drugUnit ) setDrugUnit(string[] $drugUnit )The unit in which the drug is measured, e.g. '5 mg tablet'.
  *
  *
  */
-class DrugCost extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible
-{
-}
+ class DrugCost extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible {
+
+ }

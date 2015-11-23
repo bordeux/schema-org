@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
  *
 
  */
-class VeterinaryCare extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
-{
-}
+ class VeterinaryCare extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization {
+
+ }

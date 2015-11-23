@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction\PlanAction;
  *
 
  */
-class ScheduleAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction\PlanAction
-{
-}
+ class ScheduleAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction\PlanAction {
+
+ }

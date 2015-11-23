@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration;
  *
 
  */
-class EventStatusType extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration
-{
-}
+ class EventStatusType extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration {
+
+ }

@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  *
 
  */
-class GovernmentOffice extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness
-{
-}
+ class GovernmentOffice extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
+
+ }

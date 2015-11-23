@@ -11,41 +11,41 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible;
  *
  * -------------------------------- ActiveIngredient ---------------------------------------------
  *
- * @property string ActiveIngredient
+ * @property string|string[] activeIngredient
  *
- * @method string getActiveIngredient() An active ingredient, typically chemical compounds and/or biologic substances.
+ * @method string|string[] getActiveIngredient() An active ingredient, typically chemical compounds and/or biologic substances.
  *
- * @method DrugStrength setActiveIngredient(string $activeIngredient )An active ingredient, typically chemical compounds and/or biologic substances.
+ * @method DrugStrength setActiveIngredient(string $activeIngredient ) setActiveIngredient(string[] $activeIngredient )An active ingredient, typically chemical compounds and/or biologic substances.
  *
  *
  * -------------------------------- AvailableIn ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea AvailableIn
+ * @property \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea|\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] availableIn
  *
- * @method \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea getAvailableIn() The location in which the strength is available.
+ * @method \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea|\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] getAvailableIn() The location in which the strength is available.
  *
- * @method DrugStrength setAvailableIn(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea $availableIn )The location in which the strength is available.
+ * @method DrugStrength setAvailableIn(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea $availableIn ) setAvailableIn(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] $availableIn )The location in which the strength is available.
  *
  *
  * -------------------------------- StrengthUnit ---------------------------------------------
  *
- * @property string StrengthUnit
+ * @property string|string[] strengthUnit
  *
- * @method string getStrengthUnit() The units of an active ingredient's strength, e.g. mg.
+ * @method string|string[] getStrengthUnit() The units of an active ingredient's strength, e.g. mg.
  *
- * @method DrugStrength setStrengthUnit(string $strengthUnit )The units of an active ingredient's strength, e.g. mg.
+ * @method DrugStrength setStrengthUnit(string $strengthUnit ) setStrengthUnit(string[] $strengthUnit )The units of an active ingredient's strength, e.g. mg.
  *
  *
  * -------------------------------- StrengthValue ---------------------------------------------
  *
- * @property Number StrengthValue
+ * @property Number|Number[] strengthValue
  *
- * @method Number getStrengthValue() The value of an active ingredient's strength, e.g. 325.
+ * @method Number|Number[] getStrengthValue() The value of an active ingredient's strength, e.g. 325.
  *
- * @method DrugStrength setStrengthValue(Number $strengthValue )The value of an active ingredient's strength, e.g. 325.
+ * @method DrugStrength setStrengthValue(Number $strengthValue ) setStrengthValue(Number[] $strengthValue )The value of an active ingredient's strength, e.g. 325.
  *
  *
  */
-class DrugStrength extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible
-{
-}
+ class DrugStrength extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible {
+
+ }

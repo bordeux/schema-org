@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
  * -------------------------------- ArticleBody ---------------------------------------------
  *
- * @property string ArticleBody
+ * @property string|string[] articleBody
  *
- * @method string getArticleBody() The actual body of the article.
+ * @method string|string[] getArticleBody() The actual body of the article.
  *
- * @method Article setArticleBody(string $articleBody )The actual body of the article.
+ * @method Article setArticleBody(string $articleBody ) setArticleBody(string[] $articleBody )The actual body of the article.
  *
  *
  * -------------------------------- ArticleSection ---------------------------------------------
  *
- * @property string ArticleSection
+ * @property string|string[] articleSection
  *
- * @method string getArticleSection() Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.
+ * @method string|string[] getArticleSection() Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.
  *
- * @method Article setArticleSection(string $articleSection )Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.
+ * @method Article setArticleSection(string $articleSection ) setArticleSection(string[] $articleSection )Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc.
  *
  *
  * -------------------------------- WordCount ---------------------------------------------
  *
- * @property Integer WordCount
+ * @property Integer|Integer[] wordCount
  *
- * @method Integer getWordCount() The number of words in the text of the Article.
+ * @method Integer|Integer[] getWordCount() The number of words in the text of the Article.
  *
- * @method Article setWordCount(Integer $wordCount )The number of words in the text of the Article.
+ * @method Article setWordCount(Integer $wordCount ) setWordCount(Integer[] $wordCount )The number of words in the text of the Article.
  *
  *
  */
-class Article extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class Article extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

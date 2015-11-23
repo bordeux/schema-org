@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
  *
 
  */
-class Pharmacy extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
-{
-}
+ class Pharmacy extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization {
+
+ }

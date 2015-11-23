@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place;
  *
 
  */
-class TouristAttraction extends \Bordeux\SchemaOrg\Thing\Place
-{
-}
+ class TouristAttraction extends \Bordeux\SchemaOrg\Thing\Place {
+
+ }

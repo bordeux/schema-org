@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action;
  *
  * -------------------------------- Collection ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing Collection
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] collection
  *
- * @method \Bordeux\SchemaOrg\Thing getCollection() A sub property of object. The collection target of the action.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] getCollection() A sub property of object. The collection target of the action.
  *
- * @method UpdateAction setCollection(\Bordeux\SchemaOrg\Thing $collection )A sub property of object. The collection target of the action.
+ * @method UpdateAction setCollection(\Bordeux\SchemaOrg\\Thing $collection ) setCollection(\Bordeux\SchemaOrg\\Thing[] $collection )A sub property of object. The collection target of the action.
  *
  *
  */
-class UpdateAction extends \Bordeux\SchemaOrg\Thing\Action
-{
-}
+ class UpdateAction extends \Bordeux\SchemaOrg\Thing\Action {
+
+ }

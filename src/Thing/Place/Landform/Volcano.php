@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\Landform;
  *
 
  */
-class Volcano extends \Bordeux\SchemaOrg\Thing\Place\Landform
-{
-}
+ class Volcano extends \Bordeux\SchemaOrg\Thing\Place\Landform {
+
+ }

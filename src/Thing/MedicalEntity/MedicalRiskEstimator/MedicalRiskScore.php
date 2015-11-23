@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalRiskEstimator;
  *
  * -------------------------------- Algorithm ---------------------------------------------
  *
- * @property string Algorithm
+ * @property string|string[] algorithm
  *
- * @method string getAlgorithm() The algorithm or rules to follow to compute the score.
+ * @method string|string[] getAlgorithm() The algorithm or rules to follow to compute the score.
  *
- * @method MedicalRiskScore setAlgorithm(string $algorithm )The algorithm or rules to follow to compute the score.
+ * @method MedicalRiskScore setAlgorithm(string $algorithm ) setAlgorithm(string[] $algorithm )The algorithm or rules to follow to compute the score.
  *
  *
  */
-class MedicalRiskScore extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalRiskEstimator
-{
-}
+ class MedicalRiskScore extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalRiskEstimator {
+
+ }

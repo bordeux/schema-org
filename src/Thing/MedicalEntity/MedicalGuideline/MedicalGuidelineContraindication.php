@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalGuideline;
  *
 
  */
-class MedicalGuidelineContraindication extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalGuideline
-{
-}
+ class MedicalGuidelineContraindication extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalGuideline {
+
+ }

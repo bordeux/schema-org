@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocat
  *
 
  */
-class BowlingAlley extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocation
-{
-}
+ class BowlingAlley extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocation {
+
+ }

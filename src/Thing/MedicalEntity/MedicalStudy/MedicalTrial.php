@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalStudy;
  *
  * -------------------------------- Phase ---------------------------------------------
  *
- * @property string Phase
+ * @property string|string[] phase
  *
- * @method string getPhase() The phase of the trial.
+ * @method string|string[] getPhase() The phase of the trial.
  *
- * @method MedicalTrial setPhase(string $phase )The phase of the trial.
+ * @method MedicalTrial setPhase(string $phase ) setPhase(string[] $phase )The phase of the trial.
  *
  *
  * -------------------------------- TrialDesign ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalTrialDesign TrialDesign
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalTrialDesign|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalTrialDesign[] trialDesign
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalTrialDesign getTrialDesign() Specifics about the trial design (enumerated).
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalTrialDesign|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalTrialDesign[] getTrialDesign() Specifics about the trial design (enumerated).
  *
- * @method MedicalTrial setTrialDesign(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalTrialDesign $trialDesign )Specifics about the trial design (enumerated).
+ * @method MedicalTrial setTrialDesign(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalTrialDesign $trialDesign ) setTrialDesign(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalTrialDesign[] $trialDesign )Specifics about the trial design (enumerated).
  *
  *
  */
-class MedicalTrial extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalStudy
-{
-}
+ class MedicalTrial extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalStudy {
+
+ }

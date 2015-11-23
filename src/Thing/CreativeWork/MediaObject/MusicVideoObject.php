@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject;
  *
 
  */
-class MusicVideoObject extends \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject
-{
-}
+ class MusicVideoObject extends \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject {
+
+ }

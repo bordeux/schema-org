@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\DoseSchedule;
  *
 
  */
-class ReportedDoseSchedule extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\DoseSchedule
-{
-}
+ class ReportedDoseSchedule extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\DoseSchedule {
+
+ }

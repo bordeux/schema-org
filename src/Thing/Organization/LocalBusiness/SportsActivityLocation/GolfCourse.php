@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocat
  *
 
  */
-class GolfCourse extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocation
-{
-}
+ class GolfCourse extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocation {
+
+ }

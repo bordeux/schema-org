@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Event\PublicationEvent;
  *
 
  */
-class BroadcastEvent extends \Bordeux\SchemaOrg\Thing\Event\PublicationEvent
-{
-}
+ class BroadcastEvent extends \Bordeux\SchemaOrg\Thing\Event\PublicationEvent {
+
+ }

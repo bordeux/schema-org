@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest;
  *
 
  */
-class BloodTest extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest
-{
-}
+ class BloodTest extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest {
+
+ }

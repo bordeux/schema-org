@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
 
  */
-class Painting extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class Painting extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

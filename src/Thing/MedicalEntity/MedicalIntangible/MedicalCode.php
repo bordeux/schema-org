@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible;
  *
  * -------------------------------- CodeValue ---------------------------------------------
  *
- * @property string CodeValue
+ * @property string|string[] codeValue
  *
- * @method string getCodeValue() The actual code.
+ * @method string|string[] getCodeValue() The actual code.
  *
- * @method MedicalCode setCodeValue(string $codeValue )The actual code.
+ * @method MedicalCode setCodeValue(string $codeValue ) setCodeValue(string[] $codeValue )The actual code.
  *
  *
  * -------------------------------- CodingSystem ---------------------------------------------
  *
- * @property string CodingSystem
+ * @property string|string[] codingSystem
  *
- * @method string getCodingSystem() The coding system, e.g. 'ICD-10'.
+ * @method string|string[] getCodingSystem() The coding system, e.g. 'ICD-10'.
  *
- * @method MedicalCode setCodingSystem(string $codingSystem )The coding system, e.g. 'ICD-10'.
+ * @method MedicalCode setCodingSystem(string $codingSystem ) setCodingSystem(string[] $codingSystem )The coding system, e.g. 'ICD-10'.
  *
  *
  */
-class MedicalCode extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible
-{
-}
+ class MedicalCode extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible {
+
+ }

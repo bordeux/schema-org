@@ -11,41 +11,41 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  *
  * -------------------------------- AccessCode ---------------------------------------------
  *
- * @property string AccessCode
+ * @property string|string[] accessCode
  *
- * @method string getAccessCode() Password, PIN, or access code needed for delivery (e.g. from a locker).
+ * @method string|string[] getAccessCode() Password, PIN, or access code needed for delivery (e.g. from a locker).
  *
- * @method DeliveryEvent setAccessCode(string $accessCode )Password, PIN, or access code needed for delivery (e.g. from a locker).
+ * @method DeliveryEvent setAccessCode(string $accessCode ) setAccessCode(string[] $accessCode )Password, PIN, or access code needed for delivery (e.g. from a locker).
  *
  *
  * -------------------------------- AvailableFrom ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\SchemaDateTime AvailableFrom
+ * @property \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] availableFrom
  *
- * @method \Bordeux\SchemaOrg\SchemaDateTime getAvailableFrom() When the item is available for pickup from the store, locker, etc.
+ * @method \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] getAvailableFrom() When the item is available for pickup from the store, locker, etc.
  *
- * @method DeliveryEvent setAvailableFrom(\Bordeux\SchemaOrg\SchemaDateTime $availableFrom )When the item is available for pickup from the store, locker, etc.
+ * @method DeliveryEvent setAvailableFrom(\Bordeux\SchemaOrg\SchemaDateTime $availableFrom ) setAvailableFrom(\Bordeux\SchemaOrg\SchemaDateTime[] $availableFrom )When the item is available for pickup from the store, locker, etc.
  *
  *
  * -------------------------------- AvailableThrough ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\SchemaDateTime AvailableThrough
+ * @property \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] availableThrough
  *
- * @method \Bordeux\SchemaOrg\SchemaDateTime getAvailableThrough() After this date, the item will no longer be available for pickup.
+ * @method \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] getAvailableThrough() After this date, the item will no longer be available for pickup.
  *
- * @method DeliveryEvent setAvailableThrough(\Bordeux\SchemaOrg\SchemaDateTime $availableThrough )After this date, the item will no longer be available for pickup.
+ * @method DeliveryEvent setAvailableThrough(\Bordeux\SchemaOrg\SchemaDateTime $availableThrough ) setAvailableThrough(\Bordeux\SchemaOrg\SchemaDateTime[] $availableThrough )After this date, the item will no longer be available for pickup.
  *
  *
  * -------------------------------- HasDeliveryMethod ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod HasDeliveryMethod
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] hasDeliveryMethod
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod getHasDeliveryMethod() Method used for delivery or shipping.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] getHasDeliveryMethod() Method used for delivery or shipping.
  *
- * @method DeliveryEvent setHasDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod $hasDeliveryMethod )Method used for delivery or shipping.
+ * @method DeliveryEvent setHasDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod $hasDeliveryMethod ) setHasDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] $hasDeliveryMethod )Method used for delivery or shipping.
  *
  *
  */
-class DeliveryEvent extends \Bordeux\SchemaOrg\Thing\Event
-{
-}
+ class DeliveryEvent extends \Bordeux\SchemaOrg\Thing\Event {
+
+ }

@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration;
  *
 
  */
-class BusinessFunction extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration
-{
-}
+ class BusinessFunction extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration {
+
+ }

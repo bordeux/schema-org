@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\AssessAction;
  *
  * -------------------------------- Option ---------------------------------------------
  *
- * @property string|\Bordeux\SchemaOrg\Thing Option
+ * @property string|string[]|\Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] option
  *
- * @method string|\Bordeux\SchemaOrg\Thing getOption() A sub property of object. The options subject to this action.
+ * @method string|string[]|\Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] getOption() A sub property of object. The options subject to this action.
  *
- * @method ChooseAction setOption(string $option ) setOption(\Bordeux\SchemaOrg\Thing $option )A sub property of object. The options subject to this action.
+ * @method ChooseAction setOption(string $option ) setOption(string[] $option ) setOption(\Bordeux\SchemaOrg\\Thing $option ) setOption(\Bordeux\SchemaOrg\\Thing[] $option )A sub property of object. The options subject to this action.
  *
  *
  */
-class ChooseAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction
-{
-}
+ class ChooseAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction {
+
+ }

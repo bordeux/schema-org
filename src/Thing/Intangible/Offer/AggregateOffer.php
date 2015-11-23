@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Offer;
  *
  * -------------------------------- HighPrice ---------------------------------------------
  *
- * @property Number|string HighPrice
+ * @property Number|Number[]|string|string[] highPrice
  *
- * @method Number|string getHighPrice() The highest price of all offers available.
+ * @method Number|Number[]|string|string[] getHighPrice() The highest price of all offers available.
  *
- * @method AggregateOffer setHighPrice(Number $highPrice ) setHighPrice(string $highPrice )The highest price of all offers available.
+ * @method AggregateOffer setHighPrice(Number $highPrice ) setHighPrice(Number[] $highPrice ) setHighPrice(string $highPrice ) setHighPrice(string[] $highPrice )The highest price of all offers available.
  *
  *
  * -------------------------------- LowPrice ---------------------------------------------
  *
- * @property Number|string LowPrice
+ * @property Number|Number[]|string|string[] lowPrice
  *
- * @method Number|string getLowPrice() The lowest price of all offers available.
+ * @method Number|Number[]|string|string[] getLowPrice() The lowest price of all offers available.
  *
- * @method AggregateOffer setLowPrice(Number $lowPrice ) setLowPrice(string $lowPrice )The lowest price of all offers available.
+ * @method AggregateOffer setLowPrice(Number $lowPrice ) setLowPrice(Number[] $lowPrice ) setLowPrice(string $lowPrice ) setLowPrice(string[] $lowPrice )The lowest price of all offers available.
  *
  *
  * -------------------------------- OfferCount ---------------------------------------------
  *
- * @property Integer OfferCount
+ * @property Integer|Integer[] offerCount
  *
- * @method Integer getOfferCount() The number of offers for the product.
+ * @method Integer|Integer[] getOfferCount() The number of offers for the product.
  *
- * @method AggregateOffer setOfferCount(Integer $offerCount )The number of offers for the product.
+ * @method AggregateOffer setOfferCount(Integer $offerCount ) setOfferCount(Integer[] $offerCount )The number of offers for the product.
  *
  *
  */
-class AggregateOffer extends \Bordeux\SchemaOrg\Thing\Intangible\Offer
-{
-}
+ class AggregateOffer extends \Bordeux\SchemaOrg\Thing\Intangible\Offer {
+
+ }

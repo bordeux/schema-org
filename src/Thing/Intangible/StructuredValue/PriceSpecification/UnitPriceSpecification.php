@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\PriceSpecification;
  *
  * -------------------------------- BillingIncrement ---------------------------------------------
  *
- * @property Number BillingIncrement
+ * @property Number|Number[] billingIncrement
  *
- * @method Number getBillingIncrement() This property specifies the minimal quantity and rounding increment that will be the basis for the billing. The unit of measurement is specified by the unitCode property.
+ * @method Number|Number[] getBillingIncrement() This property specifies the minimal quantity and rounding increment that will be the basis for the billing. The unit of measurement is specified by the unitCode property.
  *
- * @method UnitPriceSpecification setBillingIncrement(Number $billingIncrement )This property specifies the minimal quantity and rounding increment that will be the basis for the billing. The unit of measurement is specified by the unitCode property.
+ * @method UnitPriceSpecification setBillingIncrement(Number $billingIncrement ) setBillingIncrement(Number[] $billingIncrement )This property specifies the minimal quantity and rounding increment that will be the basis for the billing. The unit of measurement is specified by the unitCode property.
  *
  *
  * -------------------------------- PriceType ---------------------------------------------
  *
- * @property string PriceType
+ * @property string|string[] priceType
  *
- * @method string getPriceType() A short text or acronym indicating multiple price specifications for the same offer, e.g. SRP for the suggested retail price or INVOICE for the invoice price, mostly used in the car industry.
+ * @method string|string[] getPriceType() A short text or acronym indicating multiple price specifications for the same offer, e.g. SRP for the suggested retail price or INVOICE for the invoice price, mostly used in the car industry.
  *
- * @method UnitPriceSpecification setPriceType(string $priceType )A short text or acronym indicating multiple price specifications for the same offer, e.g. SRP for the suggested retail price or INVOICE for the invoice price, mostly used in the car industry.
+ * @method UnitPriceSpecification setPriceType(string $priceType ) setPriceType(string[] $priceType )A short text or acronym indicating multiple price specifications for the same offer, e.g. SRP for the suggested retail price or INVOICE for the invoice price, mostly used in the car industry.
  *
  *
  * -------------------------------- UnitCode ---------------------------------------------
  *
- * @property string UnitCode
+ * @property string|string[] unitCode
  *
- * @method string getUnitCode() The unit of measurement given using the UN/CEFACT Common Code (3 characters).
+ * @method string|string[] getUnitCode() The unit of measurement given using the UN/CEFACT Common Code (3 characters).
  *
- * @method UnitPriceSpecification setUnitCode(string $unitCode )The unit of measurement given using the UN/CEFACT Common Code (3 characters).
+ * @method UnitPriceSpecification setUnitCode(string $unitCode ) setUnitCode(string[] $unitCode )The unit of measurement given using the UN/CEFACT Common Code (3 characters).
  *
  *
  */
-class UnitPriceSpecification extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\PriceSpecification
-{
-}
+ class UnitPriceSpecification extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\PriceSpecification {
+
+ }

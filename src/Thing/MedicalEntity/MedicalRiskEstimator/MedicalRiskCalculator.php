@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalRiskEstimator;
  *
 
  */
-class MedicalRiskCalculator extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalRiskEstimator
-{
-}
+ class MedicalRiskCalculator extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalRiskEstimator {
+
+ }

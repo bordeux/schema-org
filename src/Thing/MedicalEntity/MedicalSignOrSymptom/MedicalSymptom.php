@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalSignOrSymptom;
  *
 
  */
-class MedicalSymptom extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalSignOrSymptom
-{
-}
+ class MedicalSymptom extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalSignOrSymptom {
+
+ }

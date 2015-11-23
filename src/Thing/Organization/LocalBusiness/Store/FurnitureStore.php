@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store;
  *
 
  */
-class FurnitureStore extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store
-{
-}
+ class FurnitureStore extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store {
+
+ }

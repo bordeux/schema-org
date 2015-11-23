@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible;
  *
  * -------------------------------- StageAsNumber ---------------------------------------------
  *
- * @property Number StageAsNumber
+ * @property Number|Number[] stageAsNumber
  *
- * @method Number getStageAsNumber() The stage represented as a number, e.g. 3.
+ * @method Number|Number[] getStageAsNumber() The stage represented as a number, e.g. 3.
  *
- * @method MedicalConditionStage setStageAsNumber(Number $stageAsNumber )The stage represented as a number, e.g. 3.
+ * @method MedicalConditionStage setStageAsNumber(Number $stageAsNumber ) setStageAsNumber(Number[] $stageAsNumber )The stage represented as a number, e.g. 3.
  *
  *
  * -------------------------------- SubStageSuffix ---------------------------------------------
  *
- * @property string SubStageSuffix
+ * @property string|string[] subStageSuffix
  *
- * @method string getSubStageSuffix() The substage, e.g. 'a' for Stage IIIa.
+ * @method string|string[] getSubStageSuffix() The substage, e.g. 'a' for Stage IIIa.
  *
- * @method MedicalConditionStage setSubStageSuffix(string $subStageSuffix )The substage, e.g. 'a' for Stage IIIa.
+ * @method MedicalConditionStage setSubStageSuffix(string $subStageSuffix ) setSubStageSuffix(string[] $subStageSuffix )The substage, e.g. 'a' for Stage IIIa.
  *
  *
  */
-class MedicalConditionStage extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible
-{
-}
+ class MedicalConditionStage extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible {
+
+ }

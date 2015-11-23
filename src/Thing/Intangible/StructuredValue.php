@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Intangible;
  *
 
  */
-class StructuredValue extends \Bordeux\SchemaOrg\Thing\Intangible
-{
-}
+ class StructuredValue extends \Bordeux\SchemaOrg\Thing\Intangible {
+
+ }

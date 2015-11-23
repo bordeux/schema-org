@@ -11,95 +11,95 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
  * -------------------------------- CookingMethod ---------------------------------------------
  *
- * @property string CookingMethod
+ * @property string|string[] cookingMethod
  *
- * @method string getCookingMethod() The method of cooking, such as Frying, Steaming, ...
+ * @method string|string[] getCookingMethod() The method of cooking, such as Frying, Steaming, ...
  *
- * @method Recipe setCookingMethod(string $cookingMethod )The method of cooking, such as Frying, Steaming, ...
+ * @method Recipe setCookingMethod(string $cookingMethod ) setCookingMethod(string[] $cookingMethod )The method of cooking, such as Frying, Steaming, ...
  *
  *
  * -------------------------------- CookTime ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration CookTime
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration|\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] cookTime
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration getCookTime() The time it takes to actually cook the dish, in ISO 8601 duration format.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration|\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] getCookTime() The time it takes to actually cook the dish, in ISO 8601 duration format.
  *
- * @method Recipe setCookTime(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration $cookTime )The time it takes to actually cook the dish, in ISO 8601 duration format.
+ * @method Recipe setCookTime(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration $cookTime ) setCookTime(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] $cookTime )The time it takes to actually cook the dish, in ISO 8601 duration format.
  *
  *
  * -------------------------------- Ingredients ---------------------------------------------
  *
- * @property string Ingredients
+ * @property string|string[] ingredients
  *
- * @method string getIngredients() An ingredient used in the recipe.
+ * @method string|string[] getIngredients() An ingredient used in the recipe.
  *
- * @method Recipe setIngredients(string $ingredients )An ingredient used in the recipe.
+ * @method Recipe setIngredients(string $ingredients ) setIngredients(string[] $ingredients )An ingredient used in the recipe.
  *
  *
  * -------------------------------- Nutrition ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\NutritionInformation Nutrition
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\NutritionInformation|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\NutritionInformation[] nutrition
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\NutritionInformation getNutrition() Nutrition information about the recipe.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\NutritionInformation|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\NutritionInformation[] getNutrition() Nutrition information about the recipe.
  *
- * @method Recipe setNutrition(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\NutritionInformation $nutrition )Nutrition information about the recipe.
+ * @method Recipe setNutrition(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\NutritionInformation $nutrition ) setNutrition(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\NutritionInformation[] $nutrition )Nutrition information about the recipe.
  *
  *
  * -------------------------------- PrepTime ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration PrepTime
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration|\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] prepTime
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration getPrepTime() The length of time it takes to prepare the recipe, in ISO 8601 duration format.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration|\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] getPrepTime() The length of time it takes to prepare the recipe, in ISO 8601 duration format.
  *
- * @method Recipe setPrepTime(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration $prepTime )The length of time it takes to prepare the recipe, in ISO 8601 duration format.
+ * @method Recipe setPrepTime(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration $prepTime ) setPrepTime(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] $prepTime )The length of time it takes to prepare the recipe, in ISO 8601 duration format.
  *
  *
  * -------------------------------- RecipeCategory ---------------------------------------------
  *
- * @property string RecipeCategory
+ * @property string|string[] recipeCategory
  *
- * @method string getRecipeCategory() The category of the recipe—for example, appetizer, entree, etc.
+ * @method string|string[] getRecipeCategory() The category of the recipe—for example, appetizer, entree, etc.
  *
- * @method Recipe setRecipeCategory(string $recipeCategory )The category of the recipe—for example, appetizer, entree, etc.
+ * @method Recipe setRecipeCategory(string $recipeCategory ) setRecipeCategory(string[] $recipeCategory )The category of the recipe—for example, appetizer, entree, etc.
  *
  *
  * -------------------------------- RecipeCuisine ---------------------------------------------
  *
- * @property string RecipeCuisine
+ * @property string|string[] recipeCuisine
  *
- * @method string getRecipeCuisine() The cuisine of the recipe (for example, French or Ethopian).
+ * @method string|string[] getRecipeCuisine() The cuisine of the recipe (for example, French or Ethopian).
  *
- * @method Recipe setRecipeCuisine(string $recipeCuisine )The cuisine of the recipe (for example, French or Ethopian).
+ * @method Recipe setRecipeCuisine(string $recipeCuisine ) setRecipeCuisine(string[] $recipeCuisine )The cuisine of the recipe (for example, French or Ethopian).
  *
  *
  * -------------------------------- RecipeInstructions ---------------------------------------------
  *
- * @property string RecipeInstructions
+ * @property string|string[] recipeInstructions
  *
- * @method string getRecipeInstructions() The steps to make the dish.
+ * @method string|string[] getRecipeInstructions() The steps to make the dish.
  *
- * @method Recipe setRecipeInstructions(string $recipeInstructions )The steps to make the dish.
+ * @method Recipe setRecipeInstructions(string $recipeInstructions ) setRecipeInstructions(string[] $recipeInstructions )The steps to make the dish.
  *
  *
  * -------------------------------- RecipeYield ---------------------------------------------
  *
- * @property string RecipeYield
+ * @property string|string[] recipeYield
  *
- * @method string getRecipeYield() The quantity produced by the recipe (for example, number of people served, number of servings, etc).
+ * @method string|string[] getRecipeYield() The quantity produced by the recipe (for example, number of people served, number of servings, etc).
  *
- * @method Recipe setRecipeYield(string $recipeYield )The quantity produced by the recipe (for example, number of people served, number of servings, etc).
+ * @method Recipe setRecipeYield(string $recipeYield ) setRecipeYield(string[] $recipeYield )The quantity produced by the recipe (for example, number of people served, number of servings, etc).
  *
  *
  * -------------------------------- TotalTime ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration TotalTime
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration|\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] totalTime
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration getTotalTime() The total time it takes to prepare and cook the recipe, in ISO 8601 duration format.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration|\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] getTotalTime() The total time it takes to prepare and cook the recipe, in ISO 8601 duration format.
  *
- * @method Recipe setTotalTime(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration $totalTime )The total time it takes to prepare and cook the recipe, in ISO 8601 duration format.
+ * @method Recipe setTotalTime(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration $totalTime ) setTotalTime(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] $totalTime )The total time it takes to prepare and cook the recipe, in ISO 8601 duration format.
  *
  *
  */
-class Recipe extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class Recipe extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

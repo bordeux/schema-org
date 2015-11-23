@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
 
  */
-class Photograph extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class Photograph extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

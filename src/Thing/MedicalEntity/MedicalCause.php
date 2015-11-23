@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity;
  *
  * -------------------------------- CauseOf ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity CauseOf
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity|\Bordeux\SchemaOrg\Thing\MedicalEntity[] causeOf
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity getCauseOf() The condition, complication, symptom, sign, etc. caused.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity|\Bordeux\SchemaOrg\Thing\MedicalEntity[] getCauseOf() The condition, complication, symptom, sign, etc. caused.
  *
- * @method MedicalCause setCauseOf(\Bordeux\SchemaOrg\Thing\MedicalEntity $causeOf )The condition, complication, symptom, sign, etc. caused.
+ * @method MedicalCause setCauseOf(\Bordeux\SchemaOrg\Thing\MedicalEntity $causeOf ) setCauseOf(\Bordeux\SchemaOrg\Thing\MedicalEntity[] $causeOf )The condition, complication, symptom, sign, etc. caused.
  *
  *
  */
-class MedicalCause extends \Bordeux\SchemaOrg\Thing\MedicalEntity
-{
-}
+ class MedicalCause extends \Bordeux\SchemaOrg\Thing\MedicalEntity {
+
+ }

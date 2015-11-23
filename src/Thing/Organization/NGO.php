@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization;
  *
 
  */
-class NGO extends \Bordeux\SchemaOrg\Thing\Organization
-{
-}
+ class NGO extends \Bordeux\SchemaOrg\Thing\Organization {
+
+ }

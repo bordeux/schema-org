@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\Action\TradeAction;
  *
  * -------------------------------- Purpose ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose Purpose
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose[] purpose
  *
- * @method \Bordeux\SchemaOrg\Thing|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose getPurpose() A goal towards an action is taken. Can be concrete or abstract.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose[] getPurpose() A goal towards an action is taken. Can be concrete or abstract.
  *
- * @method PayAction setPurpose(\Bordeux\SchemaOrg\Thing $purpose ) setPurpose(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose $purpose )A goal towards an action is taken. Can be concrete or abstract.
+ * @method PayAction setPurpose(\Bordeux\SchemaOrg\\Thing $purpose ) setPurpose(\Bordeux\SchemaOrg\\Thing[] $purpose ) setPurpose(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose $purpose ) setPurpose(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose[] $purpose )A goal towards an action is taken. Can be concrete or abstract.
  *
  *
  * -------------------------------- Recipient ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Person Recipient
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Intangible\Audience[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] recipient
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Person getRecipient() A sub property of participant. The participant who is at the receiving end of the action.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Intangible\Audience[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getRecipient() A sub property of participant. The participant who is at the receiving end of the action.
  *
- * @method PayAction setRecipient(\Bordeux\SchemaOrg\Thing\Organization $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Intangible\Audience $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Person $recipient )A sub property of participant. The participant who is at the receiving end of the action.
+ * @method PayAction setRecipient(\Bordeux\SchemaOrg\Thing\Organization $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Organization[] $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Intangible\Audience $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Intangible\Audience[] $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Person $recipient ) setRecipient(\Bordeux\SchemaOrg\Thing\Person[] $recipient )A sub property of participant. The participant who is at the receiving end of the action.
  *
  *
  */
-class PayAction extends \Bordeux\SchemaOrg\Thing\Action\TradeAction
-{
-}
+ class PayAction extends \Bordeux\SchemaOrg\Thing\Action\TradeAction {
+
+ }

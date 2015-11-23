@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\PerformingGroup;
  *
 
  */
-class TheaterGroup extends \Bordeux\SchemaOrg\Thing\Organization\PerformingGroup
-{
-}
+ class TheaterGroup extends \Bordeux\SchemaOrg\Thing\Organization\PerformingGroup {
+
+ }

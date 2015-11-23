@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\Landform\BodyOfWater;
  *
 
  */
-class Pond extends \Bordeux\SchemaOrg\Thing\Place\Landform\BodyOfWater
-{
-}
+ class Pond extends \Bordeux\SchemaOrg\Thing\Place\Landform\BodyOfWater {
+
+ }

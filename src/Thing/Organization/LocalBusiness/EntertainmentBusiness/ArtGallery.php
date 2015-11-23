@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusine
  *
 
  */
-class ArtGallery extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness
-{
-}
+ class ArtGallery extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness {
+
+ }

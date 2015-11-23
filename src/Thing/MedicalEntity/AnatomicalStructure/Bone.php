@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure;
  *
 
  */
-class Bone extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure
-{
-}
+ class Bone extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure {
+
+ }

@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\Residence;
  *
 
  */
-class GatedResidenceCommunity extends \Bordeux\SchemaOrg\Thing\Place\Residence
-{
-}
+ class GatedResidenceCommunity extends \Bordeux\SchemaOrg\Thing\Place\Residence {
+
+ }

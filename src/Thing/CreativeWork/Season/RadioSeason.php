@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Season;
  *
 
  */
-class RadioSeason extends \Bordeux\SchemaOrg\Thing\CreativeWork\Season
-{
-}
+ class RadioSeason extends \Bordeux\SchemaOrg\Thing\CreativeWork\Season {
+
+ }

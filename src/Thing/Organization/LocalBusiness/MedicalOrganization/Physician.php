@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
  *
  * -------------------------------- AvailableService ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalProcedure|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy AvailableService
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalProcedure|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalProcedure[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy[] availableService
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalProcedure|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy getAvailableService() A medical service available from this provider.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalProcedure|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalProcedure[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy[] getAvailableService() A medical service available from this provider.
  *
- * @method Physician setAvailableService(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest $availableService ) setAvailableService(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalProcedure $availableService ) setAvailableService(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy $availableService )A medical service available from this provider.
+ * @method Physician setAvailableService(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest $availableService ) setAvailableService(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] $availableService ) setAvailableService(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalProcedure $availableService ) setAvailableService(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalProcedure[] $availableService ) setAvailableService(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy $availableService ) setAvailableService(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy[] $availableService )A medical service available from this provider.
  *
  *
  * -------------------------------- HospitalAffiliation ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Place\CivicStructure\Hospital HospitalAffiliation
+ * @property \Bordeux\SchemaOrg\Thing\Place\CivicStructure\Hospital|\Bordeux\SchemaOrg\Thing\Place\CivicStructure\Hospital[] hospitalAffiliation
  *
- * @method \Bordeux\SchemaOrg\Thing\Place\CivicStructure\Hospital getHospitalAffiliation() A hospital with which the physician or office is affiliated.
+ * @method \Bordeux\SchemaOrg\Thing\Place\CivicStructure\Hospital|\Bordeux\SchemaOrg\Thing\Place\CivicStructure\Hospital[] getHospitalAffiliation() A hospital with which the physician or office is affiliated.
  *
- * @method Physician setHospitalAffiliation(\Bordeux\SchemaOrg\Thing\Place\CivicStructure\Hospital $hospitalAffiliation )A hospital with which the physician or office is affiliated.
+ * @method Physician setHospitalAffiliation(\Bordeux\SchemaOrg\Thing\Place\CivicStructure\Hospital $hospitalAffiliation ) setHospitalAffiliation(\Bordeux\SchemaOrg\Thing\Place\CivicStructure\Hospital[] $hospitalAffiliation )A hospital with which the physician or office is affiliated.
  *
  *
  * -------------------------------- MedicalSpecialty ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalSpecialty MedicalSpecialty
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalSpecialty|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalSpecialty[] medicalSpecialty
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalSpecialty getMedicalSpecialty() A medical specialty of the provider.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalSpecialty|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalSpecialty[] getMedicalSpecialty() A medical specialty of the provider.
  *
- * @method Physician setMedicalSpecialty(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalSpecialty $medicalSpecialty )A medical specialty of the provider.
+ * @method Physician setMedicalSpecialty(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalSpecialty $medicalSpecialty ) setMedicalSpecialty(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalSpecialty[] $medicalSpecialty )A medical specialty of the provider.
  *
  *
  */
-class Physician extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
-{
-}
+ class Physician extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization {
+
+ }

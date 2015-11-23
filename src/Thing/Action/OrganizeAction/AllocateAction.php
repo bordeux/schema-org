@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction;
  *
  * -------------------------------- Purpose ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose Purpose
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose[] purpose
  *
- * @method \Bordeux\SchemaOrg\Thing|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose getPurpose() A goal towards an action is taken. Can be concrete or abstract.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose[] getPurpose() A goal towards an action is taken. Can be concrete or abstract.
  *
- * @method AllocateAction setPurpose(\Bordeux\SchemaOrg\Thing $purpose ) setPurpose(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose $purpose )A goal towards an action is taken. Can be concrete or abstract.
+ * @method AllocateAction setPurpose(\Bordeux\SchemaOrg\\Thing $purpose ) setPurpose(\Bordeux\SchemaOrg\\Thing[] $purpose ) setPurpose(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose $purpose ) setPurpose(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalDevicePurpose[] $purpose )A goal towards an action is taken. Can be concrete or abstract.
  *
  *
  */
-class AllocateAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction
-{
-}
+ class AllocateAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction {
+
+ }

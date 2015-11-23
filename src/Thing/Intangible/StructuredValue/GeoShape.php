@@ -11,50 +11,50 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\StructuredValue;
  *
  * -------------------------------- Box ---------------------------------------------
  *
- * @property string Box
+ * @property string|string[] box
  *
- * @method string getBox() A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
+ * @method string|string[] getBox() A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
  *
- * @method GeoShape setBox(string $box )A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
+ * @method GeoShape setBox(string $box ) setBox(string[] $box )A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
  *
  *
  * -------------------------------- Circle ---------------------------------------------
  *
- * @property string Circle
+ * @property string|string[] circle
  *
- * @method string getCircle() A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters.
+ * @method string|string[] getCircle() A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters.
  *
- * @method GeoShape setCircle(string $circle )A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters.
+ * @method GeoShape setCircle(string $circle ) setCircle(string[] $circle )A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters.
  *
  *
  * -------------------------------- Elevation ---------------------------------------------
  *
- * @property string|Number Elevation
+ * @property string|string[]|Number|Number[] elevation
  *
- * @method string|Number getElevation() The elevation of a location.
+ * @method string|string[]|Number|Number[] getElevation() The elevation of a location.
  *
- * @method GeoShape setElevation(string $elevation ) setElevation(Number $elevation )The elevation of a location.
+ * @method GeoShape setElevation(string $elevation ) setElevation(string[] $elevation ) setElevation(Number $elevation ) setElevation(Number[] $elevation )The elevation of a location.
  *
  *
  * -------------------------------- Line ---------------------------------------------
  *
- * @property string Line
+ * @property string|string[] line
  *
- * @method string getLine() A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space.
+ * @method string|string[] getLine() A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space.
  *
- * @method GeoShape setLine(string $line )A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space.
+ * @method GeoShape setLine(string $line ) setLine(string[] $line )A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space.
  *
  *
  * -------------------------------- Polygon ---------------------------------------------
  *
- * @property string Polygon
+ * @property string|string[] polygon
  *
- * @method string getPolygon() A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
+ * @method string|string[] getPolygon() A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
  *
- * @method GeoShape setPolygon(string $polygon )A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
+ * @method GeoShape setPolygon(string $polygon ) setPolygon(string[] $polygon )A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more spacedelimited points where the first and final points are identical.
  *
  *
  */
-class GeoShape extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue
-{
-}
+ class GeoShape extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue {
+
+ }

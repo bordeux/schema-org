@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction;
  *
 
  */
-class WantAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction
-{
-}
+ class WantAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction {
+
+ }

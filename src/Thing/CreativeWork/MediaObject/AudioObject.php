@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject;
  *
  * -------------------------------- Transcript ---------------------------------------------
  *
- * @property string Transcript
+ * @property string|string[] transcript
  *
- * @method string getTranscript() If this MediaObject is an AudioObject or VideoObject, the transcript of that object.
+ * @method string|string[] getTranscript() If this MediaObject is an AudioObject or VideoObject, the transcript of that object.
  *
- * @method AudioObject setTranscript(string $transcript )If this MediaObject is an AudioObject or VideoObject, the transcript of that object.
+ * @method AudioObject setTranscript(string $transcript ) setTranscript(string[] $transcript )If this MediaObject is an AudioObject or VideoObject, the transcript of that object.
  *
  *
  */
-class AudioObject extends \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject
-{
-}
+ class AudioObject extends \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject {
+
+ }

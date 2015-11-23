@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\FindAction;
  *
  * -------------------------------- DeliveryMethod ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod DeliveryMethod
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] deliveryMethod
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod getDeliveryMethod() A sub property of instrument. The method of delivery
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] getDeliveryMethod() A sub property of instrument. The method of delivery
  *
- * @method TrackAction setDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod $deliveryMethod )A sub property of instrument. The method of delivery
+ * @method TrackAction setDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod $deliveryMethod ) setDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] $deliveryMethod )A sub property of instrument. The method of delivery
  *
  *
  */
-class TrackAction extends \Bordeux\SchemaOrg\Thing\Action\FindAction
-{
-}
+ class TrackAction extends \Bordeux\SchemaOrg\Thing\Action\FindAction {
+
+ }

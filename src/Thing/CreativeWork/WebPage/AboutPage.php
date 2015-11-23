@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPage;
  *
 
  */
-class AboutPage extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage
-{
-}
+ class AboutPage extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage {
+
+ }

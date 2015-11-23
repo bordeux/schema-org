@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\Landform;
  *
 
  */
-class Continent extends \Bordeux\SchemaOrg\Thing\Place\Landform
-{
-}
+ class Continent extends \Bordeux\SchemaOrg\Thing\Place\Landform {
+
+ }

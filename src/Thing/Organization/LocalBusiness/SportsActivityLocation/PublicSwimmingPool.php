@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocat
  *
 
  */
-class PublicSwimmingPool extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocation
-{
-}
+ class PublicSwimmingPool extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocation {
+
+ }

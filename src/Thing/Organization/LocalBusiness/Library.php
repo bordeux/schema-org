@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  *
 
  */
-class Library extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness
-{
-}
+ class Library extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
+
+ }

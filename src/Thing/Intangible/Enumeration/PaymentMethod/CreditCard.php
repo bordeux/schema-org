@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration\PaymentMethod;
  *
 
  */
-class CreditCard extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\PaymentMethod
-{
-}
+ class CreditCard extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\PaymentMethod {
+
+ }

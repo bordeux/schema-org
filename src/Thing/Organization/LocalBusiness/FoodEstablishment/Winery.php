@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FoodEstablishment;
  *
 
  */
-class Winery extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FoodEstablishment
-{
-}
+ class Winery extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FoodEstablishment {
+
+ }

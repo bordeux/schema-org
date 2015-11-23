@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\Action\TransferAction;
  *
  * -------------------------------- DeliveryMethod ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod DeliveryMethod
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] deliveryMethod
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod getDeliveryMethod() A sub property of instrument. The method of delivery
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] getDeliveryMethod() A sub property of instrument. The method of delivery
  *
- * @method ReceiveAction setDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod $deliveryMethod )A sub property of instrument. The method of delivery
+ * @method ReceiveAction setDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod $deliveryMethod ) setDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] $deliveryMethod )A sub property of instrument. The method of delivery
  *
  *
  * -------------------------------- Sender ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person Sender
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Intangible\Audience[]|\Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] sender
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person getSender() A sub property of participant. The participant who is at the sending end of the action.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Intangible\Audience[]|\Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getSender() A sub property of participant. The participant who is at the sending end of the action.
  *
- * @method ReceiveAction setSender(\Bordeux\SchemaOrg\Thing\Intangible\Audience $sender ) setSender(\Bordeux\SchemaOrg\Thing\Organization $sender ) setSender(\Bordeux\SchemaOrg\Thing\Person $sender )A sub property of participant. The participant who is at the sending end of the action.
+ * @method ReceiveAction setSender(\Bordeux\SchemaOrg\Thing\Intangible\Audience $sender ) setSender(\Bordeux\SchemaOrg\Thing\Intangible\Audience[] $sender ) setSender(\Bordeux\SchemaOrg\Thing\Organization $sender ) setSender(\Bordeux\SchemaOrg\Thing\Organization[] $sender ) setSender(\Bordeux\SchemaOrg\Thing\Person $sender ) setSender(\Bordeux\SchemaOrg\Thing\Person[] $sender )A sub property of participant. The participant who is at the sending end of the action.
  *
  *
  */
-class ReceiveAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction
-{
-}
+ class ReceiveAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction {
+
+ }

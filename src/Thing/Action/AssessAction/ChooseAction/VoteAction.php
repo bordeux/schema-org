@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\AssessAction\ChooseAction;
  *
  * -------------------------------- Candidate ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Person Candidate
+ * @property \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] candidate
  *
- * @method \Bordeux\SchemaOrg\Thing\Person getCandidate() A sub property of object. The candidate subject of this action.
+ * @method \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getCandidate() A sub property of object. The candidate subject of this action.
  *
- * @method VoteAction setCandidate(\Bordeux\SchemaOrg\Thing\Person $candidate )A sub property of object. The candidate subject of this action.
+ * @method VoteAction setCandidate(\Bordeux\SchemaOrg\Thing\Person $candidate ) setCandidate(\Bordeux\SchemaOrg\Thing\Person[] $candidate )A sub property of object. The candidate subject of this action.
  *
  *
  */
-class VoteAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction\ChooseAction
-{
-}
+ class VoteAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction\ChooseAction {
+
+ }

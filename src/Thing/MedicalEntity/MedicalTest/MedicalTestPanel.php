@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest;
  *
  * -------------------------------- SubTest ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest SubTest
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] subTest
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest getSubTest() A component test of the panel.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] getSubTest() A component test of the panel.
  *
- * @method MedicalTestPanel setSubTest(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest $subTest )A component test of the panel.
+ * @method MedicalTestPanel setSubTest(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest $subTest ) setSubTest(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] $subTest )A component test of the panel.
  *
  *
  */
-class MedicalTestPanel extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest
-{
-}
+ class MedicalTestPanel extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest {
+
+ }

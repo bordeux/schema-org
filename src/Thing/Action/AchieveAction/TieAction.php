@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\AchieveAction;
  *
 
  */
-class TieAction extends \Bordeux\SchemaOrg\Thing\Action\AchieveAction
-{
-}
+ class TieAction extends \Bordeux\SchemaOrg\Thing\Action\AchieveAction {
+
+ }

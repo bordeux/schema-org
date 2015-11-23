@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship;
  *
 
  */
-class Synagogue extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship
-{
-}
+ class Synagogue extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship {
+
+ }

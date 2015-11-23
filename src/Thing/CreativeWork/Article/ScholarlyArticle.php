@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Article;
  *
 
  */
-class ScholarlyArticle extends \Bordeux\SchemaOrg\Thing\CreativeWork\Article
-{
-}
+ class ScholarlyArticle extends \Bordeux\SchemaOrg\Thing\CreativeWork\Article {
+
+ }

@@ -11,41 +11,41 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject;
  *
  * -------------------------------- Caption ---------------------------------------------
  *
- * @property string Caption
+ * @property string|string[] caption
  *
- * @method string getCaption() The caption for this object.
+ * @method string|string[] getCaption() The caption for this object.
  *
- * @method ImageObject setCaption(string $caption )The caption for this object.
+ * @method ImageObject setCaption(string $caption ) setCaption(string[] $caption )The caption for this object.
  *
  *
  * -------------------------------- ExifData ---------------------------------------------
  *
- * @property string ExifData
+ * @property string|string[] exifData
  *
- * @method string getExifData() exif data for this object.
+ * @method string|string[] getExifData() exif data for this object.
  *
- * @method ImageObject setExifData(string $exifData )exif data for this object.
+ * @method ImageObject setExifData(string $exifData ) setExifData(string[] $exifData )exif data for this object.
  *
  *
  * -------------------------------- RepresentativeOfPage ---------------------------------------------
  *
- * @property Boolean RepresentativeOfPage
+ * @property Boolean|Boolean[] representativeOfPage
  *
- * @method Boolean getRepresentativeOfPage() Indicates whether this image is representative of the content of the page.
+ * @method Boolean|Boolean[] getRepresentativeOfPage() Indicates whether this image is representative of the content of the page.
  *
- * @method ImageObject setRepresentativeOfPage(Boolean $representativeOfPage )Indicates whether this image is representative of the content of the page.
+ * @method ImageObject setRepresentativeOfPage(Boolean $representativeOfPage ) setRepresentativeOfPage(Boolean[] $representativeOfPage )Indicates whether this image is representative of the content of the page.
  *
  *
  * -------------------------------- Thumbnail ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject Thumbnail
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject[] thumbnail
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject getThumbnail() Thumbnail image for an image or video.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject[] getThumbnail() Thumbnail image for an image or video.
  *
- * @method ImageObject setThumbnail(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject $thumbnail )Thumbnail image for an image or video.
+ * @method ImageObject setThumbnail(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject $thumbnail ) setThumbnail(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject[] $thumbnail )Thumbnail image for an image or video.
  *
  *
  */
-class ImageObject extends \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject
-{
-}
+ class ImageObject extends \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject {
+
+ }

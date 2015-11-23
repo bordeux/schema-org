@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible;
  *
  * -------------------------------- ApplicableLocation ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea ApplicableLocation
+ * @property \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea|\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] applicableLocation
  *
- * @method \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea getApplicableLocation() The location in which the status applies.
+ * @method \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea|\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] getApplicableLocation() The location in which the status applies.
  *
- * @method DrugLegalStatus setApplicableLocation(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea $applicableLocation )The location in which the status applies.
+ * @method DrugLegalStatus setApplicableLocation(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea $applicableLocation ) setApplicableLocation(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] $applicableLocation )The location in which the status applies.
  *
  *
  */
-class DrugLegalStatus extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible
-{
-}
+ class DrugLegalStatus extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible {
+
+ }

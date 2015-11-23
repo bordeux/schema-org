@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Audience;
  *
  * -------------------------------- EducationalRole ---------------------------------------------
  *
- * @property string EducationalRole
+ * @property string|string[] educationalRole
  *
- * @method string getEducationalRole() An educationalRole of an EducationalAudience
+ * @method string|string[] getEducationalRole() An educationalRole of an EducationalAudience
  *
- * @method EducationalAudience setEducationalRole(string $educationalRole )An educationalRole of an EducationalAudience
+ * @method EducationalAudience setEducationalRole(string $educationalRole ) setEducationalRole(string[] $educationalRole )An educationalRole of an EducationalAudience
  *
  *
  */
-class EducationalAudience extends \Bordeux\SchemaOrg\Thing\Intangible\Audience
-{
-}
+ class EducationalAudience extends \Bordeux\SchemaOrg\Thing\Intangible\Audience {
+
+ }

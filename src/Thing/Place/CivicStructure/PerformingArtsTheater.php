@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  *
 
  */
-class PerformingArtsTheater extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure
-{
-}
+ class PerformingArtsTheater extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
+
+ }

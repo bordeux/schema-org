@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
  * -------------------------------- Dataset ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\Dataset Dataset
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\Dataset|\Bordeux\SchemaOrg\Thing\CreativeWork\Dataset[] dataset
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\Dataset getDataset() A dataset contained in a catalog.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\Dataset|\Bordeux\SchemaOrg\Thing\CreativeWork\Dataset[] getDataset() A dataset contained in a catalog.
  *
- * @method DataCatalog setDataset(\Bordeux\SchemaOrg\Thing\CreativeWork\Dataset $dataset )A dataset contained in a catalog.
+ * @method DataCatalog setDataset(\Bordeux\SchemaOrg\Thing\CreativeWork\Dataset $dataset ) setDataset(\Bordeux\SchemaOrg\Thing\CreativeWork\Dataset[] $dataset )A dataset contained in a catalog.
  *
  *
  */
-class DataCatalog extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class DataCatalog extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  *
 
  */
-class HealthAndBeautyBusiness extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness
-{
-}
+ class HealthAndBeautyBusiness extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
+
+ }

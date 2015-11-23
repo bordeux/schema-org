@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPage\CollectionPage;
  *
 
  */
-class ImageGallery extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage\CollectionPage
-{
-}
+ class ImageGallery extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage\CollectionPage {
+
+ }

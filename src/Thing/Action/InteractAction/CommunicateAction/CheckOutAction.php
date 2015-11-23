@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction;
  *
 
  */
-class CheckOutAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction
-{
-}
+ class CheckOutAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction {
+
+ }

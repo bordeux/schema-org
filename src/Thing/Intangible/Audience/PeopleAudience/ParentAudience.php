@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Audience\PeopleAudience;
  *
  * -------------------------------- ChildMaxAge ---------------------------------------------
  *
- * @property Number ChildMaxAge
+ * @property Number|Number[] childMaxAge
  *
- * @method Number getChildMaxAge() Maximal age of the child
+ * @method Number|Number[] getChildMaxAge() Maximal age of the child
  *
- * @method ParentAudience setChildMaxAge(Number $childMaxAge )Maximal age of the child
+ * @method ParentAudience setChildMaxAge(Number $childMaxAge ) setChildMaxAge(Number[] $childMaxAge )Maximal age of the child
  *
  *
  * -------------------------------- ChildMinAge ---------------------------------------------
  *
- * @property Number ChildMinAge
+ * @property Number|Number[] childMinAge
  *
- * @method Number getChildMinAge() Minimal age of the child
+ * @method Number|Number[] getChildMinAge() Minimal age of the child
  *
- * @method ParentAudience setChildMinAge(Number $childMinAge )Minimal age of the child
+ * @method ParentAudience setChildMinAge(Number $childMinAge ) setChildMinAge(Number[] $childMinAge )Minimal age of the child
  *
  *
  */
-class ParentAudience extends \Bordeux\SchemaOrg\Thing\Intangible\Audience\PeopleAudience
-{
-}
+ class ParentAudience extends \Bordeux\SchemaOrg\Thing\Intangible\Audience\PeopleAudience {
+
+ }

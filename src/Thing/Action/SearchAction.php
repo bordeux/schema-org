@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action;
  *
  * -------------------------------- Query ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Class|string Query
+ * @property \Bordeux\SchemaOrg\Thing\Class|\Bordeux\SchemaOrg\Thing\Class[]|string|string[] query
  *
- * @method \Bordeux\SchemaOrg\Thing\Class|string getQuery() A sub property of instrument. The query used on this action.
+ * @method \Bordeux\SchemaOrg\Thing\Class|\Bordeux\SchemaOrg\Thing\Class[]|string|string[] getQuery() A sub property of instrument. The query used on this action.
  *
- * @method SearchAction setQuery(\Bordeux\SchemaOrg\Thing\Class $query ) setQuery(string $query )A sub property of instrument. The query used on this action.
+ * @method SearchAction setQuery(\Bordeux\SchemaOrg\Thing\Class $query ) setQuery(\Bordeux\SchemaOrg\Thing\Class[] $query ) setQuery(string $query ) setQuery(string[] $query )A sub property of instrument. The query used on this action.
  *
  *
  */
-class SearchAction extends \Bordeux\SchemaOrg\Thing\Action
-{
-}
+ class SearchAction extends \Bordeux\SchemaOrg\Thing\Action {
+
+ }

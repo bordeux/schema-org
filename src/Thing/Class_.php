@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing;
  *
 
  */
-class Class_ extends \Bordeux\SchemaOrg\Thing
-{
-}
+ class Class_ extends \Bordeux\SchemaOrg\Thing {
+
+ }

@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\TransferAction;
  *
  * -------------------------------- Lender ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Person Lender
+ * @property \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] lender
  *
- * @method \Bordeux\SchemaOrg\Thing\Person getLender() A sub property of participant. The person that lends the object being borrowed.
+ * @method \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getLender() A sub property of participant. The person that lends the object being borrowed.
  *
- * @method BorrowAction setLender(\Bordeux\SchemaOrg\Thing\Person $lender )A sub property of participant. The person that lends the object being borrowed.
+ * @method BorrowAction setLender(\Bordeux\SchemaOrg\Thing\Person $lender ) setLender(\Bordeux\SchemaOrg\Thing\Person[] $lender )A sub property of participant. The person that lends the object being borrowed.
  *
  *
  */
-class BorrowAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction
-{
-}
+ class BorrowAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction {
+
+ }

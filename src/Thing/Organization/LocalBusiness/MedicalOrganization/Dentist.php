@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
  *
 
  */
-class Dentist extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
-{
-}
+ class Dentist extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization {
+
+ }

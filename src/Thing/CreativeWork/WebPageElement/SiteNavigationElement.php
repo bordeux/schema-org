@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement;
  *
 
  */
-class SiteNavigationElement extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement
-{
-}
+ class SiteNavigationElement extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement {
+
+ }

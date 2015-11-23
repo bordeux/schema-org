@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusine
  *
 
  */
-class AmusementPark extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness
-{
-}
+ class AmusementPark extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness {
+
+ }

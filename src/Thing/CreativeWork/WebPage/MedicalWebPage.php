@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPage;
  *
  * -------------------------------- Aspect ---------------------------------------------
  *
- * @property string Aspect
+ * @property string|string[] aspect
  *
- * @method string getAspect() An aspect of medical practice that is considered on the page, such as 'diagnosis', 'treatment', 'causes', 'prognosis', 'etiology', 'epidemiology', etc.
+ * @method string|string[] getAspect() An aspect of medical practice that is considered on the page, such as 'diagnosis', 'treatment', 'causes', 'prognosis', 'etiology', 'epidemiology', etc.
  *
- * @method MedicalWebPage setAspect(string $aspect )An aspect of medical practice that is considered on the page, such as 'diagnosis', 'treatment', 'causes', 'prognosis', 'etiology', 'epidemiology', etc.
+ * @method MedicalWebPage setAspect(string $aspect ) setAspect(string[] $aspect )An aspect of medical practice that is considered on the page, such as 'diagnosis', 'treatment', 'causes', 'prognosis', 'etiology', 'epidemiology', etc.
  *
  *
  */
-class MedicalWebPage extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage
-{
-}
+ class MedicalWebPage extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage {
+
+ }

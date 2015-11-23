@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\ConsumeAction;
  *
 
  */
-class InstallAction extends \Bordeux\SchemaOrg\Thing\Action\ConsumeAction
-{
-}
+ class InstallAction extends \Bordeux\SchemaOrg\Thing\Action\ConsumeAction {
+
+ }

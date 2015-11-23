@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction;
  *
  * -------------------------------- Event ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Event Event
+ * @property \Bordeux\SchemaOrg\Thing\Event|\Bordeux\SchemaOrg\Thing\Event[] event
  *
- * @method \Bordeux\SchemaOrg\Thing\Event getEvent() Upcoming or past event associated with this place or organization.
+ * @method \Bordeux\SchemaOrg\Thing\Event|\Bordeux\SchemaOrg\Thing\Event[] getEvent() Upcoming or past event associated with this place or organization.
  *
- * @method JoinAction setEvent(\Bordeux\SchemaOrg\Thing\Event $event )Upcoming or past event associated with this place or organization.
+ * @method JoinAction setEvent(\Bordeux\SchemaOrg\Thing\Event $event ) setEvent(\Bordeux\SchemaOrg\Thing\Event[] $event )Upcoming or past event associated with this place or organization.
  *
  *
  */
-class JoinAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction
-{
-}
+ class JoinAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction {
+
+ }

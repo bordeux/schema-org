@@ -11,493 +11,493 @@ namespace Bordeux\SchemaOrg\Thing;
  *
  * -------------------------------- About ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing About
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] about
  *
- * @method \Bordeux\SchemaOrg\Thing getAbout() The subject matter of the content.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] getAbout() The subject matter of the content.
  *
- * @method CreativeWork setAbout(\Bordeux\SchemaOrg\Thing $about )The subject matter of the content.
+ * @method CreativeWork setAbout(\Bordeux\SchemaOrg\\Thing $about ) setAbout(\Bordeux\SchemaOrg\\Thing[] $about )The subject matter of the content.
  *
  *
  * -------------------------------- AccessibilityAPI ---------------------------------------------
  *
- * @property string AccessibilityAPI
+ * @property string|string[] accessibilityAPI
  *
- * @method string getAccessibilityAPI() Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values).
+ * @method string|string[] getAccessibilityAPI() Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values).
      
  *
- * @method CreativeWork setAccessibilityAPI(string $accessibilityAPI )Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values).
+ * @method CreativeWork setAccessibilityAPI(string $accessibilityAPI ) setAccessibilityAPI(string[] $accessibilityAPI )Indicates that the resource is compatible with the referenced accessibility API (WebSchemas wiki lists possible values).
      
  *
  *
  * -------------------------------- AccessibilityControl ---------------------------------------------
  *
- * @property string AccessibilityControl
+ * @property string|string[] accessibilityControl
  *
- * @method string getAccessibilityControl() Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values).
+ * @method string|string[] getAccessibilityControl() Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values).
  *
- * @method CreativeWork setAccessibilityControl(string $accessibilityControl )Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values).
+ * @method CreativeWork setAccessibilityControl(string $accessibilityControl ) setAccessibilityControl(string[] $accessibilityControl )Identifies input methods that are sufficient to fully control the described resource (WebSchemas wiki lists possible values).
  *
  *
  * -------------------------------- AccessibilityFeature ---------------------------------------------
  *
- * @property string AccessibilityFeature
+ * @property string|string[] accessibilityFeature
  *
- * @method string getAccessibilityFeature() Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values).
+ * @method string|string[] getAccessibilityFeature() Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values).
  *
- * @method CreativeWork setAccessibilityFeature(string $accessibilityFeature )Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values).
+ * @method CreativeWork setAccessibilityFeature(string $accessibilityFeature ) setAccessibilityFeature(string[] $accessibilityFeature )Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (WebSchemas wiki lists possible values).
  *
  *
  * -------------------------------- AccessibilityHazard ---------------------------------------------
  *
- * @property string AccessibilityHazard
+ * @property string|string[] accessibilityHazard
  *
- * @method string getAccessibilityHazard() A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3. (WebSchemas wiki lists possible values)
+ * @method string|string[] getAccessibilityHazard() A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3. (WebSchemas wiki lists possible values)
  *
- * @method CreativeWork setAccessibilityHazard(string $accessibilityHazard )A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3. (WebSchemas wiki lists possible values)
+ * @method CreativeWork setAccessibilityHazard(string $accessibilityHazard ) setAccessibilityHazard(string[] $accessibilityHazard )A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3. (WebSchemas wiki lists possible values)
  *
  *
  * -------------------------------- AccountablePerson ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Person AccountablePerson
+ * @property \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] accountablePerson
  *
- * @method \Bordeux\SchemaOrg\Thing\Person getAccountablePerson() Specifies the Person that is legally accountable for the CreativeWork.
+ * @method \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getAccountablePerson() Specifies the Person that is legally accountable for the CreativeWork.
  *
- * @method CreativeWork setAccountablePerson(\Bordeux\SchemaOrg\Thing\Person $accountablePerson )Specifies the Person that is legally accountable for the CreativeWork.
+ * @method CreativeWork setAccountablePerson(\Bordeux\SchemaOrg\Thing\Person $accountablePerson ) setAccountablePerson(\Bordeux\SchemaOrg\Thing\Person[] $accountablePerson )Specifies the Person that is legally accountable for the CreativeWork.
  *
  *
  * -------------------------------- AggregateRating ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Rating\AggregateRating AggregateRating
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Rating\AggregateRating|\Bordeux\SchemaOrg\Thing\Intangible\Rating\AggregateRating[] aggregateRating
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Rating\AggregateRating getAggregateRating() The overall rating, based on a collection of reviews or ratings, of the item.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Rating\AggregateRating|\Bordeux\SchemaOrg\Thing\Intangible\Rating\AggregateRating[] getAggregateRating() The overall rating, based on a collection of reviews or ratings, of the item.
  *
- * @method CreativeWork setAggregateRating(\Bordeux\SchemaOrg\Thing\Intangible\Rating\AggregateRating $aggregateRating )The overall rating, based on a collection of reviews or ratings, of the item.
+ * @method CreativeWork setAggregateRating(\Bordeux\SchemaOrg\Thing\Intangible\Rating\AggregateRating $aggregateRating ) setAggregateRating(\Bordeux\SchemaOrg\Thing\Intangible\Rating\AggregateRating[] $aggregateRating )The overall rating, based on a collection of reviews or ratings, of the item.
  *
  *
  * -------------------------------- AlternativeHeadline ---------------------------------------------
  *
- * @property string AlternativeHeadline
+ * @property string|string[] alternativeHeadline
  *
- * @method string getAlternativeHeadline() A secondary title of the CreativeWork.
+ * @method string|string[] getAlternativeHeadline() A secondary title of the CreativeWork.
  *
- * @method CreativeWork setAlternativeHeadline(string $alternativeHeadline )A secondary title of the CreativeWork.
+ * @method CreativeWork setAlternativeHeadline(string $alternativeHeadline ) setAlternativeHeadline(string[] $alternativeHeadline )A secondary title of the CreativeWork.
  *
  *
  * -------------------------------- AssociatedMedia ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject AssociatedMedia
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject[] associatedMedia
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject getAssociatedMedia() The media objects that encode this creative work. This property is a synonym for encodings.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject[] getAssociatedMedia() The media objects that encode this creative work. This property is a synonym for encodings.
  *
- * @method CreativeWork setAssociatedMedia(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject $associatedMedia )The media objects that encode this creative work. This property is a synonym for encodings.
+ * @method CreativeWork setAssociatedMedia(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject $associatedMedia ) setAssociatedMedia(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject[] $associatedMedia )The media objects that encode this creative work. This property is a synonym for encodings.
  *
  *
  * -------------------------------- Audience ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Audience Audience
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Intangible\Audience[] audience
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Audience getAudience() The intended audience of the item, i.e. the group for whom the item was created.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Audience|\Bordeux\SchemaOrg\Thing\Intangible\Audience[] getAudience() The intended audience of the item, i.e. the group for whom the item was created.
  *
- * @method CreativeWork setAudience(\Bordeux\SchemaOrg\Thing\Intangible\Audience $audience )The intended audience of the item, i.e. the group for whom the item was created.
+ * @method CreativeWork setAudience(\Bordeux\SchemaOrg\Thing\Intangible\Audience $audience ) setAudience(\Bordeux\SchemaOrg\Thing\Intangible\Audience[] $audience )The intended audience of the item, i.e. the group for whom the item was created.
  *
  *
  * -------------------------------- Audio ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\AudioObject Audio
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\AudioObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\AudioObject[] audio
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\AudioObject getAudio() An embedded audio object.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\AudioObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\AudioObject[] getAudio() An embedded audio object.
  *
- * @method CreativeWork setAudio(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\AudioObject $audio )An embedded audio object.
+ * @method CreativeWork setAudio(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\AudioObject $audio ) setAudio(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\AudioObject[] $audio )An embedded audio object.
  *
  *
  * -------------------------------- Author ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person Author
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] author
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person getAuthor() The author of this content. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getAuthor() The author of this content. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.
  *
- * @method CreativeWork setAuthor(\Bordeux\SchemaOrg\Thing\Organization $author ) setAuthor(\Bordeux\SchemaOrg\Thing\Person $author )The author of this content. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.
+ * @method CreativeWork setAuthor(\Bordeux\SchemaOrg\Thing\Organization $author ) setAuthor(\Bordeux\SchemaOrg\Thing\Organization[] $author ) setAuthor(\Bordeux\SchemaOrg\Thing\Person $author ) setAuthor(\Bordeux\SchemaOrg\Thing\Person[] $author )The author of this content. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.
  *
  *
  * -------------------------------- Award ---------------------------------------------
  *
- * @property string Award
+ * @property string|string[] award
  *
- * @method string getAward() An award won by this person or for this creative work.
+ * @method string|string[] getAward() An award won by this person or for this creative work.
  *
- * @method CreativeWork setAward(string $award )An award won by this person or for this creative work.
+ * @method CreativeWork setAward(string $award ) setAward(string[] $award )An award won by this person or for this creative work.
  *
  *
  * -------------------------------- Awards ---------------------------------------------
  *
- * @property string Awards
+ * @property string|string[] awards
  *
- * @method string getAwards() Awards won by this person or for this creative work. (legacy spelling; see singular form, award)
+ * @method string|string[] getAwards() Awards won by this person or for this creative work. (legacy spelling; see singular form, award)
  *
- * @method CreativeWork setAwards(string $awards )Awards won by this person or for this creative work. (legacy spelling; see singular form, award)
+ * @method CreativeWork setAwards(string $awards ) setAwards(string[] $awards )Awards won by this person or for this creative work. (legacy spelling; see singular form, award)
  *
  *
  * -------------------------------- Citation ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork|string Citation
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork|\Bordeux\SchemaOrg\Thing\CreativeWork[]|string|string[] citation
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork|string getCitation() A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork|\Bordeux\SchemaOrg\Thing\CreativeWork[]|string|string[] getCitation() A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.
  *
- * @method CreativeWork setCitation(\Bordeux\SchemaOrg\Thing\CreativeWork $citation ) setCitation(string $citation )A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.
+ * @method CreativeWork setCitation(\Bordeux\SchemaOrg\Thing\CreativeWork $citation ) setCitation(\Bordeux\SchemaOrg\Thing\CreativeWork[] $citation ) setCitation(string $citation ) setCitation(string[] $citation )A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.
  *
  *
  * -------------------------------- Comment ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Event\UserInteraction\UserComments Comment
+ * @property \Bordeux\SchemaOrg\Thing\Event\UserInteraction\UserComments|\Bordeux\SchemaOrg\Thing\Event\UserInteraction\UserComments[] comment
  *
- * @method \Bordeux\SchemaOrg\Thing\Event\UserInteraction\UserComments getComment() Comments, typically from users, on this CreativeWork.
+ * @method \Bordeux\SchemaOrg\Thing\Event\UserInteraction\UserComments|\Bordeux\SchemaOrg\Thing\Event\UserInteraction\UserComments[] getComment() Comments, typically from users, on this CreativeWork.
  *
- * @method CreativeWork setComment(\Bordeux\SchemaOrg\Thing\Event\UserInteraction\UserComments $comment )Comments, typically from users, on this CreativeWork.
+ * @method CreativeWork setComment(\Bordeux\SchemaOrg\Thing\Event\UserInteraction\UserComments $comment ) setComment(\Bordeux\SchemaOrg\Thing\Event\UserInteraction\UserComments[] $comment )Comments, typically from users, on this CreativeWork.
  *
  *
  * -------------------------------- ContentLocation ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Place ContentLocation
+ * @property \Bordeux\SchemaOrg\Thing\Place|\Bordeux\SchemaOrg\Thing\Place[] contentLocation
  *
- * @method \Bordeux\SchemaOrg\Thing\Place getContentLocation() The location of the content.
+ * @method \Bordeux\SchemaOrg\Thing\Place|\Bordeux\SchemaOrg\Thing\Place[] getContentLocation() The location of the content.
  *
- * @method CreativeWork setContentLocation(\Bordeux\SchemaOrg\Thing\Place $contentLocation )The location of the content.
+ * @method CreativeWork setContentLocation(\Bordeux\SchemaOrg\Thing\Place $contentLocation ) setContentLocation(\Bordeux\SchemaOrg\Thing\Place[] $contentLocation )The location of the content.
  *
  *
  * -------------------------------- ContentRating ---------------------------------------------
  *
- * @property string ContentRating
+ * @property string|string[] contentRating
  *
- * @method string getContentRating() Official rating of a piece of content—for example,'MPAA PG-13'.
+ * @method string|string[] getContentRating() Official rating of a piece of content—for example,'MPAA PG-13'.
  *
- * @method CreativeWork setContentRating(string $contentRating )Official rating of a piece of content—for example,'MPAA PG-13'.
+ * @method CreativeWork setContentRating(string $contentRating ) setContentRating(string[] $contentRating )Official rating of a piece of content—for example,'MPAA PG-13'.
  *
  *
  * -------------------------------- Contributor ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person Contributor
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] contributor
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person getContributor() A secondary contributor to the CreativeWork.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getContributor() A secondary contributor to the CreativeWork.
  *
- * @method CreativeWork setContributor(\Bordeux\SchemaOrg\Thing\Organization $contributor ) setContributor(\Bordeux\SchemaOrg\Thing\Person $contributor )A secondary contributor to the CreativeWork.
+ * @method CreativeWork setContributor(\Bordeux\SchemaOrg\Thing\Organization $contributor ) setContributor(\Bordeux\SchemaOrg\Thing\Organization[] $contributor ) setContributor(\Bordeux\SchemaOrg\Thing\Person $contributor ) setContributor(\Bordeux\SchemaOrg\Thing\Person[] $contributor )A secondary contributor to the CreativeWork.
  *
  *
  * -------------------------------- CopyrightHolder ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person CopyrightHolder
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] copyrightHolder
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person getCopyrightHolder() The party holding the legal copyright to the CreativeWork.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getCopyrightHolder() The party holding the legal copyright to the CreativeWork.
  *
- * @method CreativeWork setCopyrightHolder(\Bordeux\SchemaOrg\Thing\Organization $copyrightHolder ) setCopyrightHolder(\Bordeux\SchemaOrg\Thing\Person $copyrightHolder )The party holding the legal copyright to the CreativeWork.
+ * @method CreativeWork setCopyrightHolder(\Bordeux\SchemaOrg\Thing\Organization $copyrightHolder ) setCopyrightHolder(\Bordeux\SchemaOrg\Thing\Organization[] $copyrightHolder ) setCopyrightHolder(\Bordeux\SchemaOrg\Thing\Person $copyrightHolder ) setCopyrightHolder(\Bordeux\SchemaOrg\Thing\Person[] $copyrightHolder )The party holding the legal copyright to the CreativeWork.
  *
  *
  * -------------------------------- CopyrightYear ---------------------------------------------
  *
- * @property Number CopyrightYear
+ * @property Number|Number[] copyrightYear
  *
- * @method Number getCopyrightYear() The year during which the claimed copyright for the CreativeWork was first asserted.
+ * @method Number|Number[] getCopyrightYear() The year during which the claimed copyright for the CreativeWork was first asserted.
  *
- * @method CreativeWork setCopyrightYear(Number $copyrightYear )The year during which the claimed copyright for the CreativeWork was first asserted.
+ * @method CreativeWork setCopyrightYear(Number $copyrightYear ) setCopyrightYear(Number[] $copyrightYear )The year during which the claimed copyright for the CreativeWork was first asserted.
  *
  *
  * -------------------------------- Creator ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person Creator
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] creator
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person getCreator() The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getCreator() The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
  *
- * @method CreativeWork setCreator(\Bordeux\SchemaOrg\Thing\Organization $creator ) setCreator(\Bordeux\SchemaOrg\Thing\Person $creator )The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
+ * @method CreativeWork setCreator(\Bordeux\SchemaOrg\Thing\Organization $creator ) setCreator(\Bordeux\SchemaOrg\Thing\Organization[] $creator ) setCreator(\Bordeux\SchemaOrg\Thing\Person $creator ) setCreator(\Bordeux\SchemaOrg\Thing\Person[] $creator )The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
  *
  *
  * -------------------------------- DateCreated ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\SchemaDateTime DateCreated
+ * @property \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] dateCreated
  *
- * @method \Bordeux\SchemaOrg\SchemaDateTime getDateCreated() The date on which the CreativeWork was created.
+ * @method \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] getDateCreated() The date on which the CreativeWork was created.
  *
- * @method CreativeWork setDateCreated(\Bordeux\SchemaOrg\SchemaDateTime $dateCreated )The date on which the CreativeWork was created.
+ * @method CreativeWork setDateCreated(\Bordeux\SchemaOrg\SchemaDateTime $dateCreated ) setDateCreated(\Bordeux\SchemaOrg\SchemaDateTime[] $dateCreated )The date on which the CreativeWork was created.
  *
  *
  * -------------------------------- DateModified ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\SchemaDateTime DateModified
+ * @property \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] dateModified
  *
- * @method \Bordeux\SchemaOrg\SchemaDateTime getDateModified() The date on which the CreativeWork was most recently modified.
+ * @method \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] getDateModified() The date on which the CreativeWork was most recently modified.
  *
- * @method CreativeWork setDateModified(\Bordeux\SchemaOrg\SchemaDateTime $dateModified )The date on which the CreativeWork was most recently modified.
+ * @method CreativeWork setDateModified(\Bordeux\SchemaOrg\SchemaDateTime $dateModified ) setDateModified(\Bordeux\SchemaOrg\SchemaDateTime[] $dateModified )The date on which the CreativeWork was most recently modified.
  *
  *
  * -------------------------------- DatePublished ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\SchemaDateTime DatePublished
+ * @property \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] datePublished
  *
- * @method \Bordeux\SchemaOrg\SchemaDateTime getDatePublished() Date of first broadcast/publication.
+ * @method \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] getDatePublished() Date of first broadcast/publication.
  *
- * @method CreativeWork setDatePublished(\Bordeux\SchemaOrg\SchemaDateTime $datePublished )Date of first broadcast/publication.
+ * @method CreativeWork setDatePublished(\Bordeux\SchemaOrg\SchemaDateTime $datePublished ) setDatePublished(\Bordeux\SchemaOrg\SchemaDateTime[] $datePublished )Date of first broadcast/publication.
  *
  *
  * -------------------------------- DiscussionUrl ---------------------------------------------
  *
- * @property string DiscussionUrl
+ * @property string|string[] discussionUrl
  *
- * @method string getDiscussionUrl() A link to the page containing the comments of the CreativeWork.
+ * @method string|string[] getDiscussionUrl() A link to the page containing the comments of the CreativeWork.
  *
- * @method CreativeWork setDiscussionUrl(string $discussionUrl )A link to the page containing the comments of the CreativeWork.
+ * @method CreativeWork setDiscussionUrl(string $discussionUrl ) setDiscussionUrl(string[] $discussionUrl )A link to the page containing the comments of the CreativeWork.
  *
  *
  * -------------------------------- Editor ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Person Editor
+ * @property \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] editor
  *
- * @method \Bordeux\SchemaOrg\Thing\Person getEditor() Specifies the Person who edited the CreativeWork.
+ * @method \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getEditor() Specifies the Person who edited the CreativeWork.
  *
- * @method CreativeWork setEditor(\Bordeux\SchemaOrg\Thing\Person $editor )Specifies the Person who edited the CreativeWork.
+ * @method CreativeWork setEditor(\Bordeux\SchemaOrg\Thing\Person $editor ) setEditor(\Bordeux\SchemaOrg\Thing\Person[] $editor )Specifies the Person who edited the CreativeWork.
  *
  *
  * -------------------------------- EducationalAlignment ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\AlignmentObject EducationalAlignment
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\AlignmentObject|\Bordeux\SchemaOrg\Thing\Intangible\AlignmentObject[] educationalAlignment
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\AlignmentObject getEducationalAlignment() An alignment to an established educational framework.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\AlignmentObject|\Bordeux\SchemaOrg\Thing\Intangible\AlignmentObject[] getEducationalAlignment() An alignment to an established educational framework.
  *
- * @method CreativeWork setEducationalAlignment(\Bordeux\SchemaOrg\Thing\Intangible\AlignmentObject $educationalAlignment )An alignment to an established educational framework.
+ * @method CreativeWork setEducationalAlignment(\Bordeux\SchemaOrg\Thing\Intangible\AlignmentObject $educationalAlignment ) setEducationalAlignment(\Bordeux\SchemaOrg\Thing\Intangible\AlignmentObject[] $educationalAlignment )An alignment to an established educational framework.
  *
  *
  * -------------------------------- EducationalUse ---------------------------------------------
  *
- * @property string EducationalUse
+ * @property string|string[] educationalUse
  *
- * @method string getEducationalUse() The purpose of a work in the context of education; for example, 'assignment', 'group work'.
+ * @method string|string[] getEducationalUse() The purpose of a work in the context of education; for example, 'assignment', 'group work'.
  *
- * @method CreativeWork setEducationalUse(string $educationalUse )The purpose of a work in the context of education; for example, 'assignment', 'group work'.
+ * @method CreativeWork setEducationalUse(string $educationalUse ) setEducationalUse(string[] $educationalUse )The purpose of a work in the context of education; for example, 'assignment', 'group work'.
  *
  *
  * -------------------------------- Encoding ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject Encoding
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject[] encoding
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject getEncoding() A media object that encode this CreativeWork.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject[] getEncoding() A media object that encode this CreativeWork.
  *
- * @method CreativeWork setEncoding(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject $encoding )A media object that encode this CreativeWork.
+ * @method CreativeWork setEncoding(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject $encoding ) setEncoding(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject[] $encoding )A media object that encode this CreativeWork.
  *
  *
  * -------------------------------- Encodings ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject Encodings
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject[] encodings
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject getEncodings() The media objects that encode this creative work (legacy spelling; see singular form, encoding).
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject[] getEncodings() The media objects that encode this creative work (legacy spelling; see singular form, encoding).
  *
- * @method CreativeWork setEncodings(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject $encodings )The media objects that encode this creative work (legacy spelling; see singular form, encoding).
+ * @method CreativeWork setEncodings(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject $encodings ) setEncodings(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject[] $encodings )The media objects that encode this creative work (legacy spelling; see singular form, encoding).
  *
  *
  * -------------------------------- Genre ---------------------------------------------
  *
- * @property string Genre
+ * @property string|string[] genre
  *
- * @method string getGenre() Genre of the creative work
+ * @method string|string[] getGenre() Genre of the creative work
  *
- * @method CreativeWork setGenre(string $genre )Genre of the creative work
+ * @method CreativeWork setGenre(string $genre ) setGenre(string[] $genre )Genre of the creative work
  *
  *
  * -------------------------------- Headline ---------------------------------------------
  *
- * @property string Headline
+ * @property string|string[] headline
  *
- * @method string getHeadline() Headline of the article
+ * @method string|string[] getHeadline() Headline of the article
  *
- * @method CreativeWork setHeadline(string $headline )Headline of the article
+ * @method CreativeWork setHeadline(string $headline ) setHeadline(string[] $headline )Headline of the article
  *
  *
  * -------------------------------- InLanguage ---------------------------------------------
  *
- * @property string InLanguage
+ * @property string|string[] inLanguage
  *
- * @method string getInLanguage() The language of the content. please use one of the language codes from the IETF BCP 47 standard.
+ * @method string|string[] getInLanguage() The language of the content. please use one of the language codes from the IETF BCP 47 standard.
  *
- * @method CreativeWork setInLanguage(string $inLanguage )The language of the content. please use one of the language codes from the IETF BCP 47 standard.
+ * @method CreativeWork setInLanguage(string $inLanguage ) setInLanguage(string[] $inLanguage )The language of the content. please use one of the language codes from the IETF BCP 47 standard.
  *
  *
  * -------------------------------- InteractionCount ---------------------------------------------
  *
- * @property string InteractionCount
+ * @property string|string[] interactionCount
  *
- * @method string getInteractionCount() A count of a specific user interactions with this item—for example, 20 UserLikes, 5 UserComments, or 300 UserDownloads. The user interaction type should be one of the sub types of UserInteraction.
+ * @method string|string[] getInteractionCount() A count of a specific user interactions with this item—for example, 20 UserLikes, 5 UserComments, or 300 UserDownloads. The user interaction type should be one of the sub types of UserInteraction.
  *
- * @method CreativeWork setInteractionCount(string $interactionCount )A count of a specific user interactions with this item—for example, 20 UserLikes, 5 UserComments, or 300 UserDownloads. The user interaction type should be one of the sub types of UserInteraction.
+ * @method CreativeWork setInteractionCount(string $interactionCount ) setInteractionCount(string[] $interactionCount )A count of a specific user interactions with this item—for example, 20 UserLikes, 5 UserComments, or 300 UserDownloads. The user interaction type should be one of the sub types of UserInteraction.
  *
  *
  * -------------------------------- InteractivityType ---------------------------------------------
  *
- * @property string InteractivityType
+ * @property string|string[] interactivityType
  *
- * @method string getInteractivityType() The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.
+ * @method string|string[] getInteractivityType() The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.
  *
- * @method CreativeWork setInteractivityType(string $interactivityType )The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.
+ * @method CreativeWork setInteractivityType(string $interactivityType ) setInteractivityType(string[] $interactivityType )The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'.
  *
  *
  * -------------------------------- IsBasedOnUrl ---------------------------------------------
  *
- * @property string IsBasedOnUrl
+ * @property string|string[] isBasedOnUrl
  *
- * @method string getIsBasedOnUrl() A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html
+ * @method string|string[] getIsBasedOnUrl() A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html
  *
- * @method CreativeWork setIsBasedOnUrl(string $isBasedOnUrl )A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html
+ * @method CreativeWork setIsBasedOnUrl(string $isBasedOnUrl ) setIsBasedOnUrl(string[] $isBasedOnUrl )A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html
  *
  *
  * -------------------------------- IsFamilyFriendly ---------------------------------------------
  *
- * @property Boolean IsFamilyFriendly
+ * @property Boolean|Boolean[] isFamilyFriendly
  *
- * @method Boolean getIsFamilyFriendly() Indicates whether this content is family friendly.
+ * @method Boolean|Boolean[] getIsFamilyFriendly() Indicates whether this content is family friendly.
  *
- * @method CreativeWork setIsFamilyFriendly(Boolean $isFamilyFriendly )Indicates whether this content is family friendly.
+ * @method CreativeWork setIsFamilyFriendly(Boolean $isFamilyFriendly ) setIsFamilyFriendly(Boolean[] $isFamilyFriendly )Indicates whether this content is family friendly.
  *
  *
  * -------------------------------- Keywords ---------------------------------------------
  *
- * @property string Keywords
+ * @property string|string[] keywords
  *
- * @method string getKeywords() The keywords/tags used to describe this content.
+ * @method string|string[] getKeywords() The keywords/tags used to describe this content.
  *
- * @method CreativeWork setKeywords(string $keywords )The keywords/tags used to describe this content.
+ * @method CreativeWork setKeywords(string $keywords ) setKeywords(string[] $keywords )The keywords/tags used to describe this content.
  *
  *
  * -------------------------------- LearningResourceType ---------------------------------------------
  *
- * @property string LearningResourceType
+ * @property string|string[] learningResourceType
  *
- * @method string getLearningResourceType() The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.
+ * @method string|string[] getLearningResourceType() The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.
  *
- * @method CreativeWork setLearningResourceType(string $learningResourceType )The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.
+ * @method CreativeWork setLearningResourceType(string $learningResourceType ) setLearningResourceType(string[] $learningResourceType )The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'.
  *
  *
  * -------------------------------- Mentions ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing Mentions
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] mentions
  *
- * @method \Bordeux\SchemaOrg\Thing getMentions() Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] getMentions() Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept.
  *
- * @method CreativeWork setMentions(\Bordeux\SchemaOrg\Thing $mentions )Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept.
+ * @method CreativeWork setMentions(\Bordeux\SchemaOrg\\Thing $mentions ) setMentions(\Bordeux\SchemaOrg\\Thing[] $mentions )Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept.
  *
  *
  * -------------------------------- Offers ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Offer Offers
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Offer|\Bordeux\SchemaOrg\Thing\Intangible\Offer[] offers
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Offer getOffers() An offer to transfer some rights to an item or to provide a service—for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Offer|\Bordeux\SchemaOrg\Thing\Intangible\Offer[] getOffers() An offer to transfer some rights to an item or to provide a service—for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.
  *
- * @method CreativeWork setOffers(\Bordeux\SchemaOrg\Thing\Intangible\Offer $offers )An offer to transfer some rights to an item or to provide a service—for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.
+ * @method CreativeWork setOffers(\Bordeux\SchemaOrg\Thing\Intangible\Offer $offers ) setOffers(\Bordeux\SchemaOrg\Thing\Intangible\Offer[] $offers )An offer to transfer some rights to an item or to provide a service—for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.
  *
  *
  * -------------------------------- Provider ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person Provider
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] provider
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person getProvider() The organization or agency that is providing the service.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getProvider() The organization or agency that is providing the service.
  *
- * @method CreativeWork setProvider(\Bordeux\SchemaOrg\Thing\Organization $provider ) setProvider(\Bordeux\SchemaOrg\Thing\Person $provider )The organization or agency that is providing the service.
+ * @method CreativeWork setProvider(\Bordeux\SchemaOrg\Thing\Organization $provider ) setProvider(\Bordeux\SchemaOrg\Thing\Organization[] $provider ) setProvider(\Bordeux\SchemaOrg\Thing\Person $provider ) setProvider(\Bordeux\SchemaOrg\Thing\Person[] $provider )The organization or agency that is providing the service.
  *
  *
  * -------------------------------- Publisher ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization Publisher
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[] publisher
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization getPublisher() The publisher of the creative work.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[] getPublisher() The publisher of the creative work.
  *
- * @method CreativeWork setPublisher(\Bordeux\SchemaOrg\Thing\Organization $publisher )The publisher of the creative work.
+ * @method CreativeWork setPublisher(\Bordeux\SchemaOrg\Thing\Organization $publisher ) setPublisher(\Bordeux\SchemaOrg\Thing\Organization[] $publisher )The publisher of the creative work.
  *
  *
  * -------------------------------- PublishingPrinciples ---------------------------------------------
  *
- * @property string PublishingPrinciples
+ * @property string|string[] publishingPrinciples
  *
- * @method string getPublishingPrinciples() Link to page describing the editorial principles of the organization primarily responsible for the creation of the CreativeWork.
+ * @method string|string[] getPublishingPrinciples() Link to page describing the editorial principles of the organization primarily responsible for the creation of the CreativeWork.
  *
- * @method CreativeWork setPublishingPrinciples(string $publishingPrinciples )Link to page describing the editorial principles of the organization primarily responsible for the creation of the CreativeWork.
+ * @method CreativeWork setPublishingPrinciples(string $publishingPrinciples ) setPublishingPrinciples(string[] $publishingPrinciples )Link to page describing the editorial principles of the organization primarily responsible for the creation of the CreativeWork.
  *
  *
  * -------------------------------- Review ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\Review Review
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\Review|\Bordeux\SchemaOrg\Thing\CreativeWork\Review[] review
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\Review getReview() A review of the item.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\Review|\Bordeux\SchemaOrg\Thing\CreativeWork\Review[] getReview() A review of the item.
  *
- * @method CreativeWork setReview(\Bordeux\SchemaOrg\Thing\CreativeWork\Review $review )A review of the item.
+ * @method CreativeWork setReview(\Bordeux\SchemaOrg\Thing\CreativeWork\Review $review ) setReview(\Bordeux\SchemaOrg\Thing\CreativeWork\Review[] $review )A review of the item.
  *
  *
  * -------------------------------- Reviews ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\Review Reviews
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\Review|\Bordeux\SchemaOrg\Thing\CreativeWork\Review[] reviews
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\Review getReviews() Review of the item (legacy spelling; see singular form, review).
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\Review|\Bordeux\SchemaOrg\Thing\CreativeWork\Review[] getReviews() Review of the item (legacy spelling; see singular form, review).
  *
- * @method CreativeWork setReviews(\Bordeux\SchemaOrg\Thing\CreativeWork\Review $reviews )Review of the item (legacy spelling; see singular form, review).
+ * @method CreativeWork setReviews(\Bordeux\SchemaOrg\Thing\CreativeWork\Review $reviews ) setReviews(\Bordeux\SchemaOrg\Thing\CreativeWork\Review[] $reviews )Review of the item (legacy spelling; see singular form, review).
  *
  *
  * -------------------------------- SourceOrganization ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization SourceOrganization
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[] sourceOrganization
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization getSourceOrganization() The Organization on whose behalf the creator was working.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[] getSourceOrganization() The Organization on whose behalf the creator was working.
  *
- * @method CreativeWork setSourceOrganization(\Bordeux\SchemaOrg\Thing\Organization $sourceOrganization )The Organization on whose behalf the creator was working.
+ * @method CreativeWork setSourceOrganization(\Bordeux\SchemaOrg\Thing\Organization $sourceOrganization ) setSourceOrganization(\Bordeux\SchemaOrg\Thing\Organization[] $sourceOrganization )The Organization on whose behalf the creator was working.
  *
  *
  * -------------------------------- Text ---------------------------------------------
  *
- * @property string Text
+ * @property string|string[] text
  *
- * @method string getText() The textual content of this CreativeWork.
+ * @method string|string[] getText() The textual content of this CreativeWork.
  *
- * @method CreativeWork setText(string $text )The textual content of this CreativeWork.
+ * @method CreativeWork setText(string $text ) setText(string[] $text )The textual content of this CreativeWork.
  *
  *
  * -------------------------------- ThumbnailUrl ---------------------------------------------
  *
- * @property string ThumbnailUrl
+ * @property string|string[] thumbnailUrl
  *
- * @method string getThumbnailUrl() A thumbnail image relevant to the Thing.
+ * @method string|string[] getThumbnailUrl() A thumbnail image relevant to the Thing.
  *
- * @method CreativeWork setThumbnailUrl(string $thumbnailUrl )A thumbnail image relevant to the Thing.
+ * @method CreativeWork setThumbnailUrl(string $thumbnailUrl ) setThumbnailUrl(string[] $thumbnailUrl )A thumbnail image relevant to the Thing.
  *
  *
  * -------------------------------- TimeRequired ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration TimeRequired
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration|\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] timeRequired
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration getTimeRequired() Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'P30M', 'P1H25M'.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration|\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] getTimeRequired() Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'P30M', 'P1H25M'.
  *
- * @method CreativeWork setTimeRequired(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration $timeRequired )Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'P30M', 'P1H25M'.
+ * @method CreativeWork setTimeRequired(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration $timeRequired ) setTimeRequired(\Bordeux\SchemaOrg\Thing\Intangible\Quantity\Duration[] $timeRequired )Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'P30M', 'P1H25M'.
  *
  *
  * -------------------------------- TypicalAgeRange ---------------------------------------------
  *
- * @property string TypicalAgeRange
+ * @property string|string[] typicalAgeRange
  *
- * @method string getTypicalAgeRange() The typical expected age range, e.g. '7-9', '11-'.
+ * @method string|string[] getTypicalAgeRange() The typical expected age range, e.g. '7-9', '11-'.
  *
- * @method CreativeWork setTypicalAgeRange(string $typicalAgeRange )The typical expected age range, e.g. '7-9', '11-'.
+ * @method CreativeWork setTypicalAgeRange(string $typicalAgeRange ) setTypicalAgeRange(string[] $typicalAgeRange )The typical expected age range, e.g. '7-9', '11-'.
  *
  *
  * -------------------------------- Version ---------------------------------------------
  *
- * @property Number Version
+ * @property Number|Number[] version
  *
- * @method Number getVersion() The version of the CreativeWork embodied by a specified resource.
+ * @method Number|Number[] getVersion() The version of the CreativeWork embodied by a specified resource.
  *
- * @method CreativeWork setVersion(Number $version )The version of the CreativeWork embodied by a specified resource.
+ * @method CreativeWork setVersion(Number $version ) setVersion(Number[] $version )The version of the CreativeWork embodied by a specified resource.
  *
  *
  * -------------------------------- Video ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\VideoObject Video
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\VideoObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\VideoObject[] video
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\VideoObject getVideo() An embedded video object.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\VideoObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\VideoObject[] getVideo() An embedded video object.
  *
- * @method CreativeWork setVideo(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\VideoObject $video )An embedded video object.
+ * @method CreativeWork setVideo(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\VideoObject $video ) setVideo(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\VideoObject[] $video )An embedded video object.
  *
  *
  */
-class CreativeWork extends \Bordeux\SchemaOrg\Thing
-{
-}
+ class CreativeWork extends \Bordeux\SchemaOrg\Thing {
+
+ }

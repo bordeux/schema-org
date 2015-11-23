@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization;
  *
 
  */
-class PerformingGroup extends \Bordeux\SchemaOrg\Thing\Organization
-{
-}
+ class PerformingGroup extends \Bordeux\SchemaOrg\Thing\Organization {
+
+ }

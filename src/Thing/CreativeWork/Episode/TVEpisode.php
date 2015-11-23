@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Episode;
  *
  * -------------------------------- PartOfTVSeries ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\TVSeries PartOfTVSeries
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\TVSeries|\Bordeux\SchemaOrg\Thing\CreativeWork\TVSeries[] partOfTVSeries
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\TVSeries getPartOfTVSeries() The TV series to which this episode or season belongs. (legacy form; partOfSeries is preferred)
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\TVSeries|\Bordeux\SchemaOrg\Thing\CreativeWork\TVSeries[] getPartOfTVSeries() The TV series to which this episode or season belongs. (legacy form; partOfSeries is preferred)
  *
- * @method TVEpisode setPartOfTVSeries(\Bordeux\SchemaOrg\Thing\CreativeWork\TVSeries $partOfTVSeries )The TV series to which this episode or season belongs. (legacy form; partOfSeries is preferred)
+ * @method TVEpisode setPartOfTVSeries(\Bordeux\SchemaOrg\Thing\CreativeWork\TVSeries $partOfTVSeries ) setPartOfTVSeries(\Bordeux\SchemaOrg\Thing\CreativeWork\TVSeries[] $partOfTVSeries )The TV series to which this episode or season belongs. (legacy form; partOfSeries is preferred)
  *
  *
  */
-class TVEpisode extends \Bordeux\SchemaOrg\Thing\CreativeWork\Episode
-{
-}
+ class TVEpisode extends \Bordeux\SchemaOrg\Thing\CreativeWork\Episode {
+
+ }

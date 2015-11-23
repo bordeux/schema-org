@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusine
  *
 
  */
-class ComedyClub extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness
-{
-}
+ class ComedyClub extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness {
+
+ }

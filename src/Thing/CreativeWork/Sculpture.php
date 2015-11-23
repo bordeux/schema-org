@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
 
  */
-class Sculpture extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class Sculpture extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

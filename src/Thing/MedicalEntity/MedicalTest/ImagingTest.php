@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest;
  *
  * -------------------------------- ImagingTechnique ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalImagingTechnique ImagingTechnique
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalImagingTechnique|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalImagingTechnique[] imagingTechnique
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalImagingTechnique getImagingTechnique() Imaging technique used.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalImagingTechnique|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalImagingTechnique[] getImagingTechnique() Imaging technique used.
  *
- * @method ImagingTest setImagingTechnique(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalImagingTechnique $imagingTechnique )Imaging technique used.
+ * @method ImagingTest setImagingTechnique(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalImagingTechnique $imagingTechnique ) setImagingTechnique(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalImagingTechnique[] $imagingTechnique )Imaging technique used.
  *
  *
  */
-class ImagingTest extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest
-{
-}
+ class ImagingTest extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest {
+
+ }

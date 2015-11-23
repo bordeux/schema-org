@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
  * -------------------------------- NumTracks ---------------------------------------------
  *
- * @property Integer NumTracks
+ * @property Integer|Integer[] numTracks
  *
- * @method Integer getNumTracks() The number of tracks in this album or playlist.
+ * @method Integer|Integer[] getNumTracks() The number of tracks in this album or playlist.
  *
- * @method MusicPlaylist setNumTracks(Integer $numTracks )The number of tracks in this album or playlist.
+ * @method MusicPlaylist setNumTracks(Integer $numTracks ) setNumTracks(Integer[] $numTracks )The number of tracks in this album or playlist.
  *
  *
  * -------------------------------- Track ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording Track
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording|\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording[] track
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording getTrack() A music recording (track)—usually a single song.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording|\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording[] getTrack() A music recording (track)—usually a single song.
  *
- * @method MusicPlaylist setTrack(\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording $track )A music recording (track)—usually a single song.
+ * @method MusicPlaylist setTrack(\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording $track ) setTrack(\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording[] $track )A music recording (track)—usually a single song.
  *
  *
  * -------------------------------- Tracks ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording Tracks
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording|\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording[] tracks
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording getTracks() A music recording (track)—usually a single song (legacy spelling; see singular form, track).
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording|\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording[] getTracks() A music recording (track)—usually a single song (legacy spelling; see singular form, track).
  *
- * @method MusicPlaylist setTracks(\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording $tracks )A music recording (track)—usually a single song (legacy spelling; see singular form, track).
+ * @method MusicPlaylist setTracks(\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording $tracks ) setTracks(\Bordeux\SchemaOrg\Thing\CreativeWork\MusicRecording[] $tracks )A music recording (track)—usually a single song (legacy spelling; see singular form, track).
  *
  *
  */
-class MusicPlaylist extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class MusicPlaylist extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

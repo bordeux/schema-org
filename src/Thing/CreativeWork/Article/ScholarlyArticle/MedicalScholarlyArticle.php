@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Article\ScholarlyArticle;
  *
  * -------------------------------- PublicationType ---------------------------------------------
  *
- * @property string PublicationType
+ * @property string|string[] publicationType
  *
- * @method string getPublicationType() The type of the medical article, taken from the US NLM MeSH publication type catalog.
+ * @method string|string[] getPublicationType() The type of the medical article, taken from the US NLM MeSH publication type catalog.
  *
- * @method MedicalScholarlyArticle setPublicationType(string $publicationType )The type of the medical article, taken from the US NLM MeSH publication type catalog.
+ * @method MedicalScholarlyArticle setPublicationType(string $publicationType ) setPublicationType(string[] $publicationType )The type of the medical article, taken from the US NLM MeSH publication type catalog.
  *
  *
  */
-class MedicalScholarlyArticle extends \Bordeux\SchemaOrg\Thing\CreativeWork\Article\ScholarlyArticle
-{
-}
+ class MedicalScholarlyArticle extends \Bordeux\SchemaOrg\Thing\CreativeWork\Article\ScholarlyArticle {
+
+ }

@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction;
  *
  * -------------------------------- Endorsee ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person Endorsee
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] endorsee
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Person getEndorsee() A sub property of participant. The person/organization being supported.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[]|\Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getEndorsee() A sub property of participant. The person/organization being supported.
  *
- * @method EndorseAction setEndorsee(\Bordeux\SchemaOrg\Thing\Organization $endorsee ) setEndorsee(\Bordeux\SchemaOrg\Thing\Person $endorsee )A sub property of participant. The person/organization being supported.
+ * @method EndorseAction setEndorsee(\Bordeux\SchemaOrg\Thing\Organization $endorsee ) setEndorsee(\Bordeux\SchemaOrg\Thing\Organization[] $endorsee ) setEndorsee(\Bordeux\SchemaOrg\Thing\Person $endorsee ) setEndorsee(\Bordeux\SchemaOrg\Thing\Person[] $endorsee )A sub property of participant. The person/organization being supported.
  *
  *
  */
-class EndorseAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction
-{
-}
+ class EndorseAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction {
+
+ }

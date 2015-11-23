@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\AdministrativeArea;
  *
 
  */
-class City extends \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea
-{
-}
+ class City extends \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea {
+
+ }

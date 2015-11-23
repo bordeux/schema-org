@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration;
  *
 
  */
-class DayOfWeek extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration
-{
-}
+ class DayOfWeek extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration {
+
+ }

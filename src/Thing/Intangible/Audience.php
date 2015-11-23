@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Intangible;
  *
  * -------------------------------- AudienceType ---------------------------------------------
  *
- * @property string AudienceType
+ * @property string|string[] audienceType
  *
- * @method string getAudienceType() The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.)
+ * @method string|string[] getAudienceType() The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.)
       domain: Audience
       Range: Text
     
  *
- * @method Audience setAudienceType(string $audienceType )The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.)
+ * @method Audience setAudienceType(string $audienceType ) setAudienceType(string[] $audienceType )The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.)
       domain: Audience
       Range: Text
     
@@ -26,14 +26,14 @@ namespace Bordeux\SchemaOrg\Thing\Intangible;
  *
  * -------------------------------- GeographicArea ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea GeographicArea
+ * @property \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea|\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] geographicArea
  *
- * @method \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea getGeographicArea() The geographic area associated with the audience.
+ * @method \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea|\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] getGeographicArea() The geographic area associated with the audience.
  *
- * @method Audience setGeographicArea(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea $geographicArea )The geographic area associated with the audience.
+ * @method Audience setGeographicArea(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea $geographicArea ) setGeographicArea(\Bordeux\SchemaOrg\Thing\Place\AdministrativeArea[] $geographicArea )The geographic area associated with the audience.
  *
  *
  */
-class Audience extends \Bordeux\SchemaOrg\Thing\Intangible
-{
-}
+ class Audience extends \Bordeux\SchemaOrg\Thing\Intangible {
+
+ }

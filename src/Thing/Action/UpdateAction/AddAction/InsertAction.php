@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction;
  *
  * -------------------------------- ToLocation ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Place|Number ToLocation
+ * @property \Bordeux\SchemaOrg\Thing\Place|\Bordeux\SchemaOrg\Thing\Place[]|Number|Number[] toLocation
  *
- * @method \Bordeux\SchemaOrg\Thing\Place|Number getToLocation() A sub property of location. The final location of the object or the agent after the action.
+ * @method \Bordeux\SchemaOrg\Thing\Place|\Bordeux\SchemaOrg\Thing\Place[]|Number|Number[] getToLocation() A sub property of location. The final location of the object or the agent after the action.
  *
- * @method InsertAction setToLocation(\Bordeux\SchemaOrg\Thing\Place $toLocation ) setToLocation(Number $toLocation )A sub property of location. The final location of the object or the agent after the action.
+ * @method InsertAction setToLocation(\Bordeux\SchemaOrg\Thing\Place $toLocation ) setToLocation(\Bordeux\SchemaOrg\Thing\Place[] $toLocation ) setToLocation(Number $toLocation ) setToLocation(Number[] $toLocation )A sub property of location. The final location of the object or the agent after the action.
  *
  *
  */
-class InsertAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction
-{
-}
+ class InsertAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction {
+
+ }

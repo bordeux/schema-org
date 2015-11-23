@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Event\UserInteraction;
  *
 
  */
-class UserDownloads extends \Bordeux\SchemaOrg\Thing\Event\UserInteraction
-{
-}
+ class UserDownloads extends \Bordeux\SchemaOrg\Thing\Event\UserInteraction {
+
+ }

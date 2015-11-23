@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement;
  *
 
  */
-class WPSideBar extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement
-{
-}
+ class WPSideBar extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement {
+
+ }

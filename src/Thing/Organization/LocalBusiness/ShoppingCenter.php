@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  *
 
  */
-class ShoppingCenter extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness
-{
-}
+ class ShoppingCenter extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
+
+ }

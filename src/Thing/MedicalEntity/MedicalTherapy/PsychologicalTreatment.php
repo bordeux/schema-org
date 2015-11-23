@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy;
  *
 
  */
-class PsychologicalTreatment extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy
-{
-}
+ class PsychologicalTreatment extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy {
+
+ }

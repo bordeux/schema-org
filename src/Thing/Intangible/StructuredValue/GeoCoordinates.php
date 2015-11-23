@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\StructuredValue;
  *
  * -------------------------------- Elevation ---------------------------------------------
  *
- * @property string|Number Elevation
+ * @property string|string[]|Number|Number[] elevation
  *
- * @method string|Number getElevation() The elevation of a location.
+ * @method string|string[]|Number|Number[] getElevation() The elevation of a location.
  *
- * @method GeoCoordinates setElevation(string $elevation ) setElevation(Number $elevation )The elevation of a location.
+ * @method GeoCoordinates setElevation(string $elevation ) setElevation(string[] $elevation ) setElevation(Number $elevation ) setElevation(Number[] $elevation )The elevation of a location.
  *
  *
  * -------------------------------- Latitude ---------------------------------------------
  *
- * @property Number|string Latitude
+ * @property Number|Number[]|string|string[] latitude
  *
- * @method Number|string getLatitude() The latitude of a location. For example 37.42242.
+ * @method Number|Number[]|string|string[] getLatitude() The latitude of a location. For example 37.42242.
  *
- * @method GeoCoordinates setLatitude(Number $latitude ) setLatitude(string $latitude )The latitude of a location. For example 37.42242.
+ * @method GeoCoordinates setLatitude(Number $latitude ) setLatitude(Number[] $latitude ) setLatitude(string $latitude ) setLatitude(string[] $latitude )The latitude of a location. For example 37.42242.
  *
  *
  * -------------------------------- Longitude ---------------------------------------------
  *
- * @property Number|string Longitude
+ * @property Number|Number[]|string|string[] longitude
  *
- * @method Number|string getLongitude() The longitude of a location. For example -122.08585.
+ * @method Number|Number[]|string|string[] getLongitude() The longitude of a location. For example -122.08585.
  *
- * @method GeoCoordinates setLongitude(Number $longitude ) setLongitude(string $longitude )The longitude of a location. For example -122.08585.
+ * @method GeoCoordinates setLongitude(Number $longitude ) setLongitude(Number[] $longitude ) setLongitude(string $longitude ) setLongitude(string[] $longitude )The longitude of a location. For example -122.08585.
  *
  *
  */
-class GeoCoordinates extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue
-{
-}
+ class GeoCoordinates extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue {
+
+ }

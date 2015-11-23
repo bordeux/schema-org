@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Event\PublicationEvent;
  *
 
  */
-class OnDemandEvent extends \Bordeux\SchemaOrg\Thing\Event\PublicationEvent
-{
-}
+ class OnDemandEvent extends \Bordeux\SchemaOrg\Thing\Event\PublicationEvent {
+
+ }

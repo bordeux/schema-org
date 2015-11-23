@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship;
  *
 
  */
-class Mosque extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship
-{
-}
+ class Mosque extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship {
+
+ }

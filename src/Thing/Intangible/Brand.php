@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Intangible;
  *
  * -------------------------------- Logo ---------------------------------------------
  *
- * @property string|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject Logo
+ * @property string|string[]|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject[] logo
  *
- * @method string|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject getLogo() A logo associated with an organization.
+ * @method string|string[]|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject[] getLogo() A logo associated with an organization.
  *
- * @method Brand setLogo(string $logo ) setLogo(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject $logo )A logo associated with an organization.
+ * @method Brand setLogo(string $logo ) setLogo(string[] $logo ) setLogo(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject $logo ) setLogo(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject[] $logo )A logo associated with an organization.
  *
  *
  */
-class Brand extends \Bordeux\SchemaOrg\Thing\Intangible
-{
-}
+ class Brand extends \Bordeux\SchemaOrg\Thing\Intangible {
+
+ }

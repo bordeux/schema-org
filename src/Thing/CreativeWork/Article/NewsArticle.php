@@ -11,50 +11,50 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Article;
  *
  * -------------------------------- Dateline ---------------------------------------------
  *
- * @property string Dateline
+ * @property string|string[] dateline
  *
- * @method string getDateline() The location where the NewsArticle was produced.
+ * @method string|string[] getDateline() The location where the NewsArticle was produced.
  *
- * @method NewsArticle setDateline(string $dateline )The location where the NewsArticle was produced.
+ * @method NewsArticle setDateline(string $dateline ) setDateline(string[] $dateline )The location where the NewsArticle was produced.
  *
  *
  * -------------------------------- PrintColumn ---------------------------------------------
  *
- * @property string PrintColumn
+ * @property string|string[] printColumn
  *
- * @method string getPrintColumn() The number of the column in which the NewsArticle appears in the print edition.
+ * @method string|string[] getPrintColumn() The number of the column in which the NewsArticle appears in the print edition.
  *
- * @method NewsArticle setPrintColumn(string $printColumn )The number of the column in which the NewsArticle appears in the print edition.
+ * @method NewsArticle setPrintColumn(string $printColumn ) setPrintColumn(string[] $printColumn )The number of the column in which the NewsArticle appears in the print edition.
  *
  *
  * -------------------------------- PrintEdition ---------------------------------------------
  *
- * @property string PrintEdition
+ * @property string|string[] printEdition
  *
- * @method string getPrintEdition() The edition of the print product in which the NewsArticle appears.
+ * @method string|string[] getPrintEdition() The edition of the print product in which the NewsArticle appears.
  *
- * @method NewsArticle setPrintEdition(string $printEdition )The edition of the print product in which the NewsArticle appears.
+ * @method NewsArticle setPrintEdition(string $printEdition ) setPrintEdition(string[] $printEdition )The edition of the print product in which the NewsArticle appears.
  *
  *
  * -------------------------------- PrintPage ---------------------------------------------
  *
- * @property string PrintPage
+ * @property string|string[] printPage
  *
- * @method string getPrintPage() If this NewsArticle appears in print, this field indicates the name of the page on which the article is found. Please note that this field is intended for the exact page name (e.g. A5, B18).
+ * @method string|string[] getPrintPage() If this NewsArticle appears in print, this field indicates the name of the page on which the article is found. Please note that this field is intended for the exact page name (e.g. A5, B18).
  *
- * @method NewsArticle setPrintPage(string $printPage )If this NewsArticle appears in print, this field indicates the name of the page on which the article is found. Please note that this field is intended for the exact page name (e.g. A5, B18).
+ * @method NewsArticle setPrintPage(string $printPage ) setPrintPage(string[] $printPage )If this NewsArticle appears in print, this field indicates the name of the page on which the article is found. Please note that this field is intended for the exact page name (e.g. A5, B18).
  *
  *
  * -------------------------------- PrintSection ---------------------------------------------
  *
- * @property string PrintSection
+ * @property string|string[] printSection
  *
- * @method string getPrintSection() If this NewsArticle appears in print, this field indicates the print section in which the article appeared.
+ * @method string|string[] getPrintSection() If this NewsArticle appears in print, this field indicates the print section in which the article appeared.
  *
- * @method NewsArticle setPrintSection(string $printSection )If this NewsArticle appears in print, this field indicates the print section in which the article appeared.
+ * @method NewsArticle setPrintSection(string $printSection ) setPrintSection(string[] $printSection )If this NewsArticle appears in print, this field indicates the print section in which the article appeared.
  *
  *
  */
-class NewsArticle extends \Bordeux\SchemaOrg\Thing\CreativeWork\Article
-{
-}
+ class NewsArticle extends \Bordeux\SchemaOrg\Thing\CreativeWork\Article {
+
+ }

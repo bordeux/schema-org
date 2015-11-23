@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest;
  *
  * -------------------------------- TissueSample ---------------------------------------------
  *
- * @property string TissueSample
+ * @property string|string[] tissueSample
  *
- * @method string getTissueSample() The type of tissue sample required for the test.
+ * @method string|string[] getTissueSample() The type of tissue sample required for the test.
  *
- * @method PathologyTest setTissueSample(string $tissueSample )The type of tissue sample required for the test.
+ * @method PathologyTest setTissueSample(string $tissueSample ) setTissueSample(string[] $tissueSample )The type of tissue sample required for the test.
  *
  *
  */
-class PathologyTest extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest
-{
-}
+ class PathologyTest extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest {
+
+ }

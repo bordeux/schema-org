@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction;
  *
 
  */
-class ApplyAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction
-{
-}
+ class ApplyAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction {
+
+ }

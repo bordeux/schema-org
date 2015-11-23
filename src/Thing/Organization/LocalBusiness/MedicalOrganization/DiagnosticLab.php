@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
  *
  * -------------------------------- AvailableTest ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest AvailableTest
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] availableTest
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest getAvailableTest() A diagnostic test or procedure offered by this lab.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] getAvailableTest() A diagnostic test or procedure offered by this lab.
  *
- * @method DiagnosticLab setAvailableTest(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest $availableTest )A diagnostic test or procedure offered by this lab.
+ * @method DiagnosticLab setAvailableTest(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest $availableTest ) setAvailableTest(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] $availableTest )A diagnostic test or procedure offered by this lab.
  *
  *
  */
-class DiagnosticLab extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
-{
-}
+ class DiagnosticLab extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization {
+
+ }

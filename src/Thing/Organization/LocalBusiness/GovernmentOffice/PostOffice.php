@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\GovernmentOffice;
  *
 
  */
-class PostOffice extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\GovernmentOffice
-{
-}
+ class PostOffice extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\GovernmentOffice {
+
+ }

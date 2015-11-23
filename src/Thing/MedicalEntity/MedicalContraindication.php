@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity;
  *
 
  */
-class MedicalContraindication extends \Bordeux\SchemaOrg\Thing\MedicalEntity
-{
-}
+ class MedicalContraindication extends \Bordeux\SchemaOrg\Thing\MedicalEntity {
+
+ }

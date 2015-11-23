@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FinancialService;
  *
 
  */
-class AccountingService extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FinancialService
-{
-}
+ class AccountingService extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FinancialService {
+
+ }

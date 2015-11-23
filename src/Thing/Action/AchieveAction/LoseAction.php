@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\AchieveAction;
  *
  * -------------------------------- Winner ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Person Winner
+ * @property \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] winner
  *
- * @method \Bordeux\SchemaOrg\Thing\Person getWinner() A sub property of participant. The winner of the action.
+ * @method \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getWinner() A sub property of participant. The winner of the action.
  *
- * @method LoseAction setWinner(\Bordeux\SchemaOrg\Thing\Person $winner )A sub property of participant. The winner of the action.
+ * @method LoseAction setWinner(\Bordeux\SchemaOrg\Thing\Person $winner ) setWinner(\Bordeux\SchemaOrg\Thing\Person[] $winner )A sub property of participant. The winner of the action.
  *
  *
  */
-class LoseAction extends \Bordeux\SchemaOrg\Thing\Action\AchieveAction
-{
-}
+ class LoseAction extends \Bordeux\SchemaOrg\Thing\Action\AchieveAction {
+
+ }

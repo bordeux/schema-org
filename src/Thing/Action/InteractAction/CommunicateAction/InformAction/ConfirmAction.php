@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\Inform
  *
 
  */
-class ConfirmAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\InformAction
-{
-}
+ class ConfirmAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\InformAction {
+
+ }

@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\Action\TradeAction;
  *
  * -------------------------------- Buyer ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Person Buyer
+ * @property \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] buyer
  *
- * @method \Bordeux\SchemaOrg\Thing\Person getBuyer() A sub property of participant. The participant/person/organization that bought the object.
+ * @method \Bordeux\SchemaOrg\Thing\Person|\Bordeux\SchemaOrg\Thing\Person[] getBuyer() A sub property of participant. The participant/person/organization that bought the object.
  *
- * @method SellAction setBuyer(\Bordeux\SchemaOrg\Thing\Person $buyer )A sub property of participant. The participant/person/organization that bought the object.
+ * @method SellAction setBuyer(\Bordeux\SchemaOrg\Thing\Person $buyer ) setBuyer(\Bordeux\SchemaOrg\Thing\Person[] $buyer )A sub property of participant. The participant/person/organization that bought the object.
  *
  *
  * -------------------------------- WarrantyPromise ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\WarrantyPromise WarrantyPromise
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\WarrantyPromise|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\WarrantyPromise[] warrantyPromise
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\WarrantyPromise getWarrantyPromise() The warranty promise(s) included in the offer.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\WarrantyPromise|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\WarrantyPromise[] getWarrantyPromise() The warranty promise(s) included in the offer.
  *
- * @method SellAction setWarrantyPromise(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\WarrantyPromise $warrantyPromise )The warranty promise(s) included in the offer.
+ * @method SellAction setWarrantyPromise(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\WarrantyPromise $warrantyPromise ) setWarrantyPromise(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\WarrantyPromise[] $warrantyPromise )The warranty promise(s) included in the offer.
  *
  *
  */
-class SellAction extends \Bordeux\SchemaOrg\Thing\Action\TradeAction
-{
-}
+ class SellAction extends \Bordeux\SchemaOrg\Thing\Action\TradeAction {
+
+ }

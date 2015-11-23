@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action\PlayAction;
  *
  * -------------------------------- EntertainmentBusiness ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness EntertainmentBusiness
+ * @property \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness|\Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness[] entertainmentBusiness
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness getEntertainmentBusiness() A sub property of location. The entertainment business where the action occurred.
+ * @method \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness|\Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness[] getEntertainmentBusiness() A sub property of location. The entertainment business where the action occurred.
  *
- * @method PerformAction setEntertainmentBusiness(\Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness $entertainmentBusiness )A sub property of location. The entertainment business where the action occurred.
+ * @method PerformAction setEntertainmentBusiness(\Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness $entertainmentBusiness ) setEntertainmentBusiness(\Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness[] $entertainmentBusiness )A sub property of location. The entertainment business where the action occurred.
  *
  *
  */
-class PerformAction extends \Bordeux\SchemaOrg\Thing\Action\PlayAction
-{
-}
+ class PerformAction extends \Bordeux\SchemaOrg\Thing\Action\PlayAction {
+
+ }

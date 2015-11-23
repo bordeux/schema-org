@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\EducationalOrganization;
  *
 
  */
-class School extends \Bordeux\SchemaOrg\Thing\Organization\EducationalOrganization
-{
-}
+ class School extends \Bordeux\SchemaOrg\Thing\Organization\EducationalOrganization {
+
+ }

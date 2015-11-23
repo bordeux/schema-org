@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\Residence;
  *
 
  */
-class ApartmentComplex extends \Bordeux\SchemaOrg\Thing\Place\Residence
-{
-}
+ class ApartmentComplex extends \Bordeux\SchemaOrg\Thing\Place\Residence {
+
+ }

@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  *
 
  */
-class MusicVenue extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure
-{
-}
+ class MusicVenue extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
+
+ }

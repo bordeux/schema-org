@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding;
  *
 
  */
-class LegislativeBuilding extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding
-{
-}
+ class LegislativeBuilding extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding {
+
+ }

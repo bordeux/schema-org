@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Rating;
  *
  * -------------------------------- ItemReviewed ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing ItemReviewed
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] itemReviewed
  *
- * @method \Bordeux\SchemaOrg\Thing getItemReviewed() The item that is being reviewed/rated.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] getItemReviewed() The item that is being reviewed/rated.
  *
- * @method AggregateRating setItemReviewed(\Bordeux\SchemaOrg\Thing $itemReviewed )The item that is being reviewed/rated.
+ * @method AggregateRating setItemReviewed(\Bordeux\SchemaOrg\\Thing $itemReviewed ) setItemReviewed(\Bordeux\SchemaOrg\\Thing[] $itemReviewed )The item that is being reviewed/rated.
  *
  *
  * -------------------------------- RatingCount ---------------------------------------------
  *
- * @property Number RatingCount
+ * @property Number|Number[] ratingCount
  *
- * @method Number getRatingCount() The count of total number of ratings.
+ * @method Number|Number[] getRatingCount() The count of total number of ratings.
  *
- * @method AggregateRating setRatingCount(Number $ratingCount )The count of total number of ratings.
+ * @method AggregateRating setRatingCount(Number $ratingCount ) setRatingCount(Number[] $ratingCount )The count of total number of ratings.
  *
  *
  * -------------------------------- ReviewCount ---------------------------------------------
  *
- * @property Number ReviewCount
+ * @property Number|Number[] reviewCount
  *
- * @method Number getReviewCount() The count of total number of reviews.
+ * @method Number|Number[] getReviewCount() The count of total number of reviews.
  *
- * @method AggregateRating setReviewCount(Number $reviewCount )The count of total number of reviews.
+ * @method AggregateRating setReviewCount(Number $reviewCount ) setReviewCount(Number[] $reviewCount )The count of total number of reviews.
  *
  *
  */
-class AggregateRating extends \Bordeux\SchemaOrg\Thing\Intangible\Rating
-{
-}
+ class AggregateRating extends \Bordeux\SchemaOrg\Thing\Intangible\Rating {
+
+ }

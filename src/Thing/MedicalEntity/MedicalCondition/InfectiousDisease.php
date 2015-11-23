@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalCondition;
  *
  * -------------------------------- InfectiousAgent ---------------------------------------------
  *
- * @property string InfectiousAgent
+ * @property string|string[] infectiousAgent
  *
- * @method string getInfectiousAgent() The actual infectious agent, such as a specific bacterium.
+ * @method string|string[] getInfectiousAgent() The actual infectious agent, such as a specific bacterium.
  *
- * @method InfectiousDisease setInfectiousAgent(string $infectiousAgent )The actual infectious agent, such as a specific bacterium.
+ * @method InfectiousDisease setInfectiousAgent(string $infectiousAgent ) setInfectiousAgent(string[] $infectiousAgent )The actual infectious agent, such as a specific bacterium.
  *
  *
  * -------------------------------- InfectiousAgentClass ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\InfectiousAgentClass InfectiousAgentClass
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\InfectiousAgentClass|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\InfectiousAgentClass[] infectiousAgentClass
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\InfectiousAgentClass getInfectiousAgentClass() The class of infectious agent (bacteria, prion, etc.) that causes the disease.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\InfectiousAgentClass|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\InfectiousAgentClass[] getInfectiousAgentClass() The class of infectious agent (bacteria, prion, etc.) that causes the disease.
  *
- * @method InfectiousDisease setInfectiousAgentClass(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\InfectiousAgentClass $infectiousAgentClass )The class of infectious agent (bacteria, prion, etc.) that causes the disease.
+ * @method InfectiousDisease setInfectiousAgentClass(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\InfectiousAgentClass $infectiousAgentClass ) setInfectiousAgentClass(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\InfectiousAgentClass[] $infectiousAgentClass )The class of infectious agent (bacteria, prion, etc.) that causes the disease.
  *
  *
  * -------------------------------- TransmissionMethod ---------------------------------------------
  *
- * @property string TransmissionMethod
+ * @property string|string[] transmissionMethod
  *
- * @method string getTransmissionMethod() How the disease spreads, either as a route or vector, for example 'direct contact', 'Aedes aegypti', etc.
+ * @method string|string[] getTransmissionMethod() How the disease spreads, either as a route or vector, for example 'direct contact', 'Aedes aegypti', etc.
  *
- * @method InfectiousDisease setTransmissionMethod(string $transmissionMethod )How the disease spreads, either as a route or vector, for example 'direct contact', 'Aedes aegypti', etc.
+ * @method InfectiousDisease setTransmissionMethod(string $transmissionMethod ) setTransmissionMethod(string[] $transmissionMethod )How the disease spreads, either as a route or vector, for example 'direct contact', 'Aedes aegypti', etc.
  *
  *
  */
-class InfectiousDisease extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalCondition
-{
-}
+ class InfectiousDisease extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalCondition {
+
+ }

@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Permit;
  *
 
  */
-class GovernmentPermit extends \Bordeux\SchemaOrg\Thing\Intangible\Permit
-{
-}
+ class GovernmentPermit extends \Bordeux\SchemaOrg\Thing\Intangible\Permit {
+
+ }

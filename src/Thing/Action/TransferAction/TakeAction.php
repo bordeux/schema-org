@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\TransferAction;
  *
 
  */
-class TakeAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction
-{
-}
+ class TakeAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction {
+
+ }

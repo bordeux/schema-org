@@ -11,50 +11,50 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
  * -------------------------------- CodeRepository ---------------------------------------------
  *
- * @property string CodeRepository
+ * @property string|string[] codeRepository
  *
- * @method string getCodeRepository() Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex)
+ * @method string|string[] getCodeRepository() Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex)
  *
- * @method Code setCodeRepository(string $codeRepository )Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex)
+ * @method Code setCodeRepository(string $codeRepository ) setCodeRepository(string[] $codeRepository )Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex)
  *
  *
  * -------------------------------- ProgrammingLanguage ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing ProgrammingLanguage
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] programmingLanguage
  *
- * @method \Bordeux\SchemaOrg\Thing getProgrammingLanguage() The computer programming language.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] getProgrammingLanguage() The computer programming language.
  *
- * @method Code setProgrammingLanguage(\Bordeux\SchemaOrg\Thing $programmingLanguage )The computer programming language.
+ * @method Code setProgrammingLanguage(\Bordeux\SchemaOrg\\Thing $programmingLanguage ) setProgrammingLanguage(\Bordeux\SchemaOrg\\Thing[] $programmingLanguage )The computer programming language.
  *
  *
  * -------------------------------- Runtime ---------------------------------------------
  *
- * @property string Runtime
+ * @property string|string[] runtime
  *
- * @method string getRuntime() Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0)
+ * @method string|string[] getRuntime() Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0)
  *
- * @method Code setRuntime(string $runtime )Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0)
+ * @method Code setRuntime(string $runtime ) setRuntime(string[] $runtime )Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0)
  *
  *
  * -------------------------------- SampleType ---------------------------------------------
  *
- * @property string SampleType
+ * @property string|string[] sampleType
  *
- * @method string getSampleType() Full (compile ready) solution, code snippet, inline code, scripts, template.
+ * @method string|string[] getSampleType() Full (compile ready) solution, code snippet, inline code, scripts, template.
  *
- * @method Code setSampleType(string $sampleType )Full (compile ready) solution, code snippet, inline code, scripts, template.
+ * @method Code setSampleType(string $sampleType ) setSampleType(string[] $sampleType )Full (compile ready) solution, code snippet, inline code, scripts, template.
  *
  *
  * -------------------------------- TargetProduct ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication TargetProduct
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication|\Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication[] targetProduct
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication getTargetProduct() Target Operating System / Product to which the code applies.  If applies to several versions, just the product name can be used.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication|\Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication[] getTargetProduct() Target Operating System / Product to which the code applies.  If applies to several versions, just the product name can be used.
  *
- * @method Code setTargetProduct(\Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication $targetProduct )Target Operating System / Product to which the code applies.  If applies to several versions, just the product name can be used.
+ * @method Code setTargetProduct(\Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication $targetProduct ) setTargetProduct(\Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication[] $targetProduct )Target Operating System / Product to which the code applies.  If applies to several versions, just the product name can be used.
  *
  *
  */
-class Code extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class Code extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

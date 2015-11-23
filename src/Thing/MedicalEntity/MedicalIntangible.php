@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity;
  *
 
  */
-class MedicalIntangible extends \Bordeux\SchemaOrg\Thing\MedicalEntity
-{
-}
+ class MedicalIntangible extends \Bordeux\SchemaOrg\Thing\MedicalEntity {
+
+ }

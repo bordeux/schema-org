@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Organization;
  *
  * -------------------------------- TickerSymbol ---------------------------------------------
  *
- * @property string TickerSymbol
+ * @property string|string[] tickerSymbol
  *
- * @method string getTickerSymbol() The exchange traded instrument associated with a Corporation object. The tickerSymbol is expressed as an exchange and an instrument name separated by a space character. For the exchange component of the tickerSymbol attribute, we reccommend using the controlled vocaulary of Market Identifier Codes (MIC) specified in ISO15022.
+ * @method string|string[] getTickerSymbol() The exchange traded instrument associated with a Corporation object. The tickerSymbol is expressed as an exchange and an instrument name separated by a space character. For the exchange component of the tickerSymbol attribute, we reccommend using the controlled vocaulary of Market Identifier Codes (MIC) specified in ISO15022.
  *
- * @method Corporation setTickerSymbol(string $tickerSymbol )The exchange traded instrument associated with a Corporation object. The tickerSymbol is expressed as an exchange and an instrument name separated by a space character. For the exchange component of the tickerSymbol attribute, we reccommend using the controlled vocaulary of Market Identifier Codes (MIC) specified in ISO15022.
+ * @method Corporation setTickerSymbol(string $tickerSymbol ) setTickerSymbol(string[] $tickerSymbol )The exchange traded instrument associated with a Corporation object. The tickerSymbol is expressed as an exchange and an instrument name separated by a space character. For the exchange component of the tickerSymbol attribute, we reccommend using the controlled vocaulary of Market Identifier Codes (MIC) specified in ISO15022.
  *
  *
  */
-class Corporation extends \Bordeux\SchemaOrg\Thing\Organization
-{
-}
+ class Corporation extends \Bordeux\SchemaOrg\Thing\Organization {
+
+ }

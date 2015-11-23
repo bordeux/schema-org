@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalSignOrSymptom;
  *
  * -------------------------------- IdentifyingExam ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\PhysicalExam IdentifyingExam
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\PhysicalExam|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\PhysicalExam[] identifyingExam
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\PhysicalExam getIdentifyingExam() A physical examination that can identify this sign.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\PhysicalExam|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\PhysicalExam[] getIdentifyingExam() A physical examination that can identify this sign.
  *
- * @method MedicalSign setIdentifyingExam(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\PhysicalExam $identifyingExam )A physical examination that can identify this sign.
+ * @method MedicalSign setIdentifyingExam(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\PhysicalExam $identifyingExam ) setIdentifyingExam(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\PhysicalExam[] $identifyingExam )A physical examination that can identify this sign.
  *
  *
  * -------------------------------- IdentifyingTest ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest IdentifyingTest
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] identifyingTest
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest getIdentifyingTest() A diagnostic test that can identify this sign.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] getIdentifyingTest() A diagnostic test that can identify this sign.
  *
- * @method MedicalSign setIdentifyingTest(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest $identifyingTest )A diagnostic test that can identify this sign.
+ * @method MedicalSign setIdentifyingTest(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest $identifyingTest ) setIdentifyingTest(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest[] $identifyingTest )A diagnostic test that can identify this sign.
  *
  *
  */
-class MedicalSign extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalSignOrSymptom
-{
-}
+ class MedicalSign extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalSignOrSymptom {
+
+ }

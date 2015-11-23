@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\MoveAction;
  *
 
  */
-class DepartAction extends \Bordeux\SchemaOrg\Thing\Action\MoveAction
-{
-}
+ class DepartAction extends \Bordeux\SchemaOrg\Thing\Action\MoveAction {
+
+ }

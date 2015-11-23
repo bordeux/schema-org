@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalStudy;
  *
  * -------------------------------- StudyDesign ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalObservationalStudyDesign StudyDesign
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalObservationalStudyDesign|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalObservationalStudyDesign[] studyDesign
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalObservationalStudyDesign getStudyDesign() Specifics about the observational study design (enumerated).
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalObservationalStudyDesign|\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalObservationalStudyDesign[] getStudyDesign() Specifics about the observational study design (enumerated).
  *
- * @method MedicalObservationalStudy setStudyDesign(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalObservationalStudyDesign $studyDesign )Specifics about the observational study design (enumerated).
+ * @method MedicalObservationalStudy setStudyDesign(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalObservationalStudyDesign $studyDesign ) setStudyDesign(\Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration\MedicalObservationalStudyDesign[] $studyDesign )Specifics about the observational study design (enumerated).
  *
  *
  */
-class MedicalObservationalStudy extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalStudy
-{
-}
+ class MedicalObservationalStudy extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalStudy {
+
+ }

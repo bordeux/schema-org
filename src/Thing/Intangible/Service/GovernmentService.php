@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Service;
  *
  * -------------------------------- ServiceOperator ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Organization ServiceOperator
+ * @property \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[] serviceOperator
  *
- * @method \Bordeux\SchemaOrg\Thing\Organization getServiceOperator() The operating organization, if different from the provider.  This enables the representation of services that are provided by an organization, but operated by another organization like a subcontractor.
+ * @method \Bordeux\SchemaOrg\Thing\Organization|\Bordeux\SchemaOrg\Thing\Organization[] getServiceOperator() The operating organization, if different from the provider.  This enables the representation of services that are provided by an organization, but operated by another organization like a subcontractor.
  *
- * @method GovernmentService setServiceOperator(\Bordeux\SchemaOrg\Thing\Organization $serviceOperator )The operating organization, if different from the provider.  This enables the representation of services that are provided by an organization, but operated by another organization like a subcontractor.
+ * @method GovernmentService setServiceOperator(\Bordeux\SchemaOrg\Thing\Organization $serviceOperator ) setServiceOperator(\Bordeux\SchemaOrg\Thing\Organization[] $serviceOperator )The operating organization, if different from the provider.  This enables the representation of services that are provided by an organization, but operated by another organization like a subcontractor.
  *
  *
  */
-class GovernmentService extends \Bordeux\SchemaOrg\Thing\Intangible\Service
-{
-}
+ class GovernmentService extends \Bordeux\SchemaOrg\Thing\Intangible\Service {
+
+ }

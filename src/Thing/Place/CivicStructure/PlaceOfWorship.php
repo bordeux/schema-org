@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  *
 
  */
-class PlaceOfWorship extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure
-{
-}
+ class PlaceOfWorship extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
+
+ }

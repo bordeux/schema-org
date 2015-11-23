@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure;
  *
 
  */
-class Ligament extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure
-{
-}
+ class Ligament extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure {
+
+ }

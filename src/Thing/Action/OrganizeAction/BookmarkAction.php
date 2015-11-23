@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction;
  *
 
  */
-class BookmarkAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction
-{
-}
+ class BookmarkAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction {
+
+ }

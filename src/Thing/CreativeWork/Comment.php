@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
 
  */
-class Comment extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class Comment extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

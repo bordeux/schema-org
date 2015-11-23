@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\PriceSpecification;
  *
  * -------------------------------- AppliesToDeliveryMethod ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod AppliesToDeliveryMethod
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] appliesToDeliveryMethod
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod getAppliesToDeliveryMethod() The delivery method(s) to which the delivery charge or payment charge specification applies.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] getAppliesToDeliveryMethod() The delivery method(s) to which the delivery charge or payment charge specification applies.
  *
- * @method DeliveryChargeSpecification setAppliesToDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod $appliesToDeliveryMethod )The delivery method(s) to which the delivery charge or payment charge specification applies.
+ * @method DeliveryChargeSpecification setAppliesToDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod $appliesToDeliveryMethod ) setAppliesToDeliveryMethod(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod[] $appliesToDeliveryMethod )The delivery method(s) to which the delivery charge or payment charge specification applies.
  *
  *
  * -------------------------------- EligibleRegion ---------------------------------------------
  *
- * @property string|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\GeoShape EligibleRegion
+ * @property string|string[]|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\GeoShape|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\GeoShape[] eligibleRegion
  *
- * @method string|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\GeoShape getEligibleRegion() The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.
+ * @method string|string[]|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\GeoShape|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\GeoShape[] getEligibleRegion() The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.
  *
- * @method DeliveryChargeSpecification setEligibleRegion(string $eligibleRegion ) setEligibleRegion(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\GeoShape $eligibleRegion )The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.
+ * @method DeliveryChargeSpecification setEligibleRegion(string $eligibleRegion ) setEligibleRegion(string[] $eligibleRegion ) setEligibleRegion(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\GeoShape $eligibleRegion ) setEligibleRegion(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\GeoShape[] $eligibleRegion )The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.
  *
  *
  */
-class DeliveryChargeSpecification extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\PriceSpecification
-{
-}
+ class DeliveryChargeSpecification extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\PriceSpecification {
+
+ }

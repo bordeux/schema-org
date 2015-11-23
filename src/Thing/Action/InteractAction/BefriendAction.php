@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction;
  *
 
  */
-class BefriendAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction
-{
-}
+ class BefriendAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction {
+
+ }

@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction\AllocateAction;
  *
 
  */
-class RejectAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction\AllocateAction
-{
-}
+ class RejectAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction\AllocateAction {
+
+ }

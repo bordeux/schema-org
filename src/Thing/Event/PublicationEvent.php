@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  *
  * -------------------------------- Free ---------------------------------------------
  *
- * @property Boolean Free
+ * @property Boolean|Boolean[] free
  *
- * @method Boolean getFree() A flag to signal that the publication is accessible for free.
+ * @method Boolean|Boolean[] getFree() A flag to signal that the publication is accessible for free.
  *
- * @method PublicationEvent setFree(Boolean $free )A flag to signal that the publication is accessible for free.
+ * @method PublicationEvent setFree(Boolean $free ) setFree(Boolean[] $free )A flag to signal that the publication is accessible for free.
  *
  *
  * -------------------------------- PublishedOn ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\BroadcastService PublishedOn
+ * @property \Bordeux\SchemaOrg\Thing\BroadcastService|\Bordeux\SchemaOrg\Thing\BroadcastService[] publishedOn
  *
- * @method \Bordeux\SchemaOrg\Thing\BroadcastService getPublishedOn() A broadcast service associated with the publication event
+ * @method \Bordeux\SchemaOrg\Thing\BroadcastService|\Bordeux\SchemaOrg\Thing\BroadcastService[] getPublishedOn() A broadcast service associated with the publication event
  *
- * @method PublicationEvent setPublishedOn(\Bordeux\SchemaOrg\Thing\BroadcastService $publishedOn )A broadcast service associated with the publication event
+ * @method PublicationEvent setPublishedOn(\Bordeux\SchemaOrg\Thing\BroadcastService $publishedOn ) setPublishedOn(\Bordeux\SchemaOrg\Thing\BroadcastService[] $publishedOn )A broadcast service associated with the publication event
  *
  *
  */
-class PublicationEvent extends \Bordeux\SchemaOrg\Thing\Event
-{
-}
+ class PublicationEvent extends \Bordeux\SchemaOrg\Thing\Event {
+
+ }

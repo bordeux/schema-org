@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusine
  *
 
  */
-class Casino extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness
-{
-}
+ class Casino extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness {
+
+ }

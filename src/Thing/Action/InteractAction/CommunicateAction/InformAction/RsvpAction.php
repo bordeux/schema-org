@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\Inform
  *
 
  */
-class RsvpAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\InformAction
-{
-}
+ class RsvpAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\InformAction {
+
+ }

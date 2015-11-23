@@ -11,23 +11,23 @@ namespace Bordeux\SchemaOrg\Thing\Action\UpdateAction;
  *
  * -------------------------------- Replacee ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing Replacee
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] replacee
  *
- * @method \Bordeux\SchemaOrg\Thing getReplacee() A sub property of object. The object that is being replaced.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] getReplacee() A sub property of object. The object that is being replaced.
  *
- * @method ReplaceAction setReplacee(\Bordeux\SchemaOrg\Thing $replacee )A sub property of object. The object that is being replaced.
+ * @method ReplaceAction setReplacee(\Bordeux\SchemaOrg\\Thing $replacee ) setReplacee(\Bordeux\SchemaOrg\\Thing[] $replacee )A sub property of object. The object that is being replaced.
  *
  *
  * -------------------------------- Replacer ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing Replacer
+ * @property \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] replacer
  *
- * @method \Bordeux\SchemaOrg\Thing getReplacer() A sub property of object. The object that replaces.
+ * @method \Bordeux\SchemaOrg\\Thing|\Bordeux\SchemaOrg\\Thing[] getReplacer() A sub property of object. The object that replaces.
  *
- * @method ReplaceAction setReplacer(\Bordeux\SchemaOrg\Thing $replacer )A sub property of object. The object that replaces.
+ * @method ReplaceAction setReplacer(\Bordeux\SchemaOrg\\Thing $replacer ) setReplacer(\Bordeux\SchemaOrg\\Thing[] $replacer )A sub property of object. The object that replaces.
  *
  *
  */
-class ReplaceAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction
-{
-}
+ class ReplaceAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction {
+
+ }

@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Quantity;
  *
 
  */
-class Energy extends \Bordeux\SchemaOrg\Thing\Intangible\Quantity
-{
-}
+ class Energy extends \Bordeux\SchemaOrg\Thing\Intangible\Quantity {
+
+ }

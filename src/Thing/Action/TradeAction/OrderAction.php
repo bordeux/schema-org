@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\TradeAction;
  *
 
  */
-class OrderAction extends \Bordeux\SchemaOrg\Thing\Action\TradeAction
-{
-}
+ class OrderAction extends \Bordeux\SchemaOrg\Thing\Action\TradeAction {
+
+ }

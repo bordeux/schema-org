@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\AutomotiveBusiness;
  *
 
  */
-class AutoRepair extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\AutomotiveBusiness
-{
-}
+ class AutoRepair extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\AutomotiveBusiness {
+
+ }

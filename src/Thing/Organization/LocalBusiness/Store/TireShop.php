@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store;
  *
 
  */
-class TireShop extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store
-{
-}
+ class TireShop extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store {
+
+ }

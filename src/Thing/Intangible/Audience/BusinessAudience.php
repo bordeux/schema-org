@@ -11,32 +11,32 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Audience;
  *
  * -------------------------------- NumberofEmployees ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue NumberofEmployees
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] numberofEmployees
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue getNumberofEmployees() The size of business by number of employees.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] getNumberofEmployees() The size of business by number of employees.
  *
- * @method BusinessAudience setNumberofEmployees(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue $numberofEmployees )The size of business by number of employees.
+ * @method BusinessAudience setNumberofEmployees(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue $numberofEmployees ) setNumberofEmployees(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] $numberofEmployees )The size of business by number of employees.
  *
  *
  * -------------------------------- YearlyRevenue ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue YearlyRevenue
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] yearlyRevenue
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue getYearlyRevenue() The size of the business in annual revenue.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] getYearlyRevenue() The size of the business in annual revenue.
  *
- * @method BusinessAudience setYearlyRevenue(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue $yearlyRevenue )The size of the business in annual revenue.
+ * @method BusinessAudience setYearlyRevenue(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue $yearlyRevenue ) setYearlyRevenue(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] $yearlyRevenue )The size of the business in annual revenue.
  *
  *
  * -------------------------------- YearsInOperation ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue YearsInOperation
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] yearsInOperation
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue getYearsInOperation() The age of the business.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] getYearsInOperation() The age of the business.
  *
- * @method BusinessAudience setYearsInOperation(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue $yearsInOperation )The age of the business.
+ * @method BusinessAudience setYearsInOperation(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue $yearsInOperation ) setYearsInOperation(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] $yearsInOperation )The age of the business.
  *
  *
  */
-class BusinessAudience extends \Bordeux\SchemaOrg\Thing\Intangible\Audience
-{
-}
+ class BusinessAudience extends \Bordeux\SchemaOrg\Thing\Intangible\Audience {
+
+ }

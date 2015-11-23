@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIndication;
  *
 
  */
-class ApprovedIndication extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIndication
-{
-}
+ class ApprovedIndication extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIndication {
+
+ }

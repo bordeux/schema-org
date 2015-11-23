@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Action;
  *
  * -------------------------------- Price ---------------------------------------------
  *
- * @property string|Number Price
+ * @property string|string[]|Number|Number[] price
  *
- * @method string|Number getPrice() The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
+ * @method string|string[]|Number|Number[] getPrice() The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
  *
- * @method TradeAction setPrice(string $price ) setPrice(Number $price )The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
+ * @method TradeAction setPrice(string $price ) setPrice(string[] $price ) setPrice(Number $price ) setPrice(Number[] $price )The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
  *
  *
  */
-class TradeAction extends \Bordeux\SchemaOrg\Thing\Action
-{
-}
+ class TradeAction extends \Bordeux\SchemaOrg\Thing\Action {
+
+ }

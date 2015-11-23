@@ -11,185 +11,185 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  *
  * -------------------------------- ApplicationCategory ---------------------------------------------
  *
- * @property string|string ApplicationCategory
+ * @property string|string[]|string|string[] applicationCategory
  *
- * @method string|string getApplicationCategory() Type of software application, e.g. "Game, Multimedia".
+ * @method string|string[]|string|string[] getApplicationCategory() Type of software application, e.g. "Game, Multimedia".
  *
- * @method SoftwareApplication setApplicationCategory(string $applicationCategory ) setApplicationCategory(string $applicationCategory )Type of software application, e.g. "Game, Multimedia".
+ * @method SoftwareApplication setApplicationCategory(string $applicationCategory ) setApplicationCategory(string[] $applicationCategory ) setApplicationCategory(string $applicationCategory ) setApplicationCategory(string[] $applicationCategory )Type of software application, e.g. "Game, Multimedia".
  *
  *
  * -------------------------------- ApplicationSubCategory ---------------------------------------------
  *
- * @property string|string ApplicationSubCategory
+ * @property string|string[]|string|string[] applicationSubCategory
  *
- * @method string|string getApplicationSubCategory() Subcategory of the application, e.g. "Arcade Game".
+ * @method string|string[]|string|string[] getApplicationSubCategory() Subcategory of the application, e.g. "Arcade Game".
  *
- * @method SoftwareApplication setApplicationSubCategory(string $applicationSubCategory ) setApplicationSubCategory(string $applicationSubCategory )Subcategory of the application, e.g. "Arcade Game".
+ * @method SoftwareApplication setApplicationSubCategory(string $applicationSubCategory ) setApplicationSubCategory(string[] $applicationSubCategory ) setApplicationSubCategory(string $applicationSubCategory ) setApplicationSubCategory(string[] $applicationSubCategory )Subcategory of the application, e.g. "Arcade Game".
  *
  *
  * -------------------------------- ApplicationSuite ---------------------------------------------
  *
- * @property string ApplicationSuite
+ * @property string|string[] applicationSuite
  *
- * @method string getApplicationSuite() The name of the application suite to which the application belongs (e.g. Excel belongs to Office)
+ * @method string|string[] getApplicationSuite() The name of the application suite to which the application belongs (e.g. Excel belongs to Office)
  *
- * @method SoftwareApplication setApplicationSuite(string $applicationSuite )The name of the application suite to which the application belongs (e.g. Excel belongs to Office)
+ * @method SoftwareApplication setApplicationSuite(string $applicationSuite ) setApplicationSuite(string[] $applicationSuite )The name of the application suite to which the application belongs (e.g. Excel belongs to Office)
  *
  *
  * -------------------------------- CountriesNotSupported ---------------------------------------------
  *
- * @property string CountriesNotSupported
+ * @property string|string[] countriesNotSupported
  *
- * @method string getCountriesNotSupported() Countries for which the application is not supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
+ * @method string|string[] getCountriesNotSupported() Countries for which the application is not supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
  *
- * @method SoftwareApplication setCountriesNotSupported(string $countriesNotSupported )Countries for which the application is not supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
+ * @method SoftwareApplication setCountriesNotSupported(string $countriesNotSupported ) setCountriesNotSupported(string[] $countriesNotSupported )Countries for which the application is not supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
  *
  *
  * -------------------------------- CountriesSupported ---------------------------------------------
  *
- * @property string CountriesSupported
+ * @property string|string[] countriesSupported
  *
- * @method string getCountriesSupported() Countries for which the application is supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
+ * @method string|string[] getCountriesSupported() Countries for which the application is supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
  *
- * @method SoftwareApplication setCountriesSupported(string $countriesSupported )Countries for which the application is supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
+ * @method SoftwareApplication setCountriesSupported(string $countriesSupported ) setCountriesSupported(string[] $countriesSupported )Countries for which the application is supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code.
  *
  *
  * -------------------------------- Device ---------------------------------------------
  *
- * @property string Device
+ * @property string|string[] device
  *
- * @method string getDevice() Device required to run the application. Used in cases where a specific make/model is required to run the application.
+ * @method string|string[] getDevice() Device required to run the application. Used in cases where a specific make/model is required to run the application.
  *
- * @method SoftwareApplication setDevice(string $device )Device required to run the application. Used in cases where a specific make/model is required to run the application.
+ * @method SoftwareApplication setDevice(string $device ) setDevice(string[] $device )Device required to run the application. Used in cases where a specific make/model is required to run the application.
  *
  *
  * -------------------------------- DownloadUrl ---------------------------------------------
  *
- * @property string DownloadUrl
+ * @property string|string[] downloadUrl
  *
- * @method string getDownloadUrl() If the file can be downloaded, URL to download the binary.
+ * @method string|string[] getDownloadUrl() If the file can be downloaded, URL to download the binary.
  *
- * @method SoftwareApplication setDownloadUrl(string $downloadUrl )If the file can be downloaded, URL to download the binary.
+ * @method SoftwareApplication setDownloadUrl(string $downloadUrl ) setDownloadUrl(string[] $downloadUrl )If the file can be downloaded, URL to download the binary.
  *
  *
  * -------------------------------- FeatureList ---------------------------------------------
  *
- * @property string|string FeatureList
+ * @property string|string[]|string|string[] featureList
  *
- * @method string|string getFeatureList() Features or modules provided by this application (and possibly required by other applications).
+ * @method string|string[]|string|string[] getFeatureList() Features or modules provided by this application (and possibly required by other applications).
  *
- * @method SoftwareApplication setFeatureList(string $featureList ) setFeatureList(string $featureList )Features or modules provided by this application (and possibly required by other applications).
+ * @method SoftwareApplication setFeatureList(string $featureList ) setFeatureList(string[] $featureList ) setFeatureList(string $featureList ) setFeatureList(string[] $featureList )Features or modules provided by this application (and possibly required by other applications).
  *
  *
  * -------------------------------- FileFormat ---------------------------------------------
  *
- * @property string FileFormat
+ * @property string|string[] fileFormat
  *
- * @method string getFileFormat() MIME format of the binary (e.g. application/zip).
+ * @method string|string[] getFileFormat() MIME format of the binary (e.g. application/zip).
  *
- * @method SoftwareApplication setFileFormat(string $fileFormat )MIME format of the binary (e.g. application/zip).
+ * @method SoftwareApplication setFileFormat(string $fileFormat ) setFileFormat(string[] $fileFormat )MIME format of the binary (e.g. application/zip).
  *
  *
  * -------------------------------- FileSize ---------------------------------------------
  *
- * @property Integer FileSize
+ * @property Integer|Integer[] fileSize
  *
- * @method Integer getFileSize() Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.
+ * @method Integer|Integer[] getFileSize() Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.
  *
- * @method SoftwareApplication setFileSize(Integer $fileSize )Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.
+ * @method SoftwareApplication setFileSize(Integer $fileSize ) setFileSize(Integer[] $fileSize )Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.
  *
  *
  * -------------------------------- InstallUrl ---------------------------------------------
  *
- * @property string InstallUrl
+ * @property string|string[] installUrl
  *
- * @method string getInstallUrl() URL at which the app may be installed, if different from the URL of the item.
+ * @method string|string[] getInstallUrl() URL at which the app may be installed, if different from the URL of the item.
  *
- * @method SoftwareApplication setInstallUrl(string $installUrl )URL at which the app may be installed, if different from the URL of the item.
+ * @method SoftwareApplication setInstallUrl(string $installUrl ) setInstallUrl(string[] $installUrl )URL at which the app may be installed, if different from the URL of the item.
  *
  *
  * -------------------------------- MemoryRequirements ---------------------------------------------
  *
- * @property string|string MemoryRequirements
+ * @property string|string[]|string|string[] memoryRequirements
  *
- * @method string|string getMemoryRequirements() Minimum memory requirements.
+ * @method string|string[]|string|string[] getMemoryRequirements() Minimum memory requirements.
  *
- * @method SoftwareApplication setMemoryRequirements(string $memoryRequirements ) setMemoryRequirements(string $memoryRequirements )Minimum memory requirements.
+ * @method SoftwareApplication setMemoryRequirements(string $memoryRequirements ) setMemoryRequirements(string[] $memoryRequirements ) setMemoryRequirements(string $memoryRequirements ) setMemoryRequirements(string[] $memoryRequirements )Minimum memory requirements.
  *
  *
  * -------------------------------- OperatingSystem ---------------------------------------------
  *
- * @property string OperatingSystem
+ * @property string|string[] operatingSystem
  *
- * @method string getOperatingSystem() Operating systems supported (Windows 7, OSX 10.6, Android 1.6).
+ * @method string|string[] getOperatingSystem() Operating systems supported (Windows 7, OSX 10.6, Android 1.6).
  *
- * @method SoftwareApplication setOperatingSystem(string $operatingSystem )Operating systems supported (Windows 7, OSX 10.6, Android 1.6).
+ * @method SoftwareApplication setOperatingSystem(string $operatingSystem ) setOperatingSystem(string[] $operatingSystem )Operating systems supported (Windows 7, OSX 10.6, Android 1.6).
  *
  *
  * -------------------------------- Permissions ---------------------------------------------
  *
- * @property string Permissions
+ * @property string|string[] permissions
  *
- * @method string getPermissions() Permission(s) required to run the app (for example, a mobile app may require full internet access or may run only on wifi).
+ * @method string|string[] getPermissions() Permission(s) required to run the app (for example, a mobile app may require full internet access or may run only on wifi).
  *
- * @method SoftwareApplication setPermissions(string $permissions )Permission(s) required to run the app (for example, a mobile app may require full internet access or may run only on wifi).
+ * @method SoftwareApplication setPermissions(string $permissions ) setPermissions(string[] $permissions )Permission(s) required to run the app (for example, a mobile app may require full internet access or may run only on wifi).
  *
  *
  * -------------------------------- ProcessorRequirements ---------------------------------------------
  *
- * @property string ProcessorRequirements
+ * @property string|string[] processorRequirements
  *
- * @method string getProcessorRequirements() Processor architecture required to run the application (e.g. IA64).
+ * @method string|string[] getProcessorRequirements() Processor architecture required to run the application (e.g. IA64).
  *
- * @method SoftwareApplication setProcessorRequirements(string $processorRequirements )Processor architecture required to run the application (e.g. IA64).
+ * @method SoftwareApplication setProcessorRequirements(string $processorRequirements ) setProcessorRequirements(string[] $processorRequirements )Processor architecture required to run the application (e.g. IA64).
  *
  *
  * -------------------------------- ReleaseNotes ---------------------------------------------
  *
- * @property string|string ReleaseNotes
+ * @property string|string[]|string|string[] releaseNotes
  *
- * @method string|string getReleaseNotes() Description of what changed in this version.
+ * @method string|string[]|string|string[] getReleaseNotes() Description of what changed in this version.
  *
- * @method SoftwareApplication setReleaseNotes(string $releaseNotes ) setReleaseNotes(string $releaseNotes )Description of what changed in this version.
+ * @method SoftwareApplication setReleaseNotes(string $releaseNotes ) setReleaseNotes(string[] $releaseNotes ) setReleaseNotes(string $releaseNotes ) setReleaseNotes(string[] $releaseNotes )Description of what changed in this version.
  *
  *
  * -------------------------------- Requirements ---------------------------------------------
  *
- * @property string|string Requirements
+ * @property string|string[]|string|string[] requirements
  *
- * @method string|string getRequirements() Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).
+ * @method string|string[]|string|string[] getRequirements() Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).
  *
- * @method SoftwareApplication setRequirements(string $requirements ) setRequirements(string $requirements )Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).
+ * @method SoftwareApplication setRequirements(string $requirements ) setRequirements(string[] $requirements ) setRequirements(string $requirements ) setRequirements(string[] $requirements )Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).
  *
  *
  * -------------------------------- Screenshot ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject|string Screenshot
+ * @property \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject[]|string|string[] screenshot
  *
- * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject|string getScreenshot() A link to a screenshot image of the app.
+ * @method \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject|\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject[]|string|string[] getScreenshot() A link to a screenshot image of the app.
  *
- * @method SoftwareApplication setScreenshot(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject $screenshot ) setScreenshot(string $screenshot )A link to a screenshot image of the app.
+ * @method SoftwareApplication setScreenshot(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject $screenshot ) setScreenshot(\Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject\ImageObject[] $screenshot ) setScreenshot(string $screenshot ) setScreenshot(string[] $screenshot )A link to a screenshot image of the app.
  *
  *
  * -------------------------------- SoftwareVersion ---------------------------------------------
  *
- * @property string SoftwareVersion
+ * @property string|string[] softwareVersion
  *
- * @method string getSoftwareVersion() Version of the software instance.
+ * @method string|string[] getSoftwareVersion() Version of the software instance.
  *
- * @method SoftwareApplication setSoftwareVersion(string $softwareVersion )Version of the software instance.
+ * @method SoftwareApplication setSoftwareVersion(string $softwareVersion ) setSoftwareVersion(string[] $softwareVersion )Version of the software instance.
  *
  *
  * -------------------------------- StorageRequirements ---------------------------------------------
  *
- * @property string|string StorageRequirements
+ * @property string|string[]|string|string[] storageRequirements
  *
- * @method string|string getStorageRequirements() Storage requirements (free space required).
+ * @method string|string[]|string|string[] getStorageRequirements() Storage requirements (free space required).
  *
- * @method SoftwareApplication setStorageRequirements(string $storageRequirements ) setStorageRequirements(string $storageRequirements )Storage requirements (free space required).
+ * @method SoftwareApplication setStorageRequirements(string $storageRequirements ) setStorageRequirements(string[] $storageRequirements ) setStorageRequirements(string $storageRequirements ) setStorageRequirements(string[] $storageRequirements )Storage requirements (free space required).
  *
  *
  */
-class SoftwareApplication extends \Bordeux\SchemaOrg\Thing\CreativeWork
-{
-}
+ class SoftwareApplication extends \Bordeux\SchemaOrg\Thing\CreativeWork {
+
+ }

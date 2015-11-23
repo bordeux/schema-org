@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\ProfessionalService
  *
 
  */
-class Notary extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\ProfessionalService
-{
-}
+ class Notary extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\ProfessionalService {
+
+ }

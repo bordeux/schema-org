@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\Product;
  *
  * -------------------------------- InventoryLevel ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue InventoryLevel
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] inventoryLevel
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue getInventoryLevel() The current approximate inventory level for the item or items.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue|\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] getInventoryLevel() The current approximate inventory level for the item or items.
  *
- * @method SomeProducts setInventoryLevel(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue $inventoryLevel )The current approximate inventory level for the item or items.
+ * @method SomeProducts setInventoryLevel(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue $inventoryLevel ) setInventoryLevel(\Bordeux\SchemaOrg\Thing\Intangible\StructuredValue\QuantitativeValue[] $inventoryLevel )The current approximate inventory level for the item or items.
  *
  *
  */
-class SomeProducts extends \Bordeux\SchemaOrg\Thing\Product
-{
-}
+ class SomeProducts extends \Bordeux\SchemaOrg\Thing\Product {
+
+ }

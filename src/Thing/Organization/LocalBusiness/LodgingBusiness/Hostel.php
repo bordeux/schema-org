@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\LodgingBusiness;
  *
 
  */
-class Hostel extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\LodgingBusiness
-{
-}
+ class Hostel extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\LodgingBusiness {
+
+ }

@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalGuideline;
  *
  * -------------------------------- RecommendationStrength ---------------------------------------------
  *
- * @property string RecommendationStrength
+ * @property string|string[] recommendationStrength
  *
- * @method string getRecommendationStrength() Strength of the guideline's recommendation (e.g. 'class I').
+ * @method string|string[] getRecommendationStrength() Strength of the guideline's recommendation (e.g. 'class I').
  *
- * @method MedicalGuidelineRecommendation setRecommendationStrength(string $recommendationStrength )Strength of the guideline's recommendation (e.g. 'class I').
+ * @method MedicalGuidelineRecommendation setRecommendationStrength(string $recommendationStrength ) setRecommendationStrength(string[] $recommendationStrength )Strength of the guideline's recommendation (e.g. 'class I').
  *
  *
  */
-class MedicalGuidelineRecommendation extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalGuideline
-{
-}
+ class MedicalGuidelineRecommendation extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalGuideline {
+
+ }

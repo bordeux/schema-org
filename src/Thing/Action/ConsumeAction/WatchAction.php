@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\ConsumeAction;
  *
 
  */
-class WatchAction extends \Bordeux\SchemaOrg\Thing\Action\ConsumeAction
-{
-}
+ class WatchAction extends \Bordeux\SchemaOrg\Thing\Action\ConsumeAction {
+
+ }

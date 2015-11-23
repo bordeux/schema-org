@@ -11,68 +11,68 @@ namespace Bordeux\SchemaOrg;
  *
  * -------------------------------- AdditionalType ---------------------------------------------
  *
- * @property string AdditionalType
+ * @property string|string[] additionalType
  *
- * @method string getAdditionalType() An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.
+ * @method string|string[] getAdditionalType() An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.
  *
- * @method Thing setAdditionalType(string $additionalType )An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.
+ * @method Thing setAdditionalType(string $additionalType ) setAdditionalType(string[] $additionalType )An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.
  *
  *
  * -------------------------------- AlternateName ---------------------------------------------
  *
- * @property string AlternateName
+ * @property string|string[] alternateName
  *
- * @method string getAlternateName() An alias for the item.
+ * @method string|string[] getAlternateName() An alias for the item.
  *
- * @method Thing setAlternateName(string $alternateName )An alias for the item.
+ * @method Thing setAlternateName(string $alternateName ) setAlternateName(string[] $alternateName )An alias for the item.
  *
  *
  * -------------------------------- Description ---------------------------------------------
  *
- * @property string Description
+ * @property string|string[] description
  *
- * @method string getDescription() A short description of the item.
+ * @method string|string[] getDescription() A short description of the item.
  *
- * @method Thing setDescription(string $description )A short description of the item.
+ * @method Thing setDescription(string $description ) setDescription(string[] $description )A short description of the item.
  *
  *
  * -------------------------------- Image ---------------------------------------------
  *
- * @property string Image
+ * @property string|string[] image
  *
- * @method string getImage() URL of an image of the item.
+ * @method string|string[] getImage() URL of an image of the item.
  *
- * @method Thing setImage(string $image )URL of an image of the item.
+ * @method Thing setImage(string $image ) setImage(string[] $image )URL of an image of the item.
  *
  *
  * -------------------------------- Name ---------------------------------------------
  *
- * @property string Name
+ * @property string|string[] name
  *
- * @method string getName() The name of the item.
+ * @method string|string[] getName() The name of the item.
  *
- * @method Thing setName(string $name )The name of the item.
+ * @method Thing setName(string $name ) setName(string[] $name )The name of the item.
  *
  *
  * -------------------------------- SameAs ---------------------------------------------
  *
- * @property string SameAs
+ * @property string|string[] sameAs
  *
- * @method string getSameAs() URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.
+ * @method string|string[] getSameAs() URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.
  *
- * @method Thing setSameAs(string $sameAs )URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.
+ * @method Thing setSameAs(string $sameAs ) setSameAs(string[] $sameAs )URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.
  *
  *
  * -------------------------------- Url ---------------------------------------------
  *
- * @property string Url
+ * @property string|string[] url
  *
- * @method string getUrl() URL of the item.
+ * @method string|string[] getUrl() URL of the item.
  *
- * @method Thing setUrl(string $url )URL of the item.
+ * @method Thing setUrl(string $url ) setUrl(string[] $url )URL of the item.
  *
  *
  */
-class Thing extends \Bordeux\SchemaOrg\Element
-{
-}
+ class Thing extends \Bordeux\SchemaOrg\Element {
+
+ }

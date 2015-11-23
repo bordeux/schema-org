@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\UpdateAction;
  *
 
  */
-class DeleteAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction
-{
-}
+ class DeleteAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction {
+
+ }

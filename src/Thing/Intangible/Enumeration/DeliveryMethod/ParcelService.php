@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod;
  *
 
  */
-class ParcelService extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod
-{
-}
+ class ParcelService extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod {
+
+ }

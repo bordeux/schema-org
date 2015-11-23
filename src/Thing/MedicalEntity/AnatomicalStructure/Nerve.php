@@ -11,41 +11,41 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure;
  *
  * -------------------------------- Branch ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Nerve Branch
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Nerve|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Nerve[] branch
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Nerve getBranch() The branches that delineate from the nerve bundle.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Nerve|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Nerve[] getBranch() The branches that delineate from the nerve bundle.
  *
- * @method Nerve setBranch(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure $branch ) setBranch(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Nerve $branch )The branches that delineate from the nerve bundle.
+ * @method Nerve setBranch(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure $branch ) setBranch(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure[] $branch ) setBranch(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Nerve $branch ) setBranch(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Nerve[] $branch )The branches that delineate from the nerve bundle.
  *
  *
  * -------------------------------- NerveMotor ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Muscle NerveMotor
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Muscle|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Muscle[] nerveMotor
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Muscle getNerveMotor() The neurological pathway extension that involves muscle control.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Muscle|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Muscle[] getNerveMotor() The neurological pathway extension that involves muscle control.
  *
- * @method Nerve setNerveMotor(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Muscle $nerveMotor )The neurological pathway extension that involves muscle control.
+ * @method Nerve setNerveMotor(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Muscle $nerveMotor ) setNerveMotor(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\Muscle[] $nerveMotor )The neurological pathway extension that involves muscle control.
  *
  *
  * -------------------------------- SensoryUnit ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\SuperficialAnatomy SensoryUnit
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\SuperficialAnatomy|\Bordeux\SchemaOrg\Thing\MedicalEntity\SuperficialAnatomy[] sensoryUnit
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\SuperficialAnatomy getSensoryUnit() The neurological pathway extension that inputs and sends information to the brain or spinal cord.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure[]|\Bordeux\SchemaOrg\Thing\MedicalEntity\SuperficialAnatomy|\Bordeux\SchemaOrg\Thing\MedicalEntity\SuperficialAnatomy[] getSensoryUnit() The neurological pathway extension that inputs and sends information to the brain or spinal cord.
  *
- * @method Nerve setSensoryUnit(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure $sensoryUnit ) setSensoryUnit(\Bordeux\SchemaOrg\Thing\MedicalEntity\SuperficialAnatomy $sensoryUnit )The neurological pathway extension that inputs and sends information to the brain or spinal cord.
+ * @method Nerve setSensoryUnit(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure $sensoryUnit ) setSensoryUnit(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure[] $sensoryUnit ) setSensoryUnit(\Bordeux\SchemaOrg\Thing\MedicalEntity\SuperficialAnatomy $sensoryUnit ) setSensoryUnit(\Bordeux\SchemaOrg\Thing\MedicalEntity\SuperficialAnatomy[] $sensoryUnit )The neurological pathway extension that inputs and sends information to the brain or spinal cord.
  *
  *
  * -------------------------------- SourcedFrom ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\BrainStructure SourcedFrom
+ * @property \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\BrainStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\BrainStructure[] sourcedFrom
  *
- * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\BrainStructure getSourcedFrom() The neurological pathway that originates the neurons.
+ * @method \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\BrainStructure|\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\BrainStructure[] getSourcedFrom() The neurological pathway that originates the neurons.
  *
- * @method Nerve setSourcedFrom(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\BrainStructure $sourcedFrom )The neurological pathway that originates the neurons.
+ * @method Nerve setSourcedFrom(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\BrainStructure $sourcedFrom ) setSourcedFrom(\Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure\BrainStructure[] $sourcedFrom )The neurological pathway that originates the neurons.
  *
  *
  */
-class Nerve extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure
-{
-}
+ class Nerve extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure {
+
+ }

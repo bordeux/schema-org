@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\ConsumeAction\UseAction;
  *
 
  */
-class WearAction extends \Bordeux\SchemaOrg\Thing\Action\ConsumeAction\UseAction
-{
-}
+ class WearAction extends \Bordeux\SchemaOrg\Thing\Action\ConsumeAction\UseAction {
+
+ }

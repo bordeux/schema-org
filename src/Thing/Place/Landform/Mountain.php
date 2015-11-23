@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Place\Landform;
  *
 
  */
-class Mountain extends \Bordeux\SchemaOrg\Thing\Place\Landform
-{
-}
+ class Mountain extends \Bordeux\SchemaOrg\Thing\Place\Landform {
+
+ }

@@ -11,14 +11,14 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication;
  *
  * -------------------------------- CarrierRequirements ---------------------------------------------
  *
- * @property string CarrierRequirements
+ * @property string|string[] carrierRequirements
  *
- * @method string getCarrierRequirements() Specifies specific carrier(s) requirements for the application (e.g. an application may only work on a specific carrier network).
+ * @method string|string[] getCarrierRequirements() Specifies specific carrier(s) requirements for the application (e.g. an application may only work on a specific carrier network).
  *
- * @method MobileApplication setCarrierRequirements(string $carrierRequirements )Specifies specific carrier(s) requirements for the application (e.g. an application may only work on a specific carrier network).
+ * @method MobileApplication setCarrierRequirements(string $carrierRequirements ) setCarrierRequirements(string[] $carrierRequirements )Specifies specific carrier(s) requirements for the application (e.g. an application may only work on a specific carrier network).
  *
  *
  */
-class MobileApplication extends \Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication
-{
-}
+ class MobileApplication extends \Bordeux\SchemaOrg\Thing\CreativeWork\SoftwareApplication {
+
+ }

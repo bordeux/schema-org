@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement;
  *
 
  */
-class Table extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement
-{
-}
+ class Table extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement {
+
+ }

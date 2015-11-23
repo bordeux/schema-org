@@ -11,6 +11,6 @@ namespace Bordeux\SchemaOrg\Thing\Action\AssessAction;
  *
 
  */
-class IgnoreAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction
-{
-}
+ class IgnoreAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction {
+
+ }

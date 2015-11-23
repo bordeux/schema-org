@@ -11,50 +11,50 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\StructuredValue;
  *
  * -------------------------------- Closes ---------------------------------------------
  *
- * @property Time Closes
+ * @property Time|Time[] closes
  *
- * @method Time getCloses() The closing hour of the place or service on the given day(s) of the week.
+ * @method Time|Time[] getCloses() The closing hour of the place or service on the given day(s) of the week.
  *
- * @method OpeningHoursSpecification setCloses(Time $closes )The closing hour of the place or service on the given day(s) of the week.
+ * @method OpeningHoursSpecification setCloses(Time $closes ) setCloses(Time[] $closes )The closing hour of the place or service on the given day(s) of the week.
  *
  *
  * -------------------------------- DayOfWeek ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DayOfWeek DayOfWeek
+ * @property \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DayOfWeek|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DayOfWeek[] dayOfWeek
  *
- * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DayOfWeek getDayOfWeek() The day of the week for which these opening hours are valid.
+ * @method \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DayOfWeek|\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DayOfWeek[] getDayOfWeek() The day of the week for which these opening hours are valid.
  *
- * @method OpeningHoursSpecification setDayOfWeek(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DayOfWeek $dayOfWeek )The day of the week for which these opening hours are valid.
+ * @method OpeningHoursSpecification setDayOfWeek(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DayOfWeek $dayOfWeek ) setDayOfWeek(\Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DayOfWeek[] $dayOfWeek )The day of the week for which these opening hours are valid.
  *
  *
  * -------------------------------- Opens ---------------------------------------------
  *
- * @property Time Opens
+ * @property Time|Time[] opens
  *
- * @method Time getOpens() The opening hour of the place or service on the given day(s) of the week.
+ * @method Time|Time[] getOpens() The opening hour of the place or service on the given day(s) of the week.
  *
- * @method OpeningHoursSpecification setOpens(Time $opens )The opening hour of the place or service on the given day(s) of the week.
+ * @method OpeningHoursSpecification setOpens(Time $opens ) setOpens(Time[] $opens )The opening hour of the place or service on the given day(s) of the week.
  *
  *
  * -------------------------------- ValidFrom ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\SchemaDateTime ValidFrom
+ * @property \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] validFrom
  *
- * @method \Bordeux\SchemaOrg\SchemaDateTime getValidFrom() The date when the item becomes valid.
+ * @method \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] getValidFrom() The date when the item becomes valid.
  *
- * @method OpeningHoursSpecification setValidFrom(\Bordeux\SchemaOrg\SchemaDateTime $validFrom )The date when the item becomes valid.
+ * @method OpeningHoursSpecification setValidFrom(\Bordeux\SchemaOrg\SchemaDateTime $validFrom ) setValidFrom(\Bordeux\SchemaOrg\SchemaDateTime[] $validFrom )The date when the item becomes valid.
  *
  *
  * -------------------------------- ValidThrough ---------------------------------------------
  *
- * @property \Bordeux\SchemaOrg\SchemaDateTime ValidThrough
+ * @property \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] validThrough
  *
- * @method \Bordeux\SchemaOrg\SchemaDateTime getValidThrough() The end of the validity of offer, price specification, or opening hours data.
+ * @method \Bordeux\SchemaOrg\SchemaDateTime|\Bordeux\SchemaOrg\SchemaDateTime[] getValidThrough() The end of the validity of offer, price specification, or opening hours data.
  *
- * @method OpeningHoursSpecification setValidThrough(\Bordeux\SchemaOrg\SchemaDateTime $validThrough )The end of the validity of offer, price specification, or opening hours data.
+ * @method OpeningHoursSpecification setValidThrough(\Bordeux\SchemaOrg\SchemaDateTime $validThrough ) setValidThrough(\Bordeux\SchemaOrg\SchemaDateTime[] $validThrough )The end of the validity of offer, price specification, or opening hours data.
  *
  *
  */
-class OpeningHoursSpecification extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue
-{
-}
+ class OpeningHoursSpecification extends \Bordeux\SchemaOrg\Thing\Intangible\StructuredValue {
+
+ }
