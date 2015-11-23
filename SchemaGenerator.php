@@ -35,6 +35,12 @@ class SchemaGenerator
      */
     protected $delimiter = "\\";
 
+
+    /**
+     * @var string default DIRECTORY_SEPERATOR
+     */
+    protected $fileDelimiter;
+
     /**
      * @var string[]
      */
@@ -115,6 +121,7 @@ class SchemaGenerator
     public function __construct()
     {
         $this->path = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'src';
+        $this->fileDelimiter = DIRECTORY_SEPARATOR;
     }
 
     /**
@@ -161,6 +168,52 @@ class SchemaGenerator
         $this->schemaNamespace = $schemaNamespace;
         return $this;
     }
+
+    /**
+     * Get delimiter value
+     * @author Krzysztof Bednarczyk
+     * @return string
+     */
+    public function getDelimiter()
+    {
+        return $this->delimiter;
+    }
+
+    /**
+     * Set delimiter value
+     * @author Krzysztof Bednarczyk
+     * @param string $delimiter
+     * @return  $this
+     */
+    public function setDelimiter($delimiter)
+    {
+        $this->delimiter = $delimiter;
+        return $this;
+    }
+
+    /**
+     * Get fileDelimiter value
+     * @author Krzysztof Bednarczyk
+     * @return string
+     */
+    public function getFileDelimiter()
+    {
+        return $this->fileDelimiter;
+    }
+
+    /**
+     * Set fileDelimiter value
+     * @author Krzysztof Bednarczyk
+     * @param string $fileDelimiter
+     * @return  $this
+     */
+    public function setFileDelimiter($fileDelimiter)
+    {
+        $this->fileDelimiter = $fileDelimiter;
+        return $this;
+    }
+
+
 
     /**
      * Get schemaJsonUrl value
@@ -312,7 +365,7 @@ class SchemaGenerator
 
         }
 
-        $propertiesString = implode("\n", $properties);
+        $propertiesString = empty($properties) ? " * \n" : implode("\n", $properties);
 
 
         return "<?php
