@@ -37,7 +37,8 @@ class Element implements \JsonSerializable
      * @param mixed $value
      * @return $this
      */
-    public function  __set($name , $value ) {
+    public function  __set($name, $value)
+    {
         $this->_data[$name] = $value;
         return $this;
     }
@@ -48,8 +49,9 @@ class Element implements \JsonSerializable
      * @param string $name
      * @return mixed|null
      */
-    public function __get($name){
-        return isset($this->_data[$name]) ?  $this->_data[$name] : null;
+    public function __get($name)
+    {
+        return isset($this->_data[$name]) ? $this->_data[$name] : null;
     }
 
 
@@ -58,7 +60,8 @@ class Element implements \JsonSerializable
      * @param string $name
      * @return bool
      */
-    public function __isset($name){
+    public function __isset($name)
+    {
         return isset($this->_data[$name]);
     }
 
@@ -67,8 +70,9 @@ class Element implements \JsonSerializable
      * @author Krzysztof Bednarczyk
      * @param string $name
      */
-    public function __unset($name){
-        if(isset($this->_data[$name])){
+    public function __unset($name)
+    {
+        if (isset($this->_data[$name])) {
             unset($this->_data[$name]);
         }
     }
@@ -85,11 +89,11 @@ class Element implements \JsonSerializable
         $type = substr($name, 0, 3);
         $name = lcfirst(substr($name, 3));
 
-        if(empty($name)){
+        if (empty($name)) {
             throw new \InvalidArgumentException("Method not found {$name}");
         }
 
-        switch($type){
+        switch ($type) {
             case "get":
                 return $this->__get($name);
             case "set":
@@ -118,30 +122,40 @@ class Element implements \JsonSerializable
      */
     public function setId($id)
     {
-        $this->_id =  $id;
+        $this->_id = $id;
         return $this;
     }
 
 
-    public function toArray(){
+    public function toArray()
+    {
         $result = $this->_data;
 
-        if($this->_id){
+        if ($this->_id) {
             $result['@id'] = $this->_id;
         }
 
         $class = explode('\\', get_called_class());
         $result['@type'] = array_pop($class);
         $result['@schema'] = "http://schema.org";
+        $result['@context'] = "http://schema.org";
         return $result;
     }
 
 
+    /**
+     * @author Krzysztof Bednarczyk
+     * @return string
+     */
+    public function __toString()
+    {
+        return json_encode($this->jsonSerialize());
+    }
 
     /**
      * @inheritdoc
      */
-    function jsonSerialize()
+    public function jsonSerialize()
     {
         return $this->toArray();
     }
