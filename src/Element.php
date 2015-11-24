@@ -137,7 +137,6 @@ class Element implements \JsonSerializable
 
         $class = explode('\\', get_called_class());
         $result['@type'] = array_pop($class);
-        $result['@schema'] = "http://schema.org";
         $result['@context'] = "http://schema.org";
         return $result;
     }
