@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event\UserInteraction;
  * @link http://schema.org/UserTweets
  *
  *
-
+ * 
  */
  class UserTweets extends \Bordeux\SchemaOrg\Thing\Event\UserInteraction {
 

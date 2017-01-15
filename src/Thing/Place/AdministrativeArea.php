@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place;
  * @link http://schema.org/AdministrativeArea
  *
  *
-
+ * 
  */
  class AdministrativeArea extends \Bordeux\SchemaOrg\Thing\Place {
 

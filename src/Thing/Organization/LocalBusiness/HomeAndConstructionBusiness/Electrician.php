@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HomeAndConstruction
  * @link http://schema.org/Electrician
  *
  *
-
+ * 
  */
  class Electrician extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HomeAndConstructionBusiness {
 

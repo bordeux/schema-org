@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalGuideline;
  * @link http://schema.org/MedicalGuidelineContraindication
  *
  *
-
+ * 
  */
  class MedicalGuidelineContraindication extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalGuideline {
 

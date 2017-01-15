@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  * @link http://schema.org/VisualArtsEvent
  *
  *
-
+ * 
  */
  class VisualArtsEvent extends \Bordeux\SchemaOrg\Thing\Event {
 

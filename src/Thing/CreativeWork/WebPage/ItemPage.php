@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPage;
  * @link http://schema.org/ItemPage
  *
  *
-
+ * 
  */
  class ItemPage extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage {
 

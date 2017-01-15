@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store;
  * @link http://schema.org/DepartmentStore
  *
  *
-
+ * 
  */
  class DepartmentStore extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction\AllocateAction;
  * @link http://schema.org/AssignAction
  *
  *
-
+ * 
  */
  class AssignAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction\AllocateAction {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event\UserInteraction;
  * @link http://schema.org/UserPlays
  *
  *
-
+ * 
  */
  class UserPlays extends \Bordeux\SchemaOrg\Thing\Event\UserInteraction {
 

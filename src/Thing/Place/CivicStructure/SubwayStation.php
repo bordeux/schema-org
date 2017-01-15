@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  * @link http://schema.org/SubwayStation
  *
  *
-
+ * 
  */
  class SubwayStation extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event\UserInteraction;
  * @link http://schema.org/UserPlusOnes
  *
  *
-
+ * 
  */
  class UserPlusOnes extends \Bordeux\SchemaOrg\Thing\Event\UserInteraction {
 

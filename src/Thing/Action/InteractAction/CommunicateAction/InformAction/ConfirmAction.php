@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\Inform
  * @link http://schema.org/ConfirmAction
  *
  *
-
+ * 
  */
  class ConfirmAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\InformAction {
 

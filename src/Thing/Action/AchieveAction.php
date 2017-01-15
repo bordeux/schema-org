@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action;
  * @link http://schema.org/AchieveAction
  *
  *
-
+ * 
  */
  class AchieveAction extends \Bordeux\SchemaOrg\Thing\Action {
 

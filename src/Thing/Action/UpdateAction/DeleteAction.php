@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\UpdateAction;
  * @link http://schema.org/DeleteAction
  *
  *
-
+ * 
  */
  class DeleteAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction {
 

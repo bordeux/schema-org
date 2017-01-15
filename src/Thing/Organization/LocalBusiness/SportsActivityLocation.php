@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/SportsActivityLocation
  *
  *
-
+ * 
  */
  class SportsActivityLocation extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

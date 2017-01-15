@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HealthAndBeautyBusi
  * @link http://schema.org/DaySpa
  *
  *
-
+ * 
  */
  class DaySpa extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HealthAndBeautyBusiness {
 

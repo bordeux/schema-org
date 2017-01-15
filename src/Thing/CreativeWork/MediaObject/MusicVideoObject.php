@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject;
  * @link http://schema.org/MusicVideoObject
  *
  *
-
+ * 
  */
  class MusicVideoObject extends \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject {
 

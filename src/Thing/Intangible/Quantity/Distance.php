@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Quantity;
  * @link http://schema.org/Distance
  *
  *
-
+ * 
  */
  class Distance extends \Bordeux\SchemaOrg\Thing\Intangible\Quantity {
 

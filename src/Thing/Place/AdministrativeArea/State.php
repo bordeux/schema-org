@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\AdministrativeArea;
  * @link http://schema.org/State
  *
  *
-
+ * 
  */
  class State extends \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea {
 

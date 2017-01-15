@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding;
  * @link http://schema.org/CityHall
  *
  *
-
+ * 
  */
  class CityHall extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding {
 

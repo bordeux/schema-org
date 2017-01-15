@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\Residence;
  * @link http://schema.org/ApartmentComplex
  *
  *
-
+ * 
  */
  class ApartmentComplex extends \Bordeux\SchemaOrg\Thing\Place\Residence {
 

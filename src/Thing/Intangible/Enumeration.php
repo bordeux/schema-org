@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible;
  * @link http://schema.org/Enumeration
  *
  *
-
+ * 
  */
  class Enumeration extends \Bordeux\SchemaOrg\Thing\Intangible {
 

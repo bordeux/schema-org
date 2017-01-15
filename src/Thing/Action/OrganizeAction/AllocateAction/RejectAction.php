@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction\AllocateAction;
  * @link http://schema.org/RejectAction
  *
  *
-
+ * 
  */
  class RejectAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction\AllocateAction {
 

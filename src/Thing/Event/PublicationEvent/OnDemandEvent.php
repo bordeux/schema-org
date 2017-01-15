@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event\PublicationEvent;
  * @link http://schema.org/OnDemandEvent
  *
  *
-
+ * 
  */
  class OnDemandEvent extends \Bordeux\SchemaOrg\Thing\Event\PublicationEvent {
 

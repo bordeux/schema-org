@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction;
  * @link http://schema.org/ApplyAction
  *
  *
-
+ * 
  */
  class ApplyAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction {
 

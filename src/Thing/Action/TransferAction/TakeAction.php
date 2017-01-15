@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\TransferAction;
  * @link http://schema.org/TakeAction
  *
  *
-
+ * 
  */
  class TakeAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction {
 

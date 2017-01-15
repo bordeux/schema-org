@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing;
  * @link http://schema.org/Class_
  *
  *
-
+ * 
  */
  class Class_ extends \Bordeux\SchemaOrg\Thing {
 

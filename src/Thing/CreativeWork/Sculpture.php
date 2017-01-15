@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  * @link http://schema.org/Sculpture
  *
  *
-
+ * 
  */
  class Sculpture extends \Bordeux\SchemaOrg\Thing\CreativeWork {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/FinancialService
  *
  *
-
+ * 
  */
  class FinancialService extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

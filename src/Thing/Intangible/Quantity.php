@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible;
  * @link http://schema.org/Quantity
  *
  *
-
+ * 
  */
  class Quantity extends \Bordeux\SchemaOrg\Thing\Intangible {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  * @link http://schema.org/BusStation
  *
  *
-
+ * 
  */
  class BusStation extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
 

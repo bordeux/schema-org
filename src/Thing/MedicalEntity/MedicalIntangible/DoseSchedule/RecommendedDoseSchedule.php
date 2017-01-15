@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\DoseSchedule;
  * @link http://schema.org/RecommendedDoseSchedule
  *
  *
-
+ * 
  */
  class RecommendedDoseSchedule extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\DoseSchedule {
 

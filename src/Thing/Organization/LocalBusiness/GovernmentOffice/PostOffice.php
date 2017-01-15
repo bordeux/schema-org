@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\GovernmentOffice;
  * @link http://schema.org/PostOffice
  *
  *
-
+ * 
  */
  class PostOffice extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\GovernmentOffice {
 

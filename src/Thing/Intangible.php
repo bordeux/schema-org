@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing;
  * @link http://schema.org/Intangible
  *
  *
-
+ * 
  */
  class Intangible extends \Bordeux\SchemaOrg\Thing {
 

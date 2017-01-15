@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement;
  * @link http://schema.org/WPAdBlock
  *
  *
-
+ * 
  */
  class WPAdBlock extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement {
 

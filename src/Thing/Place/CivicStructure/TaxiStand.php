@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  * @link http://schema.org/TaxiStand
  *
  *
-
+ * 
  */
  class TaxiStand extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
 

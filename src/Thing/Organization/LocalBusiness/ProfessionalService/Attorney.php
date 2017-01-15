@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\ProfessionalService
  * @link http://schema.org/Attorney
  *
  *
-
+ * 
  */
  class Attorney extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\ProfessionalService {
 

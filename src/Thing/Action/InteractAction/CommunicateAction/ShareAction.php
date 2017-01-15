@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction;
  * @link http://schema.org/ShareAction
  *
  *
-
+ * 
  */
  class ShareAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction {
 

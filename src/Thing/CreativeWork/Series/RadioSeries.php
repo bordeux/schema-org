@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Series;
  * @link http://schema.org/RadioSeries
  *
  *
-
+ * 
  */
  class RadioSeries extends \Bordeux\SchemaOrg\Thing\CreativeWork\Series {
 

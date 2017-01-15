@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\Landform\BodyOfWater;
  * @link http://schema.org/Reservoir
  *
  *
-
+ * 
  */
  class Reservoir extends \Bordeux\SchemaOrg\Thing\Place\Landform\BodyOfWater {
 

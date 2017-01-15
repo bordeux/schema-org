@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\LodgingBusiness;
  * @link http://schema.org/Hotel
  *
  *
-
+ * 
  */
  class Hotel extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\LodgingBusiness {
 

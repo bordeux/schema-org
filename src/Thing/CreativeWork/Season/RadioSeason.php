@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Season;
  * @link http://schema.org/RadioSeason
  *
  *
-
+ * 
  */
  class RadioSeason extends \Bordeux\SchemaOrg\Thing\CreativeWork\Season {
 

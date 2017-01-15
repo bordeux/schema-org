@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy;
  * @link http://schema.org/PhysicalTherapy
  *
  *
-
+ * 
  */
  class PhysicalTherapy extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy {
 

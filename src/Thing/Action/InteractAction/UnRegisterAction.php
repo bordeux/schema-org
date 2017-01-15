@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction;
  * @link http://schema.org/UnRegisterAction
  *
  *
-
+ * 
  */
  class UnRegisterAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction {
 

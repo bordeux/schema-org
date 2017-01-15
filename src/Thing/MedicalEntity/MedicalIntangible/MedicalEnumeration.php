@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible;
  * @link http://schema.org/MedicalEnumeration
  *
  *
-
+ * 
  */
  class MedicalEnumeration extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible {
 

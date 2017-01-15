@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPage;
  * @link http://schema.org/ProfilePage
  *
  *
-
+ * 
  */
  class ProfilePage extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage {
 

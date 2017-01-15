@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HealthAndBeautyBusi
  * @link http://schema.org/HealthClub
  *
  *
-
+ * 
  */
  class HealthClub extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HealthAndBeautyBusiness {
 

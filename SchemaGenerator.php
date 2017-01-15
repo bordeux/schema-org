@@ -291,7 +291,6 @@ class SchemaGenerator
 
     /**
      * @author Krzysztof Bednarczyk
-     * @param $path
      */
     public function generate()
     {
@@ -365,7 +364,7 @@ class SchemaGenerator
 
         }
 
-        $propertiesString = empty($properties) ? " * \n" : implode("\n", $properties);
+        $propertiesString = empty($properties) ? " * " : implode("\n", $properties);
 
 
         return "<?php

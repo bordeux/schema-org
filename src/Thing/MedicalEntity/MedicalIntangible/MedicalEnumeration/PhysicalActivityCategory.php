@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumera
  * @link http://schema.org/PhysicalActivityCategory
  *
  *
-
+ * 
  */
  class PhysicalActivityCategory extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\MedicalEnumeration {
 

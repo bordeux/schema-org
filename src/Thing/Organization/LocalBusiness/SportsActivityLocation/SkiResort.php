@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocat
  * @link http://schema.org/SkiResort
  *
  *
-
+ * 
  */
  class SkiResort extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocation {
 

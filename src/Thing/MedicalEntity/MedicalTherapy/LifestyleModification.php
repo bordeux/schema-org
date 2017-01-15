@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy;
  * @link http://schema.org/LifestyleModification
  *
  *
-
+ * 
  */
  class LifestyleModification extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy {
 

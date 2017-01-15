@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store;
  * @link http://schema.org/LiquorStore
  *
  *
-
+ * 
  */
  class LiquorStore extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store {
 

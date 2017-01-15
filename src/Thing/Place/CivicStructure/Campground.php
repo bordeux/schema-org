@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  * @link http://schema.org/Campground
  *
  *
-
+ * 
  */
  class Campground extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
 

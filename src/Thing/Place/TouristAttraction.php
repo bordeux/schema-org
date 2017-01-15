@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place;
  * @link http://schema.org/TouristAttraction
  *
  *
-
+ * 
  */
  class TouristAttraction extends \Bordeux\SchemaOrg\Thing\Place {
 

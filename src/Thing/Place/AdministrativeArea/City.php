@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\AdministrativeArea;
  * @link http://schema.org/City
  *
  *
-
+ * 
  */
  class City extends \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea {
 

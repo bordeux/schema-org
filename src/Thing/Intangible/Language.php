@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible;
  * @link http://schema.org/Language
  *
  *
-
+ * 
  */
  class Language extends \Bordeux\SchemaOrg\Thing\Intangible {
 

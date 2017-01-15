@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction\InsertAction;
  * @link http://schema.org/AppendAction
  *
  *
-
+ * 
  */
  class AppendAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction\InsertAction {
 

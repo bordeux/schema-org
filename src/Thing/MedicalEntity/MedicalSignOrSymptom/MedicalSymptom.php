@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalSignOrSymptom;
  * @link http://schema.org/MedicalSymptom
  *
  *
-
+ * 
  */
  class MedicalSymptom extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalSignOrSymptom {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\PerformingGroup;
  * @link http://schema.org/TheaterGroup
  *
  *
-
+ * 
  */
  class TheaterGroup extends \Bordeux\SchemaOrg\Thing\Organization\PerformingGroup {
 

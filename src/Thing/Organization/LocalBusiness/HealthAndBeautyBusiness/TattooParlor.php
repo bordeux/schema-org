@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HealthAndBeautyBusi
  * @link http://schema.org/TattooParlor
  *
  *
-
+ * 
  */
  class TattooParlor extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HealthAndBeautyBusiness {
 

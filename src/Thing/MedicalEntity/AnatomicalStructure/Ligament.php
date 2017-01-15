@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure;
  * @link http://schema.org/Ligament
  *
  *
-
+ * 
  */
  class Ligament extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure {
 

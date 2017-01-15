@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod;
  * @link http://schema.org/OnSitePickup
  *
  *
-
+ * 
  */
  class OnSitePickup extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\DeliveryMethod {
 

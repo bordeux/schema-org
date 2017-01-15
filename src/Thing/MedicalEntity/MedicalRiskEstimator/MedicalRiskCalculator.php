@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalRiskEstimator;
  * @link http://schema.org/MedicalRiskCalculator
  *
  *
-
+ * 
  */
  class MedicalRiskCalculator extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalRiskEstimator {
 

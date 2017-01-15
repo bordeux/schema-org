@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Quantity;
  * @link http://schema.org/Duration
  *
  *
-
+ * 
  */
  class Duration extends \Bordeux\SchemaOrg\Thing\Intangible\Quantity {
 

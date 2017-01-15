@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\TransferAction;
  * @link http://schema.org/DownloadAction
  *
  *
-
+ * 
  */
  class DownloadAction extends \Bordeux\SchemaOrg\Thing\Action\TransferAction {
 

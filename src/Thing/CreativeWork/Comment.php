@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  * @link http://schema.org/Comment
  *
  *
-
+ * 
  */
  class Comment extends \Bordeux\SchemaOrg\Thing\CreativeWork {
 

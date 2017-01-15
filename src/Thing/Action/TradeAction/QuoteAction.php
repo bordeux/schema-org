@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\TradeAction;
  * @link http://schema.org/QuoteAction
  *
  *
-
+ * 
  */
  class QuoteAction extends \Bordeux\SchemaOrg\Thing\Action\TradeAction {
 

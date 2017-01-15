@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\AdministrativeArea;
  * @link http://schema.org/Country
  *
  *
-
+ * 
  */
  class Country extends \Bordeux\SchemaOrg\Thing\Place\AdministrativeArea {
 

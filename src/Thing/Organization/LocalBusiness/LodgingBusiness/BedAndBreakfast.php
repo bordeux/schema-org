@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\LodgingBusiness;
  * @link http://schema.org/BedAndBreakfast
  *
  *
-
+ * 
  */
  class BedAndBreakfast extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\LodgingBusiness {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction;
  * @link http://schema.org/MarryAction
  *
  *
-
+ * 
  */
  class MarryAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction {
 

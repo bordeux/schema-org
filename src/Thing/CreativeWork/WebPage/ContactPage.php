@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPage;
  * @link http://schema.org/ContactPage
  *
  *
-
+ * 
  */
  class ContactPage extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage {
 

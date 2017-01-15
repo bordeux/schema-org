@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\DoseSchedule;
  * @link http://schema.org/MaximumDoseSchedule
  *
  *
-
+ * 
  */
  class MaximumDoseSchedule extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIntangible\DoseSchedule {
 

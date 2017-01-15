@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship;
  * @link http://schema.org/CatholicChurch
  *
  *
-
+ * 
  */
  class CatholicChurch extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship {
 

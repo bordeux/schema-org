@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\AssessAction;
  * @link http://schema.org/IgnoreAction
  *
  *
-
+ * 
  */
  class IgnoreAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction {
 

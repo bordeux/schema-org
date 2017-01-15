@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\AssessAction;
  * @link http://schema.org/ReactAction
  *
  *
-
+ * 
  */
  class ReactAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction {
 

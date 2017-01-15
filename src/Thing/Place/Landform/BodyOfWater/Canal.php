@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\Landform\BodyOfWater;
  * @link http://schema.org/Canal
  *
  *
-
+ * 
  */
  class Canal extends \Bordeux\SchemaOrg\Thing\Place\Landform\BodyOfWater {
 

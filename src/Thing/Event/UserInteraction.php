@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  * @link http://schema.org/UserInteraction
  *
  *
-
+ * 
  */
  class UserInteraction extends \Bordeux\SchemaOrg\Thing\Event {
 

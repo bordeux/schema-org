@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/ShoppingCenter
  *
  *
-
+ * 
  */
  class ShoppingCenter extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

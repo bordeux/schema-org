@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Article;
  * @link http://schema.org/BlogPosting
  *
  *
-
+ * 
  */
  class BlogPosting extends \Bordeux\SchemaOrg\Thing\CreativeWork\Article {
 

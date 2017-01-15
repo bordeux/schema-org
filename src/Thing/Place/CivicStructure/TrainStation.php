@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  * @link http://schema.org/TrainStation
  *
  *
-
+ * 
  */
  class TrainStation extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
 

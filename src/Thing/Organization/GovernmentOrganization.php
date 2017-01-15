@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization;
  * @link http://schema.org/GovernmentOrganization
  *
  *
-
+ * 
  */
  class GovernmentOrganization extends \Bordeux\SchemaOrg\Thing\Organization {
 

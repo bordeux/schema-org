@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place;
  * @link http://schema.org/LandmarksOrHistoricalBuildings
  *
  *
-
+ * 
  */
  class LandmarksOrHistoricalBuildings extends \Bordeux\SchemaOrg\Thing\Place {
 

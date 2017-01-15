@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\ConsumeAction;
  * @link http://schema.org/EatAction
  *
  *
-
+ * 
  */
  class EatAction extends \Bordeux\SchemaOrg\Thing\Action\ConsumeAction {
 

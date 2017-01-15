@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store;
  * @link http://schema.org/GardenStore
  *
  *
-
+ * 
  */
  class GardenStore extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store {
 

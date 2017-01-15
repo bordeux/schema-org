@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction;
  * @link http://schema.org/DisagreeAction
  *
  *
-
+ * 
  */
  class DisagreeAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction {
 

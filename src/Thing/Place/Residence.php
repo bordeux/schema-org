@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place;
  * @link http://schema.org/Residence
  *
  *
-
+ * 
  */
  class Residence extends \Bordeux\SchemaOrg\Thing\Place {
 

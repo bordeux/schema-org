@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration;
  * @link http://schema.org/EventStatusType
  *
  *
-
+ * 
  */
  class EventStatusType extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/HealthAndBeautyBusiness
  *
  *
-
+ * 
  */
  class HealthAndBeautyBusiness extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

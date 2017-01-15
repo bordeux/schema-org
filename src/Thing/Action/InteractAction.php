@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action;
  * @link http://schema.org/InteractAction
  *
  *
-
+ * 
  */
  class InteractAction extends \Bordeux\SchemaOrg\Thing\Action {
 

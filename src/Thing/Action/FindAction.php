@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action;
  * @link http://schema.org/FindAction
  *
  *
-
+ * 
  */
  class FindAction extends \Bordeux\SchemaOrg\Thing\Action {
 

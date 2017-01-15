@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction\PlanAction;
  * @link http://schema.org/CancelAction
  *
  *
-
+ * 
  */
  class CancelAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction\PlanAction {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration\PaymentMethod;
  * @link http://schema.org/CreditCard
  *
  *
-
+ * 
  */
  class CreditCard extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration\PaymentMethod {
 

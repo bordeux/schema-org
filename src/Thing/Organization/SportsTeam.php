@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization;
  * @link http://schema.org/SportsTeam
  *
  *
-
+ * 
  */
  class SportsTeam extends \Bordeux\SchemaOrg\Thing\Organization {
 

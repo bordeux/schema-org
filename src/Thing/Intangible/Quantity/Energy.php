@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Quantity;
  * @link http://schema.org/Energy
  *
  *
-
+ * 
  */
  class Energy extends \Bordeux\SchemaOrg\Thing\Intangible\Quantity {
 

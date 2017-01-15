@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FoodEstablishment;
  * @link http://schema.org/Restaurant
  *
  *
-
+ * 
  */
  class Restaurant extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FoodEstablishment {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/ChildCare
  *
  *
-
+ * 
  */
  class ChildCare extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

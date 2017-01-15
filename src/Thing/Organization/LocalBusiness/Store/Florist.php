@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store;
  * @link http://schema.org/Florist
  *
  *
-
+ * 
  */
  class Florist extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store {
 

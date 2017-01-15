@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy;
  * @link http://schema.org/RadiationTherapy
  *
  *
-
+ * 
  */
  class RadiationTherapy extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTherapy {
 

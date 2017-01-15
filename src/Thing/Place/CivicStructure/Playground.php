@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  * @link http://schema.org/Playground
  *
  *
-
+ * 
  */
  class Playground extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
 

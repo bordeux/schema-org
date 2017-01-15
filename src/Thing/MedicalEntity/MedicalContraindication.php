@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity;
  * @link http://schema.org/MedicalContraindication
  *
  *
-
+ * 
  */
  class MedicalContraindication extends \Bordeux\SchemaOrg\Thing\MedicalEntity {
 

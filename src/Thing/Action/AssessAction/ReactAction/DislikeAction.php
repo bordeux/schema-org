@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction;
  * @link http://schema.org/DislikeAction
  *
  *
-
+ * 
  */
  class DislikeAction extends \Bordeux\SchemaOrg\Thing\Action\AssessAction\ReactAction {
 

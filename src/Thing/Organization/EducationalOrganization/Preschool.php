@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\EducationalOrganization;
  * @link http://schema.org/Preschool
  *
  *
-
+ * 
  */
  class Preschool extends \Bordeux\SchemaOrg\Thing\Organization\EducationalOrganization {
 

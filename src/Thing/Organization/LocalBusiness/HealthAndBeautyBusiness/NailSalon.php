@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HealthAndBeautyBusi
  * @link http://schema.org/NailSalon
  *
  *
-
+ * 
  */
  class NailSalon extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HealthAndBeautyBusiness {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration;
  * @link http://schema.org/ItemAvailability
  *
  *
-
+ * 
  */
  class ItemAvailability extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration {
 

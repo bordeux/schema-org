@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement;
  * @link http://schema.org/SiteNavigationElement
  *
  *
-
+ * 
  */
  class SiteNavigationElement extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPageElement {
 

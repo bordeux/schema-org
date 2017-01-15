@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\CreateAction;
  * @link http://schema.org/PhotographAction
  *
  *
-
+ * 
  */
  class PhotographAction extends \Bordeux\SchemaOrg\Thing\Action\CreateAction {
 

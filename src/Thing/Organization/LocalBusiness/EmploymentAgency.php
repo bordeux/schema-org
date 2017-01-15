@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/EmploymentAgency
  *
  *
-
+ * 
  */
  class EmploymentAgency extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

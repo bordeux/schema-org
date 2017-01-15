@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/GovernmentOffice
  *
  *
-
+ * 
  */
  class GovernmentOffice extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

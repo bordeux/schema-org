@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  * @link http://schema.org/Painting
  *
  *
-
+ * 
  */
  class Painting extends \Bordeux\SchemaOrg\Thing\CreativeWork {
 

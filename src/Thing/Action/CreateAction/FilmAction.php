@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\CreateAction;
  * @link http://schema.org/FilmAction
  *
  *
-
+ * 
  */
  class FilmAction extends \Bordeux\SchemaOrg\Thing\Action\CreateAction {
 

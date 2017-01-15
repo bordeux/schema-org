@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  * @link http://schema.org/GovernmentBuilding
  *
  *
-
+ * 
  */
  class GovernmentBuilding extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
 

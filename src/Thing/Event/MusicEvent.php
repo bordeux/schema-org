@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  * @link http://schema.org/MusicEvent
  *
  *
-
+ * 
  */
  class MusicEvent extends \Bordeux\SchemaOrg\Thing\Event {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HomeAndConstruction
  * @link http://schema.org/HVACBusiness
  *
  *
-
+ * 
  */
  class HVACBusiness extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HomeAndConstructionBusiness {
 

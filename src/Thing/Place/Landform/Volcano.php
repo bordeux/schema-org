@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\Landform;
  * @link http://schema.org/Volcano
  *
  *
-
+ * 
  */
  class Volcano extends \Bordeux\SchemaOrg\Thing\Place\Landform {
 

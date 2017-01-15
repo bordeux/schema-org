@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship;
  * @link http://schema.org/HinduTemple
  *
  *
-
+ * 
  */
  class HinduTemple extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\PlaceOfWorship {
 

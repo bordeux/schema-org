@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIndication;
  * @link http://schema.org/TreatmentIndication
  *
  *
-
+ * 
  */
  class TreatmentIndication extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalIndication {
 

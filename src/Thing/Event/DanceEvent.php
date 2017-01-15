@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  * @link http://schema.org/DanceEvent
  *
  *
-
+ * 
  */
  class DanceEvent extends \Bordeux\SchemaOrg\Thing\Event {
 

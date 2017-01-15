@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event\PublicationEvent;
  * @link http://schema.org/BroadcastEvent
  *
  *
-
+ * 
  */
  class BroadcastEvent extends \Bordeux\SchemaOrg\Thing\Event\PublicationEvent {
 

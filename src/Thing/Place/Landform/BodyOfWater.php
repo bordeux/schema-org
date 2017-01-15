@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\Landform;
  * @link http://schema.org/BodyOfWater
  *
  *
-
+ * 
  */
  class BodyOfWater extends \Bordeux\SchemaOrg\Thing\Place\Landform {
 

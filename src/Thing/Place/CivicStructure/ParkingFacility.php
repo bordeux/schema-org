@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  * @link http://schema.org/ParkingFacility
  *
  *
-
+ * 
  */
  class ParkingFacility extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
 

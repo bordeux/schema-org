@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction;
  * @link http://schema.org/CommentAction
  *
  *
-
+ * 
  */
  class CommentAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction {
 

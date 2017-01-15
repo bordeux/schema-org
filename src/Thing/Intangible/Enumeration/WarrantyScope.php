@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration;
  * @link http://schema.org/WarrantyScope
  *
  *
-
+ * 
  */
  class WarrantyScope extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration {
 

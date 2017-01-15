@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\AutomotiveBusiness;
  * @link http://schema.org/MotorcycleRepair
  *
  *
-
+ * 
  */
  class MotorcycleRepair extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\AutomotiveBusiness {
 

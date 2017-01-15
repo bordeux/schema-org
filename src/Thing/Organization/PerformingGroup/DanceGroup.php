@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\PerformingGroup;
  * @link http://schema.org/DanceGroup
  *
  *
-
+ * 
  */
  class DanceGroup extends \Bordeux\SchemaOrg\Thing\Organization\PerformingGroup {
 

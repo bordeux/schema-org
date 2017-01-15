@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\AutomotiveBusiness;
  * @link http://schema.org/AutoRental
  *
  *
-
+ * 
  */
  class AutoRental extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\AutomotiveBusiness {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure;
  * @link http://schema.org/BrainStructure
  *
  *
-
+ * 
  */
  class BrainStructure extends \Bordeux\SchemaOrg\Thing\MedicalEntity\AnatomicalStructure {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\Inform
  * @link http://schema.org/RsvpAction
  *
  *
-
+ * 
  */
  class RsvpAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction\InformAction {
 

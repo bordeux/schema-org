@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject;
  * @link http://schema.org/DataDownload
  *
  *
-
+ * 
  */
  class DataDownload extends \Bordeux\SchemaOrg\Thing\CreativeWork\MediaObject {
 

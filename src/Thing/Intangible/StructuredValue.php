@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible;
  * @link http://schema.org/StructuredValue
  *
  *
-
+ * 
  */
  class StructuredValue extends \Bordeux\SchemaOrg\Thing\Intangible {
 

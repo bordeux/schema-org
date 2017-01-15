@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\MoveAction;
  * @link http://schema.org/ArriveAction
  *
  *
-
+ * 
  */
  class ArriveAction extends \Bordeux\SchemaOrg\Thing\Action\MoveAction {
 

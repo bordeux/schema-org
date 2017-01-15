@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration;
  * @link http://schema.org/OrderStatus
  *
  *
-
+ * 
  */
  class OrderStatus extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration {
 

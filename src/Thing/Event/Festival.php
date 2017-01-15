@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  * @link http://schema.org/Festival
  *
  *
-
+ * 
  */
  class Festival extends \Bordeux\SchemaOrg\Thing\Event {
 

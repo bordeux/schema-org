@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPage;
  * @link http://schema.org/SearchResultsPage
  *
  *
-
+ * 
  */
  class SearchResultsPage extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage {
 

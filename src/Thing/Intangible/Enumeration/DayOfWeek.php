@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Enumeration;
  * @link http://schema.org/DayOfWeek
  *
  *
-
+ * 
  */
  class DayOfWeek extends \Bordeux\SchemaOrg\Thing\Intangible\Enumeration {
 

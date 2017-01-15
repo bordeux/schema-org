@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Episode;
  * @link http://schema.org/RadioEpisode
  *
  *
-
+ * 
  */
  class RadioEpisode extends \Bordeux\SchemaOrg\Thing\CreativeWork\Episode {
 

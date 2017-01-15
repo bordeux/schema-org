@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\Landform;
  * @link http://schema.org/Continent
  *
  *
-
+ * 
  */
  class Continent extends \Bordeux\SchemaOrg\Thing\Place\Landform {
 

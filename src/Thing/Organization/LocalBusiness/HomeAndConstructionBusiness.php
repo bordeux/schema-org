@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/HomeAndConstructionBusiness
  *
  *
-
+ * 
  */
  class HomeAndConstructionBusiness extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

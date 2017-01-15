@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/SelfStorage
  *
  *
-
+ * 
  */
  class SelfStorage extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

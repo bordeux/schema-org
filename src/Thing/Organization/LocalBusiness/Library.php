@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/Library
  *
  *
-
+ * 
  */
  class Library extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

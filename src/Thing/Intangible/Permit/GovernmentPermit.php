@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Intangible\Permit;
  * @link http://schema.org/GovernmentPermit
  *
  *
-
+ * 
  */
  class GovernmentPermit extends \Bordeux\SchemaOrg\Thing\Intangible\Permit {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store;
  * @link http://schema.org/SportingGoodsStore
  *
  *
-
+ * 
  */
  class SportingGoodsStore extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store {
 

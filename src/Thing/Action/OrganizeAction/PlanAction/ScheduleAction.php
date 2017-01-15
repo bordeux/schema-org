@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction\PlanAction;
  * @link http://schema.org/ScheduleAction
  *
  *
-
+ * 
  */
  class ScheduleAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction\PlanAction {
 

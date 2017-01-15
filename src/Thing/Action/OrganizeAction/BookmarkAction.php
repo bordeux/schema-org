@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction;
  * @link http://schema.org/BookmarkAction
  *
  *
-
+ * 
  */
  class BookmarkAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction {
 

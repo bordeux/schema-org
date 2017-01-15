@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\CreateAction;
  * @link http://schema.org/PaintAction
  *
  *
-
+ * 
  */
  class PaintAction extends \Bordeux\SchemaOrg\Thing\Action\CreateAction {
 

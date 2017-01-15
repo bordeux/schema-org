@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\EducationalOrganization;
  * @link http://schema.org/CollegeOrUniversity
  *
  *
-
+ * 
  */
  class CollegeOrUniversity extends \Bordeux\SchemaOrg\Thing\Organization\EducationalOrganization {
 

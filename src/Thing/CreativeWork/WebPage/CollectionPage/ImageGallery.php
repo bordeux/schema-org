@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\WebPage\CollectionPage;
  * @link http://schema.org/ImageGallery
  *
  *
-
+ * 
  */
  class ImageGallery extends \Bordeux\SchemaOrg\Thing\CreativeWork\WebPage\CollectionPage {
 

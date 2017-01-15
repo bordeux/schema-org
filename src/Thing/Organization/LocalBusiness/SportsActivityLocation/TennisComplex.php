@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocat
  * @link http://schema.org/TennisComplex
  *
  *
-
+ * 
  */
  class TennisComplex extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\SportsActivityLocation {
 

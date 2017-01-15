@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/EntertainmentBusiness
  *
  *
-
+ * 
  */
  class EntertainmentBusiness extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

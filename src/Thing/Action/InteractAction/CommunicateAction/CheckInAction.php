@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction;
  * @link http://schema.org/CheckInAction
  *
  *
-
+ * 
  */
  class CheckInAction extends \Bordeux\SchemaOrg\Thing\Action\InteractAction\CommunicateAction {
 

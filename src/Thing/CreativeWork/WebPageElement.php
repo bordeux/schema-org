@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  * @link http://schema.org/WebPageElement
  *
  *
-
+ * 
  */
  class WebPageElement extends \Bordeux\SchemaOrg\Thing\CreativeWork {
 

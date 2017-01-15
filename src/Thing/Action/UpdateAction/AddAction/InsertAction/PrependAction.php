@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction\InsertAction;
  * @link http://schema.org/PrependAction
  *
  *
-
+ * 
  */
  class PrependAction extends \Bordeux\SchemaOrg\Thing\Action\UpdateAction\AddAction\InsertAction {
 

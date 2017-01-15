@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store;
  * @link http://schema.org/PawnShop
  *
  *
-
+ * 
  */
  class PawnShop extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\Store {
 

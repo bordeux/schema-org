@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure;
  * @link http://schema.org/PerformingArtsTheater
  *
  *
-
+ * 
  */
  class PerformingArtsTheater extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure {
 

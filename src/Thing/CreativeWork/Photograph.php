@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  * @link http://schema.org/Photograph
  *
  *
-
+ * 
  */
  class Photograph extends \Bordeux\SchemaOrg\Thing\CreativeWork {
 

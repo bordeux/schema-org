@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HomeAndConstruction
  * @link http://schema.org/MovingCompany
  *
  *
-
+ * 
  */
  class MovingCompany extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\HomeAndConstructionBusiness {
 

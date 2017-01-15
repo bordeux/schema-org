@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\OrganizeAction\PlanAction;
  * @link http://schema.org/ReserveAction
  *
  *
-
+ * 
  */
  class ReserveAction extends \Bordeux\SchemaOrg\Thing\Action\OrganizeAction\PlanAction {
 

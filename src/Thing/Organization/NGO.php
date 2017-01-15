@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization;
  * @link http://schema.org/NGO
  *
  *
-
+ * 
  */
  class NGO extends \Bordeux\SchemaOrg\Thing\Organization {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\AchieveAction;
  * @link http://schema.org/TieAction
  *
  *
-
+ * 
  */
  class TieAction extends \Bordeux\SchemaOrg\Thing\Action\AchieveAction {
 

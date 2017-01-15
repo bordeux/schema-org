@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness;
  * @link http://schema.org/RadioStation
  *
  *
-
+ * 
  */
  class RadioStation extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness {
 

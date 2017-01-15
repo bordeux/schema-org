@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusine
  * @link http://schema.org/Casino
  *
  *
-
+ * 
  */
  class Casino extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\EntertainmentBusiness {
 

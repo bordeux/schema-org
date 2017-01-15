@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action;
  * @link http://schema.org/AssessAction
  *
  *
-
+ * 
  */
  class AssessAction extends \Bordeux\SchemaOrg\Thing\Action {
 

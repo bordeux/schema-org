@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  * @link http://schema.org/ChildrensEvent
  *
  *
-
+ * 
  */
  class ChildrensEvent extends \Bordeux\SchemaOrg\Thing\Event {
 

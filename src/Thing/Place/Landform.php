@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place;
  * @link http://schema.org/Landform
  *
  *
-
+ * 
  */
  class Landform extends \Bordeux\SchemaOrg\Thing\Place {
 

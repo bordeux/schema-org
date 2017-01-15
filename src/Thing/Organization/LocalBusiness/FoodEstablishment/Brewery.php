@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FoodEstablishment;
  * @link http://schema.org/Brewery
  *
  *
-
+ * 
  */
  class Brewery extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FoodEstablishment {
 

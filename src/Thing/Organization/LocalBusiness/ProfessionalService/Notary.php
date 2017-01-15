@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\ProfessionalService
  * @link http://schema.org/Notary
  *
  *
-
+ * 
  */
  class Notary extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\ProfessionalService {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\ConsumeAction\UseAction;
  * @link http://schema.org/WearAction
  *
  *
-
+ * 
  */
  class WearAction extends \Bordeux\SchemaOrg\Thing\Action\ConsumeAction\UseAction {
 

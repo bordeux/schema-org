@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
  * @link http://schema.org/VeterinaryCare
  *
  *
-
+ * 
  */
  class VeterinaryCare extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization {
 

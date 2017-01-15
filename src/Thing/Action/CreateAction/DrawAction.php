@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\CreateAction;
  * @link http://schema.org/DrawAction
  *
  *
-
+ * 
  */
  class DrawAction extends \Bordeux\SchemaOrg\Thing\Action\CreateAction {
 

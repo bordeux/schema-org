@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FinancialService;
  * @link http://schema.org/AutomatedTeller
  *
  *
-
+ * 
  */
  class AutomatedTeller extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\FinancialService {
 

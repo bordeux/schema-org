@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest;
  * @link http://schema.org/BloodTest
  *
  *
-
+ * 
  */
  class BloodTest extends \Bordeux\SchemaOrg\Thing\MedicalEntity\MedicalTest {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding;
  * @link http://schema.org/Embassy
  *
  *
-
+ * 
  */
  class Embassy extends \Bordeux\SchemaOrg\Thing\Place\CivicStructure\GovernmentBuilding {
 

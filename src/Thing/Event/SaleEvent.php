@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Event;
  * @link http://schema.org/SaleEvent
  *
  *
-
+ * 
  */
  class SaleEvent extends \Bordeux\SchemaOrg\Thing\Event {
 

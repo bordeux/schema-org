@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork;
  * @link http://schema.org/Map
  *
  *
-
+ * 
  */
  class Map extends \Bordeux\SchemaOrg\Thing\CreativeWork {
 

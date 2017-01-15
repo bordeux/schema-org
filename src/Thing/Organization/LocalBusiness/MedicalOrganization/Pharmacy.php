@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization
  * @link http://schema.org/Pharmacy
  *
  *
-
+ * 
  */
  class Pharmacy extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\MedicalOrganization {
 

@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\AutomotiveBusiness;
  * @link http://schema.org/AutoPartsStore
  *
  *
-
+ * 
  */
  class AutoPartsStore extends \Bordeux\SchemaOrg\Thing\Organization\LocalBusiness\AutomotiveBusiness {
 

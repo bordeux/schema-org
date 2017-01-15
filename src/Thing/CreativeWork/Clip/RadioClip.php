@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\CreativeWork\Clip;
  * @link http://schema.org/RadioClip
  *
  *
-
+ * 
  */
  class RadioClip extends \Bordeux\SchemaOrg\Thing\CreativeWork\Clip {
 

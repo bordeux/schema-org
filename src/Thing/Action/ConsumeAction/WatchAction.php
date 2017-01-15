@@ -9,7 +9,7 @@ namespace Bordeux\SchemaOrg\Thing\Action\ConsumeAction;
  * @link http://schema.org/WatchAction
  *
  *
-
+ * 
  */
  class WatchAction extends \Bordeux\SchemaOrg\Thing\Action\ConsumeAction {
 
